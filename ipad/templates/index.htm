@@ -1,0 +1,879 @@
+<!--
+ARCHES - a program developed to inventory and manage immovable cultural heritage.
+Copyright (C) 2013 J. Paul Getty Trust and World Monuments Fund
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+{% load static %}
+{% load template_tags %}
+{% load i18n %}
+{% load render_bundle from webpack_loader %}
+{% load webpack_static from webpack_loader %}
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>{{ app_title }}</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% trans 'IPAD Indonesian Prehistoric Archaeology Database — a public database of prehistoric archaeological sites in Indonesia' %}">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="{% webpack_static 'favicons/favicon.ico' %}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{% webpack_static 'favicons/apple-touch-icon.png' %}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{% webpack_static 'favicons/apple-touch-icon-76x76.png' %}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{% webpack_static 'favicons/apple-touch-icon-120x120.png' %}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{% webpack_static 'favicons/apple-touch-icon-152x152.png' %}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{% webpack_static 'favicons/apple-touch-icon-180x180.png' %}" />
+
+    {% block css %}
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{% webpack_static 'plugins/slick/slick.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% webpack_static 'plugins/slick/accessible-slick-theme.min.css' %}">
+
+        {% render_bundle 'css/index' 'css' %}
+        {% render_bundle 'css/index-slider' 'css' %}
+
+        {% if app_settings.ACCESSIBILITY_MODE %}
+            {% render_bundle 'css/accessibility' 'css' %}
+        {% endif %}
+    {% endblock css %}
+    <style>
+        /* HER-scale header (80px content) + ArkeOpen edge fade in Arches navy #041B33.
+           Overlay is 140px like ArkeOpen; hero sits underneath so the gradient
+           dissolves into the photo instead of a hard bar. */
+        .v5-splash-navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 500;
+            height: 140px;
+            min-height: 140px;
+            border: none;
+            border-radius: 0;
+            background-color: transparent !important;
+            background-image: linear-gradient(
+                180deg,
+                rgba(4, 27, 51, 0.56) 30%,
+                rgba(4, 27, 51, 0) 100%
+            ) !important;
+            pointer-events: none;
+        }
+        .v5-splash-navbar .container-fluid,
+        .v5-splash-navbar a,
+        .v5-splash-navbar button {
+            pointer-events: auto;
+        }
+        .navbar-brand-v5-icon-container .navbar-brand-v5-icon {
+            height: 22px; /* 17px * 1.3 */
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.45));
+        }
+        .navbar-brand-v5-icon-container .navbar-brand-ipad-icon {
+            height: 44px; /* 34px * 1.3 */
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.45));
+        }
+        .v5-splash-navbar .navbar-brand-v5-icon-container {
+            height: auto;
+            min-height: 56px;
+            display: inline-flex;
+            align-items: center;
+        }
+        /* Header title: 50% of collected .application-name h1 (1.15rem -> 0.575rem).
+           IPAD line stacks under Arches version so the left cluster does not grow sideways.
+           Flex pins navbar-nav on the right so Search/Login stay put. */
+        .v5-splash-navbar .container-fluid {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            height: 80px; /* GLHER header height */
+            min-height: 80px;
+        }
+        .v5-splash-navbar .navbar-header {
+            float: none;
+            flex: 0 1 auto;
+            min-width: 0;
+        }
+        .v5-splash-navbar .nav-brand-container {
+            display: flex;
+            align-items: center;
+            flex: 0 1 auto;
+            min-width: 0;
+        }
+        .v5-splash-navbar .application-name {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 0;
+        }
+        .v5-splash-navbar .application-name h1,
+        .v5-splash-navbar .application-name .ipad-title {
+            color: #fff;
+            font-size: 0.575rem;
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.25;
+            margin: 0;
+            text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+        }
+        .v5-splash-navbar #myNavbar {
+            margin-left: auto;
+            flex: 0 0 auto;
+        }
+        .v5-splash-navbar .navbar-nav {
+            flex-shrink: 0;
+            margin-left: auto;
+        }
+        .v5-splash-navbar .navbar-nav > li > a {
+            padding-top: 28px;
+            padding-bottom: 28px;
+            text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+        }
+        /* Hero sits under the fade (ArkeOpen overlay), not below a solid bar. */
+        .home-slider {
+            margin-top: 0 !important;
+            height: 100vh !important;
+        }
+        .home-slider .slide-img-container,
+        .home-slider .slide-img-container img {
+            height: 100vh !important;
+        }
+        /* Hamburger is visible below 768px (Bootstrap 3) and 768–1024px
+           (Arches splash override in collected css/index). Brand text is later
+           in the DOM than .navbar-toggle, so it paints over the icon unless
+           the header reserves space and the toggle is raised. */
+        @media (max-width: 1024px) {
+            .v5-splash-navbar {
+                height: auto;
+                min-height: 140px;
+                overflow: visible;
+            }
+            .v5-splash-navbar .container-fluid {
+                flex-wrap: wrap;
+                align-items: center;
+                height: auto;
+                min-height: 80px;
+            }
+            .v5-splash-navbar .navbar-header {
+                position: relative;
+                flex: 1 1 100%;
+                width: 100%;
+                min-width: 0;
+                padding-right: 52px;
+            }
+            .v5-splash-navbar .navbar-toggle {
+                z-index: 20;
+                pointer-events: auto;
+            }
+            .v5-splash-navbar .nav-brand-container {
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                min-width: 0;
+                max-width: 100%;
+                padding: 0 4px 0 6px;
+            }
+            .v5-splash-navbar .navbar-brand-v5-icon-container {
+                flex-shrink: 0;
+            }
+            .v5-splash-navbar .navbar-brand-ipad-icon {
+                margin-left: 6px !important;
+            }
+            .v5-splash-navbar .application-name {
+                min-width: 0;
+                flex: 1 1 auto;
+                left: 8px;
+            }
+            .v5-splash-navbar .application-name .ipad-title {
+                display: none;
+            }
+            .v5-splash-navbar #myNavbar {
+                flex-basis: 100%;
+                width: 100%;
+                margin-left: 0;
+            }
+            .v5-splash-navbar #myNavbar.collapse.in,
+            .v5-splash-navbar #myNavbar.collapsing {
+                background-color: #041B33;
+                pointer-events: auto;
+            }
+        }
+        @media (max-width: 767px) {
+            .v5-splash-navbar .application-name h1,
+            .v5-splash-navbar .application-name .ipad-title {
+                display: none;
+            }
+        }
+        .home-slider .slide-img-container {
+            overflow: hidden;
+        }
+        .home-slider .slide-img-container img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        /* Centered IPAD logo stays put while slides change.
+           Overlay is a sibling of .home-slider so Slick does not treat it as a slide. */
+        .ipad-hero {
+            position: relative;
+            height: 100vh;
+        }
+        .ipad-hero-brand {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: min(88vw, 760px);
+            pointer-events: none;
+        }
+        .ipad-hero-logo {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            height: auto;
+            filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.55));
+        }
+        .ipad-hero .slide-caption {
+            display: none;
+        }
+        @media (max-width: 767px) {
+            .ipad-hero-brand {
+                width: min(90vw, 520px);
+            }
+        }
+        .ipad-search-cta {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 10px 22px;
+            background: #2d4a6f;
+            color: #fff !important;
+            border-radius: 2px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .ipad-search-cta:hover,
+        .ipad-search-cta:focus {
+            color: #fff !important;
+            text-decoration: none;
+            opacity: 0.92;
+        }
+        .app-footer-arches-link {
+            display: inline-block;
+            color: inherit;
+            text-decoration: none;
+            cursor: default;
+        }
+        .ipad-contact-email {
+            font-weight: 600;
+            word-break: break-all;
+        }
+        /* HER-style charcoal footer (overrides splash navy .footer-links / .copyright-container). */
+        footer.ipad-her-footer {
+            background: #404040;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        footer.ipad-her-footer .ipad-her-footer-top {
+            background: #404040;
+            color: #fff;
+            padding: 46px 0 40px;
+        }
+        footer.ipad-her-footer .ipad-her-footer-top .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+        footer.ipad-her-footer .ipad-her-col {
+            text-align: left;
+            padding-bottom: 12px;
+        }
+        footer.ipad-her-footer .ipad-her-logo {
+            display: block;
+            height: auto;
+            max-height: 40px;
+            width: auto;
+            max-width: 100%;
+            object-fit: contain;
+            object-position: left center;
+        }
+        footer.ipad-her-footer .ipad-her-logo-ipad {
+            max-height: 47px;
+            height: auto;
+            width: auto;
+        }
+        footer.ipad-her-footer .ipad-her-caption,
+        footer.ipad-her-footer .ipad-her-contact {
+            margin: 16px 0 0;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 400;
+            line-height: 1.45;
+        }
+        footer.ipad-her-footer .ipad-her-contact-title {
+            display: block;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+        footer.ipad-her-footer .ipad-her-footer-bottom {
+            background: #2A2A2A;
+            color: #fff;
+            min-height: 60px;
+            padding: 0;
+        }
+        footer.ipad-her-footer .ipad-her-footer-bottom .row {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+        footer.ipad-her-footer .ipad-her-legal {
+            min-height: 60px;
+        }
+        footer.ipad-her-footer .ipad-her-legal-link {
+            color: #fff !important;
+            text-decoration: underline;
+            margin-right: 25px;
+            white-space: nowrap;
+            font-size: 0.85rem;
+            line-height: 60px;
+        }
+        footer.ipad-her-footer .ipad-her-legal-link:hover,
+        footer.ipad-her-footer .ipad-her-legal-link:focus {
+            color: #fff !important;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+        }
+        footer.ipad-her-footer .ipad-her-copyright {
+            color: #fff;
+            text-align: right;
+            line-height: 60px;
+            white-space: nowrap;
+            font-size: 0.85rem;
+            margin: 0;
+        }
+        @media (max-width: 767px) {
+            footer.ipad-her-footer .ipad-her-footer-top .row {
+                display: block;
+            }
+            footer.ipad-her-footer .ipad-her-col {
+                width: 100%;
+                float: none;
+                padding-bottom: 28px;
+            }
+            footer.ipad-her-footer .ipad-her-logo {
+                max-height: 36px;
+            }
+            footer.ipad-her-footer .ipad-her-logo-ipad {
+                max-height: 47px;
+                height: auto;
+                width: auto;
+            }
+            footer.ipad-her-footer .ipad-her-legal-link {
+                display: block;
+                line-height: 1.4;
+                margin: 0 0 16px;
+            }
+            footer.ipad-her-footer .ipad-her-legal {
+                padding-top: 16px;
+                min-height: 0;
+            }
+            footer.ipad-her-footer .ipad-her-copyright {
+                text-align: left;
+                line-height: 1.4;
+                white-space: normal;
+                padding-bottom: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    {% include 'javascript.htm' %}
+
+    <!--=== Header ===-->
+    <header>
+        <div class="v5-splash-navbar navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button 
+                        type="button" 
+                        class="navbar-toggle collapsed" 
+                        data-toggle="collapse" 
+                        data-target="#myNavbar"
+                        aria-expanded="false" 
+                        aria-controls="myNavbar"
+                    >
+                        <span class="sr-only">{% trans 'Toggle navigation' %}</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="relative nav-brand-container">
+                        <div class="navbar-brand-v5-icon-container">
+                            <img class="navbar-brand-v5-icon"
+                                src="{% webpack_static 'img/landing/Arches_logo_white.png' %}"
+                                alt="{% trans 'Arches Logo' %}"
+                            >
+                            <img class="navbar-brand-ipad-icon"
+                                src="{% webpack_static 'img/homepage/ipad-logo-white.png' %}"
+                                alt="{% trans 'IPAD logo' %}"
+                                style="height:44px; width:auto; margin-left:12px;"
+                            >
+                        </div>
+                        <div class="application-name">
+                            <h1>{% blocktrans %}Arches | {{ version }}{% endblocktrans %}</h1>
+                            <p class="ipad-title">{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <nav 
+                    id="myNavbar" 
+                    class="navbar-collapse collapse"
+                    aria-label="{% trans 'IPAD application navigation' %}"
+                >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#info-block-1">{% trans "How to search" %}</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'search_home' %}">{% trans "Search" %}</a>
+                        </li>
+
+                        {% if user|can_create_resource_instance and user.username != 'anonymous' %}
+                        <li>
+                            <a href="{% url 'resource' %}">{% trans "Manage" %}</a>
+                        </li>
+                        {% endif %}
+
+                        {% if user.username == 'anonymous' %}
+                        <li>
+                            <a 
+                                class="application-login" 
+                                id="auth-link"
+                                href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}"
+                            >
+                                {% trans "Sign in" %}
+                            </a>
+                        </li>
+                        {% else %}
+                        <li>
+                            <a 
+                                class="auth-welcome" 
+                                href="{% url 'user_profile_manager' %}"
+                                aria-label="{% trans 'Visit user profile' %}"
+                            >
+                                {% blocktrans with username=user.first_name|default:user.username %}
+                                    Welcome, {{ username }}
+                                {% endblocktrans %}
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                class="application-login"
+                                href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}"
+                            >
+                                {% trans 'Log off' %}
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if show_language_swtich %}
+                        {% csrf_token %}
+                        <li>
+                            {% get_current_language as LANGUAGE_CODE %}
+                            <div class="lang-switch" style="max-width: none;" data-bind='component: {
+                                    name: "views/components/language-switcher",
+                                    params: {
+                                        current_language: "{{ LANGUAGE_CODE }}"
+                                    }
+                                }'></div>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--=== End Header ===-->
+
+    <main>
+        <article>
+            <!-- Intro Section -->
+            <section id="info-block-0" class="app-info-block intro-section relative">
+                <!-- Vertical Nav -->
+                <nav id="cd-vertical-nav" class="vertical-nav-container" aria-label="{% trans 'Page Navigation' %}">
+                    <ul class="vertical-nav-list">
+                        <li class="active">
+                            <a class="vertical-nav-list-link" href="#info-block-0" data-number="1"
+                                aria-label="{% trans 'Go to the top of the page' %}"
+                                data-bind="click: function() { document.querySelector('#info-block-0').focus; }">
+                                <span class="vertical-nav-list-ref">{% trans "Home" %}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="vertical-nav-list-link" href="#info-block-1" data-number="2"
+                                aria-label="{% trans 'Go to how to search' %}">
+                                <span class="vertical-nav-list-ref">{% trans "How to search" %}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="vertical-nav-list-link" href="#info-block-2" data-number="3"
+                                aria-label="{% trans 'Go to about IPAD' %}">
+                                <span class="vertical-nav-list-ref">{% trans "About" %}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="vertical-nav-list-link" href="#info-block-3" data-number="4"
+                                aria-label="{% trans 'Go to contact' %}">
+                                <span class="vertical-nav-list-ref">{% trans "Contact" %}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Slider - Start -->
+                <div class="ipad-hero">
+                    <div class="home-slider">
+                        <div class="slide-img-container">
+                            <img src="{% webpack_static 'img/homepage/slide-1.jpg' %}" alt="{% trans 'Liang Lemdubu' %}">
+                            <div class="slide-caption">
+                                <h2>{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</h2>
+                                <p>{% trans "A public database of prehistoric archaeological sites in Indonesia" %}</p>
+                                <p>{% trans "Search and map sites without signing in" %}</p>
+                            </div>
+                        </div>
+                        <div class="slide-img-container">
+                            <img src="{% webpack_static 'img/homepage/slide-2.jpg' %}" alt="{% trans 'Gua Prasejarah' %}">
+                            <div class="slide-caption">
+                                <h2>{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</h2>
+                                <p>{% trans "A public database of prehistoric archaeological sites in Indonesia" %}</p>
+                                <p>{% trans "Search and map sites without signing in" %}</p>
+                            </div>
+                        </div>
+                        <div class="slide-img-container">
+                            <img src="{% webpack_static 'img/homepage/slide-3.jpg' %}" alt="{% trans 'Map of archaeological sites' %}">
+                            <div class="slide-caption">
+                                <h2>{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</h2>
+                                <p>{% trans "A public database of prehistoric archaeological sites in Indonesia" %}</p>
+                                <p>{% trans "Search and map sites without signing in" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ipad-hero-brand">
+                        <img class="ipad-hero-logo"
+                            src="{% webpack_static 'img/homepage/ipad-logo-hero.svg' %}"
+                            alt="{% trans 'IPAD Indonesian Prehistoric Archaeology Database' %}"
+                        >
+                    </div>
+                </div>
+                <!-- Slider - End -->
+
+                <!-- Down button -->
+                <a 
+                    href="#info-block-1" 
+                    class="down-button" 
+                    aria-label="{% trans 'Go to content' %}"
+                >
+                    <i class="fa fa-angle-down down-button-icon"></i>
+                </a>
+
+            </section>
+            <!-- End Intro Section -->
+
+            <!-- Info Block 1 -->
+            <section id="info-block-1" class="app-info-block relative">
+                <div>
+
+                    <!-- Heading Info -->
+                    <div class="sub-section">
+                        <div class="col-lg-7">
+                            <div class="app-info-block-intro text-center">
+                                <h2 class="app-info-block-header">{% trans "How to search" %}</h2>
+                                <h3 class="app-info-block-title">{% trans "Open Search, then use the map and filters" %}</h3>
+                                <p class="app-info-block-text">
+                                    {% blocktrans %}
+                                        Anyone can search the IPAD Indonesian Prehistoric Archaeology Database
+                                        without signing in. Open Search, use the map and filters to find
+                                        prehistoric archaeological sites, then click a result to read the report.
+                                    {% endblocktrans %}
+                                </p>
+                                <a class="ipad-search-cta" href="{% url 'search_home' %}">{% trans "Search" %}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="splash-img">
+                        <img src="{% webpack_static 'img/homepage/app-1-search.jpg' %}"
+                            alt="{% trans 'IPAD search map' %}">
+                    </div>
+
+                    <!-- Sub-section -->
+                    <div class="row app-info-sub-block">
+
+                        <!-- Arches Data Type Block -->
+                        <div class="col-lg-6">
+                            <div class="sub-block-container">
+                                <h3 class="app-info-block-title">{% trans "Map" %}</h3>
+                                <p class="sub-block-description">
+                                    {% blocktrans %}
+                                        Use the map to locate prehistoric archaeological sites. Pan and zoom,
+                                        then click a result to open the site report.
+                                    {% endblocktrans %}
+                                </p>
+                                <img class="sub-block-image" src="{% webpack_static 'img/homepage/app-2-search-map.jpg' %}"
+                                    alt="{% trans 'IPAD map and search results' %}">
+                            </div>
+                        </div>
+
+                        <!-- Arches Data Type Block -->
+                        <div class="col-lg-6">
+                            <div class="sub-block-container">
+                                <h3 class="app-info-block-title">{% trans "Filters" %}</h3>
+                                <p class="sub-block-description">
+                                    {% blocktrans %}
+                                        Apply filters to narrow the list of sites, then open a result to read
+                                        the report.
+                                    {% endblocktrans %}
+                                </p>
+                                <img class="sub-block-image"
+                                    src="{% webpack_static 'img/homepage/app-3-lists-manager.jpg' %}"
+                                    alt="{% trans 'Lists Manager' %}">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End Sub-section -->
+
+                </div>
+            </section>
+            <!-- End Info Block 1 -->
+
+            <!-- Info Block 2 -->
+            <section id="info-block-2" class="app-info-block relative">
+                <div>
+
+                    <!-- Heading Info -->
+                    <div class="sub-section">
+                        <div class="col-lg-7">
+                            <div class="app-info-block-intro text-center">
+                                <h2 class="app-info-block-header">{% trans "About" %}</h2>
+                                <h3 class="app-info-block-title">{% trans "Heritage data for Indonesian prehistoric archaeology" %}</h3>
+                                <p class="app-info-block-text">
+                                    {% blocktrans %}
+                                        IPAD is a heritage data platform: a public database of prehistoric
+                                        archaeological sites in Indonesia. It is not a substitute for official permits.
+                                    {% endblocktrans %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="splash-img">
+                        <img class="sub-block-image" src="{% webpack_static 'img/homepage/app-4-resource-editor.jpg' %}"
+                            alt="{% trans 'Resource editor' %}">
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Info Block 2 -->
+
+            <!-- Info Block 3 -->
+            <section id="info-block-3" class="app-info-block relative">
+                <div>
+
+                    <!-- Heading Info -->
+                    <div class="sub-section">
+                        <div class="col-lg-7">
+                            <div class="app-info-block-intro text-center">
+                                <h2 class="app-info-block-header">{% trans "Contact" %}</h2>
+                                <h3 class="app-info-block-title">{% trans "How to reach us" %}</h3>
+                                <p class="app-info-block-text">
+                                    {% trans "For questions about IPAD, email" %}
+                                    <span class="ipad-contact-email">cata@nusantaraheritage.org</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="splash-img">
+                        <img class="sub-block-image" src="{% webpack_static 'img/homepage/app-5-advanced-search.jpg' %}"
+                            alt="{% trans 'Advanced Search' %}">
+                    </div>
+
+                    <!-- Sub-section -->
+                    <div class="wide-box">
+                        <div class="box-highlight">
+                            <h3 class="app-info-block-header">{% trans "Contact" %}</h3>
+                            <p>
+                                {% trans "Email cata@nusantaraheritage.org for questions about the IPAD Indonesian Prehistoric Archaeology Database." %}
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Info Block 3 -->
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="ipad-her-footer">
+        <div class="ipad-her-footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 ipad-her-col">
+                        <img class="ipad-her-logo ipad-her-logo-ipad"
+                            src="{% webpack_static 'img/homepage/ipad-logo-white.png' %}"
+                            alt="{% trans 'IPAD logo' %}"
+                        >
+                        <p class="ipad-her-caption">{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</p>
+                    </div>
+                    <div class="col-sm-4 ipad-her-col">
+                        <img class="ipad-her-logo ipad-her-logo-getty"
+                            src="{% webpack_static 'img/homepage/getty-logo-white.png' %}"
+                            alt="{% trans 'Getty Conservation Institute logo' %}"
+                        >
+                    </div>
+                    <div class="col-sm-4 ipad-her-col">
+                        <img class="ipad-her-logo ipad-her-logo-arches"
+                            src="{% webpack_static 'img/landing/Arches_logo_white.png' %}"
+                            alt="{% trans 'Arches logo' %}"
+                        >
+                        <p class="ipad-her-contact">
+                            <span class="ipad-her-contact-title">{% trans "Contact Us" %}</span>
+                            {% trans "For enquiry, please contact" %}<br>
+                            <span class="ipad-contact-email">cata@nusantaraheritage.org</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ipad-her-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 ipad-her-legal">
+                        <a class="ipad-her-legal-link" href="{% url 'accessibility' %}">{% trans "Accessibility" %}</a>
+                        <a class="ipad-her-legal-link" href="{% url 'cookies' %}">{% trans "Cookies" %}</a>
+                        <a class="ipad-her-legal-link" href="{% url 'privacy' %}">{% trans "Privacy Policy" %}</a>
+                        <a class="ipad-her-legal-link" href="{% url 'terms' %}">{% trans "Terms & Conditions" %}</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="ipad-her-copyright">&copy; IPAD Indonesian Prehistoric Archaeology Database 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- JavaScript Dependencies -->
+    <script src="{% webpack_static 'node_modules/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/jqueryui/jquery-ui.min.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/jquery-validation/dist/jquery.validate.min.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/underscore/underscore-min.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/chosen-js/chosen.jquery.min.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/knockout/build/output/knockout-latest.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+    <script src="{% webpack_static 'plugins/one.app.js' %}"></script>
+    <script src="{% webpack_static 'plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script
+        src="{% webpack_static 'plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js' %}"></script>
+    <script src="{% webpack_static 'plugins/slick/slick.min.js' %}"></script>
+
+    <!-- Custom Scripts -->
+    {% render_bundle 'bindings/chosen' %}
+    {% render_bundle 'bindings/key-events-click' %}
+    {% render_bundle 'views/components/language-switcher' %}
+
+    <!-- Inline Initialization Script -->
+    <script>
+        $(document).ready(function () {
+            App.init();
+
+            var contentSections = $('.app-info-block'),
+                navigationItems = $('#cd-vertical-nav a');
+
+            updateNavigation();
+            $(window).on('scroll', function () {
+                updateNavigation();
+            });
+
+            // Smooth scroll to the section.
+            navigationItems.on('click', function (event) {
+                event.preventDefault();
+                smoothScroll($(this.hash));
+            });
+
+            function updateNavigation() {
+                contentSections.each(function () {
+                    var $this = $(this);
+                    var activeSection = $('#cd-vertical-nav a[href="#' + $this.attr('id') + '"]').data('number') - 1;
+                    if (($this.offset().top - $(window).height() / 2 < $(window).scrollTop()) &&
+                        ($this.offset().top + $this.height() - $(window).height() / 2 > $(window).scrollTop())) {
+                        navigationItems.eq(activeSection).addClass('is-selected');
+                    } else {
+                        navigationItems.eq(activeSection).removeClass('is-selected');
+                    }
+                });
+            }
+
+            function smoothScroll(target) {
+                $('body,html').animate({ 'scrollTop': target.offset().top }, 600);
+            }
+
+            // Initialize the slider using slick.
+            $('.home-slider').slick({
+                arrowsPlacement: 'split',
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 6000,
+                prevArrow: `<button type='button' class='slick-prev pull-left' aria-label="{% trans 'Go to previous slide' %}"><i class='fa fa-chevron-left' aria-hidden='true'></i></button>`,
+                nextArrow: `<button type='button' class='slick-next pull-right' aria-label="{% trans 'Go to next slide' %}"><i class='fa fa-chevron-right' aria-hidden='true'></i></button>`
+            });
+
+            var ViewModel = function () {
+                // Place observables and additional logic here.
+            };
+
+            // Apply Knockout bindings after a short delay.
+            setTimeout(function () {
+                ko.applyBindings(new ViewModel());
+            }, 300);
+        });
+    </script>
+</body>
+
+</html>

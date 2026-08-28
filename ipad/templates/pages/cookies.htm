@@ -1,0 +1,69 @@
+{% extends "pages/policy_base.htm" %}
+{% load i18n %}
+
+{% block policy_body %}
+<!-- Named jurisdiction cookie statutes remain omitted from this public page. -->
+<h1>{% trans "Cookies" %}</h1>
+<p class="ipad-policy-updated">{% trans "Updated 24 August 2026" %}</p>
+
+<p>{% blocktrans trimmed %}This page explains how the <strong>IPAD Indonesian Prehistoric Archaeology Database</strong> (“IPAD”, “we”, “us”) uses cookies on this website. After this first mention we usually say “IPAD”.{% endblocktrans %}</p>
+<p>{% trans "Cookies are small files saved on your phone, tablet, or computer when you visit a website. They save some information about you when you use the website. They do not usually identify you directly, just the device you use." %}</p>
+
+<h2>{% trans "About cookies" %}</h2>
+<p>{% trans "We use cookies so that this website can function, for example:" %}</p>
+<ul>
+    <li>{% trans "enabling a service to recognise your device so you do not have to give the same information several times during a task" %}</li>
+    <li>{% trans "recognising that you may already have given a username and password, so you do not need to do it for every page that needs those details" %}</li>
+    <li>{% trans "protecting forms and requests from being misused by other websites" %}</li>
+</ul>
+<p>{% trans "This page describes cookies. It is not a cookie-consent product and it does not load any third-party cookie control widget." %}</p>
+
+<h2>{% trans "Necessary cookies" %}</h2>
+<p>{% trans "Necessary cookies are required for this site to function. They support security, session management, network operation, and accessibility. We do not ask extra permission to use those essential cookies." %}</p>
+
+<h2>{% trans "How to manage cookies on your computer" %}</h2>
+<p>{% trans "You can manage these small files yourself using your web browser settings. Use the help function in your browser to find out more about managing your cookie settings." %}</p>
+<p>{% trans "Restricting cookies may affect the functionality of this website. In particular, you may not be able to sign in or complete forms if you block cookies that the site needs in order to run." %}</p>
+
+<h2>{% trans "Cookies this site uses" %}</h2>
+<p>{% trans "This site is an Arches application. It sets first-party cookies that are needed to run the service. We do not currently set analytics or marketing cookies, and we do not currently use Google Analytics on this site." %}</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>{% trans "Name" %}</th>
+            <th>{% trans "Purpose" %}</th>
+            <th>{% trans "Typical lifetime" %}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>sessionid</td>
+            <td>{% trans "Keeps you signed in (when you have an account) and maintains your session as you move from page to page" %}</td>
+            <td>{% trans "Until you close the browser, or as configured on the server" %}</td>
+        </tr>
+        <tr>
+            <td>csrftoken</td>
+            <td>{% trans "Protects forms and requests from cross-site request forgery" %}</td>
+            <td>{% trans "Typically up to one year" %}</td>
+        </tr>
+        <tr>
+            <td>django_language</td>
+            <td>{% trans "Remembers a language preference if the language switcher is used" %}</td>
+            <td>{% trans "As configured; often until you clear cookies" %}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>{% trans "Your browser may also store cookies that you have chosen to allow from other sites. IPAD has no control over those cookies." %}</p>
+
+<h2>{% trans "Analytics and marketing cookies" %}</h2>
+<p>{% trans "The IPAD Indonesian Prehistoric Archaeology Database does not currently use analytics or marketing cookies. Optional analytics or marketing cookies would only be used with the visitor’s permission. If that changes, permission will be sought and this page will be updated first." %}</p>
+
+<h2>{% trans "Related pages" %}</h2>
+<p>{% trans "How we use personal information is described on the Privacy policy page. Using this site is also subject to the Terms & conditions page." %}</p>
+
+<h2>{% trans "Contact" %}</h2>
+<p>{% blocktrans trimmed %}If you have questions about cookies on this site, email <strong>cata@nusantaraheritage.org</strong> (plain text; this is not a mail link).{% endblocktrans %}</p>
+<p>{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</p>
+{% endblock policy_body %}

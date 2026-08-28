@@ -1,0 +1,2001 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 08:14-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: IPAD <cata@nusantaraheritage.org>\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: settings.py:93
+msgid "Term Matches"
+msgstr "Kecocokan Istilah"
+
+#: settings.py:99
+msgid "Concepts"
+msgstr "Konsep"
+
+#: settings.py:105
+msgid "References"
+msgstr "Rujukan"
+
+#: settings.py:435
+msgid "Hi"
+msgstr "Halo"
+
+#: settings.py:467
+msgid "English"
+msgstr "Inggris"
+
+#: settings.py:468
+msgid "Indonesian"
+msgstr "Bahasa Indonesia"
+
+#: templates/base-manager.htm:22
+msgid "Cancel"
+msgstr "Batal"
+
+#: templates/base-manager.htm:25
+msgid "OK"
+msgstr "OK"
+
+#: templates/base-manager.htm:48 templates/base.htm:11 templates/index.htm:455
+#: templates/index.htm:571 templates/index.htm:579 templates/index.htm:587
+#: templates/index.htm:596 templates/index.htm:762
+#: templates/pages/accessibility.htm:64 templates/pages/cookies.htm:68
+#: templates/pages/privacy.htm:58 templates/views/search.htm:19
+msgid "IPAD Indonesian Prehistoric Archaeology Database"
+msgstr "IPAD Indonesian Prehistoric Archaeology Database"
+
+#: templates/base-manager.htm:63 templates/index.htm:541
+msgid "Home"
+msgstr "Beranda"
+
+#: templates/base-manager.htm:69
+msgid "Tools"
+msgstr "Alat"
+
+#: templates/base-manager.htm:78
+msgid "Manage System Settings"
+msgstr "Kelola Pengaturan Sistem"
+
+#: templates/base-manager.htm:84
+msgid "System Settings"
+msgstr "Pengaturan Sistem"
+
+#: templates/base-manager.htm:88
+msgid "System Settings Graph"
+msgstr "Graf Pengaturan Sistem"
+
+#: templates/base-manager.htm:100 templates/base-manager.htm:458
+#: templates/index.htm:470 templates/index.htm:631
+#: templates/views/search.htm:7
+msgid "Search"
+msgstr "Pencarian"
+
+#: templates/base-manager.htm:115
+msgid "Add New Resource"
+msgstr "Tambah Sumber Daya Baru"
+
+#: templates/base-manager.htm:148
+msgid "Arches Designer"
+msgstr "Perancang Arches"
+
+#: templates/base-manager.htm:154
+msgid "Resource Models"
+msgstr "Model Sumber Daya"
+
+#: templates/base-manager.htm:158
+msgid "Branches"
+msgstr "Cabang"
+
+#: templates/base-manager.htm:170
+msgid "Map Layer Manager"
+msgstr "Pengelola Lapisan Peta"
+
+#: templates/base-manager.htm:176
+msgid "Resource Layers"
+msgstr "Lapisan Sumber Daya"
+
+#: templates/base-manager.htm:181
+msgid "Basemaps"
+msgstr "Peta Dasar"
+
+#: templates/base-manager.htm:186
+msgid "Overlays"
+msgstr "Lapisan Overlay"
+
+#: templates/base-manager.htm:200
+msgid "Recent Edits"
+msgstr "Suntingan Terbaru"
+
+#: templates/base-manager.htm:213
+msgid "Profile Manager"
+msgstr "Pengelola Profil"
+
+#: templates/base-manager.htm:224
+msgid "Modules"
+msgstr "Modul"
+
+#: templates/base-manager.htm:235
+msgid "Reference Data Manager"
+msgstr "Pengelola Data Rujukan"
+
+#: templates/base-manager.htm:281 templates/pages/policy_base.htm:104
+msgid "Information"
+msgstr "Informasi"
+
+#: templates/base-manager.htm:288 templates/pages/policy_base.htm:106
+#: templates/pages/privacy.htm:6
+msgid "Privacy policy"
+msgstr "Kebijakan privasi"
+
+#: templates/base-manager.htm:297 templates/pages/policy_base.htm:107
+#: templates/pages/terms.htm:6
+msgid "Terms & conditions"
+msgstr "Syarat & ketentuan"
+
+#: templates/base-manager.htm:306 templates/index.htm:788
+#: templates/pages/accessibility.htm:6 templates/pages/policy_base.htm:108
+#: templates/pages/privacy.htm:49
+msgid "Accessibility"
+msgstr "Aksesibilitas"
+
+#: templates/base-manager.htm:315 templates/index.htm:789
+#: templates/pages/cookies.htm:6 templates/pages/policy_base.htm:109
+msgid "Cookies"
+msgstr "Kuki"
+
+#: templates/base-manager.htm:327 templates/base-manager.htm:535
+#: templates/base-manager.htm:537
+msgid "Login"
+msgstr "Masuk"
+
+#: templates/base-manager.htm:338
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#: templates/base-manager.htm:342
+msgid "Project"
+msgstr "Proyek"
+
+#: templates/base-manager.htm:360
+msgid "Graph and Resource Management"
+msgstr "Pengelolaan Graf dan Sumber Daya"
+
+#: templates/base-manager.htm:371 templates/index.htm:475
+msgid "Manage"
+msgstr "Kelola"
+
+#: templates/base-manager.htm:400
+msgid "User and User Actions Navigation"
+msgstr "Navigasi Pengguna dan Tindakan Pengguna"
+
+#: templates/base-manager.htm:409
+msgid "Profile"
+msgstr "Profil"
+
+#: templates/base-manager.htm:412
+msgid "Welcome"
+msgstr "Selamat datang"
+
+#: templates/base-manager.htm:422
+msgid "Choose your language"
+msgstr "Pilih bahasa Anda"
+
+#: templates/base-manager.htm:436
+msgid "Show recent notifications"
+msgstr "Tampilkan pemberitahuan terbaru"
+
+#: templates/base-manager.htm:442 templates/base-manager.htm:559
+#: templates/base-manager.htm:564
+msgid "Notifications"
+msgstr "Pemberitahuan"
+
+#: templates/base-manager.htm:456
+msgid "Visit the Search page"
+msgstr "Buka halaman Pencarian"
+
+#: templates/base-manager.htm:470
+msgid "Show my recent edits"
+msgstr "Tampilkan suntingan terbaru saya"
+
+#: templates/base-manager.htm:475
+msgid "My Recent Edits"
+msgstr "Suntingan Terbaru Saya"
+
+#: templates/base-manager.htm:485 templates/base-manager.htm:486
+msgid "Edit Resource"
+msgstr "Sunting Sumber Daya"
+
+#: templates/base-manager.htm:496 templates/base-manager.htm:497
+msgid "View Report"
+msgstr "Lihat Laporan"
+
+#: templates/base-manager.htm:506
+msgid "Print the page"
+msgstr "Cetak halaman"
+
+#: templates/base-manager.htm:507
+msgid "Print"
+msgstr "Cetak"
+
+#: templates/base-manager.htm:517
+msgid "Show help"
+msgstr "Tampilkan bantuan"
+
+#: templates/base-manager.htm:522
+msgid "Help"
+msgstr "Bantuan"
+
+#: templates/base-manager.htm:545 templates/base-manager.htm:547
+msgid "Logout"
+msgstr "Keluar"
+
+#: templates/base-manager.htm:566
+msgid "Close Notifications"
+msgstr "Tutup Pemberitahuan"
+
+#: templates/base-manager.htm:569 templates/base-manager.htm:594
+msgid "Close"
+msgstr "Tutup"
+
+#: templates/base-manager.htm:584
+msgid "Edit History"
+msgstr "Riwayat Suntingan"
+
+#: templates/base-manager.htm:589
+msgid "My Edit History"
+msgstr "Riwayat Suntingan Saya"
+
+#: templates/base-manager.htm:591
+msgid "Close Edit History"
+msgstr "Tutup Riwayat Suntingan"
+
+#: templates/base-manager.htm:609
+msgid "Site Help"
+msgstr "Bantuan Situs"
+
+#: templates/base-manager.htm:615 templates/base-manager.htm:618
+msgid "Close Help"
+msgstr "Tutup Bantuan"
+
+#: templates/base-manager.htm:629
+msgid "for more documentation, visit"
+msgstr "untuk dokumentasi lebih lanjut, kunjungi"
+
+#: templates/index.htm:37
+msgid ""
+"IPAD Indonesian Prehistoric Archaeology Database — a public database of "
+"prehistoric archaeological sites in Indonesia"
+msgstr ""
+"IPAD Indonesian Prehistoric Archaeology Database — basis data publik situs "
+"arkeologi prasejarah di Indonesia"
+
+#: templates/index.htm:435
+msgid "Toggle navigation"
+msgstr "Alihkan navigasi"
+
+#: templates/index.htm:445
+msgid "Arches Logo"
+msgstr "Logo Arches"
+
+#: templates/index.htm:449 templates/index.htm:760
+msgid "IPAD logo"
+msgstr "Logo IPAD"
+
+#: templates/index.htm:454
+#, python-format
+msgid "Arches | %(version)s"
+msgstr "Arches | %(version)s"
+
+#: templates/index.htm:463
+msgid "IPAD application navigation"
+msgstr "Navigasi aplikasi IPAD"
+
+#: templates/index.htm:467 templates/index.htm:547 templates/index.htm:622
+msgid "How to search"
+msgstr "Cara mencari"
+
+#: templates/index.htm:486
+msgid "Sign in"
+msgstr "Masuk"
+
+#: templates/index.htm:494
+msgid "Visit user profile"
+msgstr "Kunjungi profil pengguna"
+
+#: templates/index.htm:496
+#, python-format
+msgid ""
+"\n"
+"                                    Welcome, %(username)s\n"
+"                                "
+msgstr ""
+"\n"
+"                                    Selamat datang, %(username)s\n"
+"                                "
+
+#: templates/index.htm:506
+msgid "Log off"
+msgstr "Keluar"
+
+#: templates/index.htm:535
+msgid "Page Navigation"
+msgstr "Navigasi Halaman"
+
+#: templates/index.htm:539
+msgid "Go to the top of the page"
+msgstr "Ke bagian atas halaman"
+
+#: templates/index.htm:546
+msgid "Go to how to search"
+msgstr "Ke cara mencari"
+
+#: templates/index.htm:552
+msgid "Go to about IPAD"
+msgstr "Ke tentang IPAD"
+
+#: templates/index.htm:553 templates/index.htm:691
+msgid "About"
+msgstr "Tentang"
+
+#: templates/index.htm:558
+msgid "Go to contact"
+msgstr "Ke kontak"
+
+#: templates/index.htm:559 templates/index.htm:721 templates/index.htm:739
+#: templates/pages/accessibility.htm:63 templates/pages/cookies.htm:66
+#: templates/pages/privacy.htm:57
+msgid "Contact"
+msgstr "Kontak"
+
+#: templates/index.htm:569
+msgid "Liang Lemdubu"
+msgstr "Liang Lemdubu"
+
+#: templates/index.htm:572 templates/index.htm:580 templates/index.htm:588
+msgid "A public database of prehistoric archaeological sites in Indonesia"
+msgstr "Basis data publik situs arkeologi prasejarah di Indonesia"
+
+#: templates/index.htm:573 templates/index.htm:581 templates/index.htm:589
+msgid "Search and map sites without signing in"
+msgstr "Cari dan petakan situs tanpa masuk akun"
+
+#: templates/index.htm:577
+msgid "Gua Prasejarah"
+msgstr "Gua Prasejarah"
+
+#: templates/index.htm:585
+msgid "Map of archaeological sites"
+msgstr "Peta situs arkeologi"
+
+#: templates/index.htm:606
+msgid "Go to content"
+msgstr "Ke isi halaman"
+
+#: templates/index.htm:623
+msgid "Open Search, then use the map and filters"
+msgstr "Buka Pencarian, lalu gunakan peta dan filter"
+
+#: templates/index.htm:625
+msgid ""
+"\n"
+"                                        Anyone can search the IPAD Indonesian Prehistoric Archaeology Database\n"
+"                                        without signing in. Open Search, use the map and filters to find\n"
+"                                        prehistoric archaeological sites, then click a result to read the report.\n"
+"                                    "
+msgstr ""
+"\n"
+"Siapa pun dapat mencari IPAD Indonesian Prehistoric Archaeology Database tanpa masuk akun. Buka Pencarian, gunakan peta dan filter untuk menemukan situs arkeologi prasejarah, lalu klik hasil untuk membaca laporan."
+
+#: templates/index.htm:639
+msgid "IPAD search map"
+msgstr "Peta pencarian IPAD"
+
+#: templates/index.htm:648
+msgid "Map"
+msgstr "Peta"
+
+#: templates/index.htm:650
+msgid ""
+"\n"
+"                                        Use the map to locate prehistoric archaeological sites. Pan and zoom,\n"
+"                                        then click a result to open the site report.\n"
+"                                    "
+msgstr ""
+"\n"
+"Gunakan peta untuk menemukan situs arkeologi prasejarah. Geser dan perbesar, lalu klik hasil untuk membuka laporan situs."
+
+#: templates/index.htm:656
+msgid "IPAD map and search results"
+msgstr "Peta IPAD dan hasil pencarian"
+
+#: templates/index.htm:663
+msgid "Filters"
+msgstr "Filter"
+
+#: templates/index.htm:665
+msgid ""
+"\n"
+"                                        Apply filters to narrow the list of sites, then open a result to read\n"
+"                                        the report.\n"
+"                                    "
+msgstr ""
+"\n"
+"Terapkan filter untuk mempersempit daftar situs, lalu buka hasil untuk membaca laporan."
+
+#: templates/index.htm:672
+msgid "Lists Manager"
+msgstr "Pengelola Daftar"
+
+#: templates/index.htm:692
+msgid "Heritage data for Indonesian prehistoric archaeology"
+msgstr "Data warisan untuk arkeologi prasejarah Indonesia"
+
+#: templates/index.htm:694
+msgid ""
+"\n"
+"                                        IPAD is a heritage data platform: a public database of prehistoric\n"
+"                                        archaeological sites in Indonesia. It is not a substitute for official permits.\n"
+"                                    "
+msgstr ""
+"\n"
+"IPAD adalah platform data warisan: basis data publik situs arkeologi prasejarah di Indonesia. Ini bukan pengganti izin resmi."
+
+#: templates/index.htm:706
+msgid "Resource editor"
+msgstr "Penyunting sumber daya"
+
+#: templates/index.htm:722
+msgid "How to reach us"
+msgstr "Cara menghubungi kami"
+
+#: templates/index.htm:724
+msgid "For questions about IPAD, email"
+msgstr "Untuk pertanyaan tentang IPAD, kirim surel ke"
+
+#: templates/index.htm:733
+msgid "Advanced Search"
+msgstr "Pencarian Lanjutan"
+
+#: templates/index.htm:741
+msgid ""
+"Email cata@nusantaraheritage.org for questions about the IPAD Indonesian "
+"Prehistoric Archaeology Database."
+msgstr ""
+"Kirim surel ke cata@nusantaraheritage.org untuk pertanyaan tentang IPAD "
+"Indonesian Prehistoric Archaeology Database."
+
+#: templates/index.htm:767
+msgid "Getty Conservation Institute logo"
+msgstr "Logo Getty Conservation Institute"
+
+#: templates/index.htm:773
+msgid "Arches logo"
+msgstr "Logo Arches"
+
+#: templates/index.htm:776
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#: templates/index.htm:777
+msgid "For enquiry, please contact"
+msgstr "Untuk pertanyaan, silakan hubungi"
+
+#: templates/index.htm:790
+msgid "Privacy Policy"
+msgstr "Kebijakan Privasi"
+
+#: templates/index.htm:791
+msgid "Terms & Conditions"
+msgstr "Syarat & Ketentuan"
+
+#: templates/index.htm:863
+msgid "Go to previous slide"
+msgstr "Ke slide sebelumnya"
+
+#: templates/index.htm:864
+msgid "Go to next slide"
+msgstr "Ke slide berikutnya"
+
+#: templates/pages/accessibility.htm:7 templates/pages/cookies.htm:7
+#: templates/pages/privacy.htm:7
+msgid "Updated 24 August 2026"
+msgstr "Diperbarui 24 Agustus 2026"
+
+#: templates/pages/accessibility.htm:9
+msgid ""
+"This accessibility statement applies to the <strong>IPAD Indonesian "
+"Prehistoric Archaeology Database</strong> (“IPAD”, “we”, “us”) website. "
+"After this first mention we usually say “IPAD”."
+msgstr ""
+"Pernyataan aksesibilitas ini berlaku untuk situs web <strong>IPAD Indonesian"
+" Prehistoric Archaeology Database</strong> (“IPAD”, “kami”). Setelah "
+"penyebutan pertama ini kami biasanya menyebut “IPAD”."
+
+#: templates/pages/accessibility.htm:10
+msgid ""
+"This website is run by IPAD. We want as many people as possible to be able "
+"to use this website. For example, that means you should be able to:"
+msgstr ""
+"Situs web ini dikelola oleh IPAD. Kami ingin sebanyak mungkin orang dapat "
+"menggunakan situs ini. Misalnya, Anda seharusnya dapat:"
+
+#: templates/pages/accessibility.htm:12
+msgid ""
+"change colours, contrast levels, and fonts using your browser or device "
+"settings"
+msgstr ""
+"mengubah warna, tingkat kontras, dan jenis huruf melalui pengaturan peramban"
+" atau perangkat"
+
+#: templates/pages/accessibility.htm:13
+#, python-format
+msgid ""
+"zoom in up to 300%% without the text spilling off the screen on most pages"
+msgstr ""
+"memperbesar hingga 300%% tanpa teks keluar dari layar pada sebagian besar "
+"halaman"
+
+#: templates/pages/accessibility.htm:14
+msgid "navigate most of the website using just a keyboard"
+msgstr "menavigasi sebagian besar situs hanya dengan papan ketik"
+
+#: templates/pages/accessibility.htm:15
+msgid "navigate most of the website using speech recognition software"
+msgstr ""
+"menavigasi sebagian besar situs dengan perangkat lunak pengenal ucapan"
+
+#: templates/pages/accessibility.htm:16
+msgid ""
+"listen to most of the website using a screen reader (including recent "
+"versions of JAWS, NVDA, and VoiceOver)"
+msgstr ""
+"mendengarkan sebagian besar situs dengan pembaca layar (termasuk versi "
+"terbaru JAWS, NVDA, dan VoiceOver)"
+
+#: templates/pages/accessibility.htm:18
+msgid ""
+"We have also tried to keep the website text as simple as possible to "
+"understand."
+msgstr "Kami juga berupaya menuliskan teks situs agar mudah dipahami."
+
+#: templates/pages/accessibility.htm:20
+msgid "How accessible this website is"
+msgstr "Seberapa aksesibel situs ini"
+
+#: templates/pages/accessibility.htm:21
+msgid "We know some parts of this website are not fully accessible:"
+msgstr "Kami tahu beberapa bagian situs ini belum sepenuhnya aksesibel:"
+
+#: templates/pages/accessibility.htm:23
+msgid ""
+"maps used in search and resource views may be difficult to navigate with a "
+"keyboard alone and hard to read for users with a visual impairment"
+msgstr ""
+"peta pada tampilan pencarian dan sumber daya mungkin sulit dinavigasi hanya "
+"dengan papan ketik dan sulit dibaca bagi pengguna dengan gangguan "
+"penglihatan"
+
+#: templates/pages/accessibility.htm:24
+msgid "some map colours and contrast may not meet recommended contrast levels"
+msgstr ""
+"beberapa warna dan kontras peta mungkin tidak memenuhi tingkat kontras yang "
+"disarankan"
+
+#: templates/pages/accessibility.htm:25
+msgid ""
+"some heritage images or archival reproductions may not have alternative text"
+msgstr ""
+"beberapa gambar warisan atau reproduksi arsip mungkin tidak memiliki teks "
+"alternatif"
+
+#: templates/pages/accessibility.htm:26
+msgid ""
+"parts of the Arches application interface (for example complex editors used "
+"by staff) may be harder to use with assistive technology than these "
+"information pages"
+msgstr ""
+"bagian antarmuka aplikasi Arches (misalnya penyunting kompleks yang "
+"digunakan staf) mungkin lebih sulit digunakan dengan teknologi asistif "
+"dibanding halaman informasi ini"
+
+#: templates/pages/accessibility.htm:28
+msgid ""
+"Search tools that do not rely on the map remain available so that record "
+"information can be found as text."
+msgstr ""
+"Alat pencarian yang tidak bergantung pada peta tetap tersedia sehingga "
+"informasi rekaman dapat ditemukan sebagai teks."
+
+#: templates/pages/accessibility.htm:30
+msgid "Feedback and contact information"
+msgstr "Umpan balik dan informasi kontak"
+
+#: templates/pages/accessibility.htm:31
+msgid ""
+"If you need information on this website in a different format, such as large"
+" print, easy read, or another accessible file:"
+msgstr ""
+"Jika Anda memerlukan informasi di situs ini dalam format lain, misalnya "
+"cetak besar, easy read, atau berkas aksesibel lainnya:"
+
+#: templates/pages/accessibility.htm:33
+msgid "email cata@nusantaraheritage.org (plain text; this is not a mail link)"
+msgstr "surel cata@nusantaraheritage.org (teks biasa; ini bukan tautan surel)"
+
+#: templates/pages/accessibility.htm:35
+msgid "We will consider your request and get back to you."
+msgstr "Kami akan mempertimbangkan permintaan Anda dan menghubungi kembali."
+
+#: templates/pages/accessibility.htm:37
+msgid "Reporting accessibility problems with this website"
+msgstr "Melaporkan masalah aksesibilitas pada situs ini"
+
+#: templates/pages/accessibility.htm:38
+msgid ""
+"We are always looking to improve the accessibility of this website. If you "
+"find any problems not listed on this page, or think we are not meeting the "
+"aims described here, email cata@nusantaraheritage.org."
+msgstr ""
+"Kami selalu berupaya meningkatkan aksesibilitas situs ini. Jika Anda "
+"menemukan masalah yang tidak tercantum di halaman ini, atau merasa kami "
+"belum memenuhi tujuan yang diuraikan di sini, kirim surel ke "
+"cata@nusantaraheritage.org."
+
+#: templates/pages/accessibility.htm:42
+msgid "Technical information about this website’s accessibility"
+msgstr "Informasi teknis tentang aksesibilitas situs ini"
+
+#: templates/pages/accessibility.htm:43
+msgid ""
+"IPAD aims to make this website accessible. We use the Web Content "
+"Accessibility Guidelines (WCAG) version 2.2, Level AA, as our technical "
+"reference. WCAG is an international standard; this page does not claim "
+"compliance with any particular national accessibility statute until that is "
+"confirmed."
+msgstr ""
+"IPAD bertujuan membuat situs ini aksesibel. Kami menggunakan Web Content "
+"Accessibility Guidelines (WCAG) versi 2.2, Level AA, sebagai rujukan teknis."
+" WCAG adalah standar internasional; halaman ini tidak mengklaim kepatuhan "
+"terhadap undang-undang aksesibilitas nasional tertentu sampai hal itu "
+"dikonfirmasi."
+
+#: templates/pages/accessibility.htm:45
+msgid "Compliance status"
+msgstr "Status kepatuhan"
+
+#: templates/pages/accessibility.htm:46
+msgid ""
+"This website has not yet had a full independent accessibility audit for "
+"IPAD. Until that work is done, we treat the site as only partially meeting "
+"WCAG 2.2 Level AA, because of the map, image, and interface issues listed "
+"above."
+msgstr ""
+"Situs ini belum menjalani audit aksesibilitas independen penuh untuk IPAD. "
+"Sampai pekerjaan itu selesai, kami menganggap situs ini hanya sebagian "
+"memenuhi WCAG 2.2 Level AA, karena isu peta, gambar, dan antarmuka yang "
+"tercantum di atas."
+
+#: templates/pages/accessibility.htm:48
+msgid "Non-accessible content"
+msgstr "Konten yang tidak sepenuhnya aksesibel"
+
+#: templates/pages/accessibility.htm:49
+msgid ""
+"The content listed below is not fully accessible for the following reasons."
+msgstr "Konten di bawah ini belum sepenuhnya aksesibel karena alasan berikut."
+
+#: templates/pages/accessibility.htm:51
+msgid ""
+"Online maps: keyboard access, colour, and contrast can fail recommended "
+"criteria. Essential record information is also available through text "
+"search."
+msgstr ""
+"Peta daring: akses papan ketik, warna, dan kontras dapat gagal memenuhi "
+"kriteria yang disarankan. Informasi rekaman penting juga tersedia melalui "
+"pencarian teks."
+
+#: templates/pages/accessibility.htm:52
+msgid "Images: some photographs and figures may lack alternative text."
+msgstr ""
+"Gambar: beberapa foto dan gambar mungkin tidak memiliki teks alternatif."
+
+#: templates/pages/accessibility.htm:53
+msgid ""
+"Staff-only editors and workflows in Arches may not yet meet the same "
+"standard as these public information pages."
+msgstr ""
+"Penyunting dan alur kerja khusus staf di Arches mungkin belum memenuhi "
+"standar yang sama dengan halaman informasi publik ini."
+
+#: templates/pages/accessibility.htm:57
+msgid "What we are doing to improve accessibility"
+msgstr "Apa yang kami lakukan untuk meningkatkan aksesibilitas"
+
+#: templates/pages/accessibility.htm:58
+msgid ""
+"It is IPAD’s intention to improve accessibility over time. We will review "
+"this statement when we complete testing or when we make significant changes "
+"to the public interface."
+msgstr ""
+"IPAD berencana meningkatkan aksesibilitas dari waktu ke waktu. Kami akan "
+"meninjau pernyataan ini setelah pengujian selesai atau ketika kami membuat "
+"perubahan signifikan pada antarmuka publik."
+
+#: templates/pages/accessibility.htm:60
+msgid "Preparation of this accessibility statement"
+msgstr "Penyusunan pernyataan aksesibilitas ini"
+
+#: templates/pages/accessibility.htm:61
+msgid ""
+"This statement was prepared on 24 August 2026 for the IPAD public Arches "
+"site. It was adapted from the structure of comparable heritage-database "
+"accessibility statements. It has not yet been validated by an external "
+"accessibility agency for this IPAD installation."
+msgstr ""
+"Pernyataan ini disusun pada 24 Agustus 2026 untuk situs Arches publik IPAD. "
+"Strukturnya diadaptasi dari pernyataan aksesibilitas basis data warisan yang"
+" sebanding. Belum divalidasi oleh lembaga aksesibilitas eksternal untuk "
+"instalasi IPAD ini."
+
+#: templates/pages/cookies.htm:9
+msgid ""
+"This page explains how the <strong>IPAD Indonesian Prehistoric Archaeology "
+"Database</strong> (“IPAD”, “we”, “us”) uses cookies on this website. After "
+"this first mention we usually say “IPAD”."
+msgstr ""
+"Halaman ini menjelaskan bagaimana <strong>IPAD Indonesian Prehistoric "
+"Archaeology Database</strong> (“IPAD”, “kami”) menggunakan kuki di situs web"
+" ini. Setelah penyebutan pertama ini kami biasanya menyebut “IPAD”."
+
+#: templates/pages/cookies.htm:10
+msgid ""
+"Cookies are small files saved on your phone, tablet, or computer when you "
+"visit a website. They save some information about you when you use the "
+"website. They do not usually identify you directly, just the device you use."
+msgstr ""
+"Kuki adalah berkas kecil yang disimpan di ponsel, tablet, atau komputer Anda"
+" saat mengunjungi situs web. Kuki menyimpan sebagian informasi tentang Anda "
+"saat menggunakan situs. Biasanya kuki tidak mengidentifikasi Anda secara "
+"langsung, hanya perangkat yang digunakan."
+
+#: templates/pages/cookies.htm:12
+msgid "About cookies"
+msgstr "Tentang kuki"
+
+#: templates/pages/cookies.htm:13
+msgid "We use cookies so that this website can function, for example:"
+msgstr "Kami menggunakan kuki agar situs ini dapat berfungsi, misalnya:"
+
+#: templates/pages/cookies.htm:15
+msgid ""
+"enabling a service to recognise your device so you do not have to give the "
+"same information several times during a task"
+msgstr ""
+"memungkinkan layanan mengenali perangkat Anda sehingga Anda tidak perlu "
+"memberikan informasi yang sama berulang kali dalam satu tugas"
+
+#: templates/pages/cookies.htm:16
+msgid ""
+"recognising that you may already have given a username and password, so you "
+"do not need to do it for every page that needs those details"
+msgstr ""
+"mengenali bahwa Anda mungkin sudah memberikan nama pengguna dan kata sandi, "
+"sehingga tidak perlu mengulanginya di setiap halaman yang membutuhkan data "
+"itu"
+
+#: templates/pages/cookies.htm:17
+msgid "protecting forms and requests from being misused by other websites"
+msgstr ""
+"melindungi formulir dan permintaan agar tidak disalahgunakan oleh situs lain"
+
+#: templates/pages/cookies.htm:19
+msgid ""
+"This page describes cookies. It is not a cookie-consent product and it does "
+"not load any third-party cookie control widget."
+msgstr ""
+"Halaman ini menjelaskan kuki. Ini bukan produk persetujuan kuki dan tidak "
+"memuat widget pengontrol kuki pihak ketiga."
+
+#: templates/pages/cookies.htm:21
+msgid "Necessary cookies"
+msgstr "Kuki yang diperlukan"
+
+#: templates/pages/cookies.htm:22
+msgid ""
+"Necessary cookies are required for this site to function. They support "
+"security, session management, network operation, and accessibility. We do "
+"not ask extra permission to use those essential cookies."
+msgstr ""
+"Kuki yang diperlukan wajib agar situs ini berfungsi. Kuki ini mendukung "
+"keamanan, pengelolaan sesi, operasi jaringan, dan aksesibilitas. Kami tidak "
+"meminta izin tambahan untuk menggunakan kuki esensial tersebut."
+
+#: templates/pages/cookies.htm:24
+msgid "How to manage cookies on your computer"
+msgstr "Cara mengelola kuki di komputer Anda"
+
+#: templates/pages/cookies.htm:25
+msgid ""
+"You can manage these small files yourself using your web browser settings. "
+"Use the help function in your browser to find out more about managing your "
+"cookie settings."
+msgstr ""
+"Anda dapat mengelola berkas kecil ini sendiri melalui pengaturan peramban. "
+"Gunakan fungsi bantuan di peramban untuk mempelajari pengaturan kuki."
+
+#: templates/pages/cookies.htm:26
+msgid ""
+"Restricting cookies may affect the functionality of this website. In "
+"particular, you may not be able to sign in or complete forms if you block "
+"cookies that the site needs in order to run."
+msgstr ""
+"Membatasi kuki dapat memengaruhi fungsi situs ini. Khususnya, Anda mungkin "
+"tidak dapat masuk atau mengisi formulir jika memblokir kuki yang dibutuhkan "
+"situs untuk berjalan."
+
+#: templates/pages/cookies.htm:28
+msgid "Cookies this site uses"
+msgstr "Kuki yang digunakan situs ini"
+
+#: templates/pages/cookies.htm:29
+msgid ""
+"This site is an Arches application. It sets first-party cookies that are "
+"needed to run the service. We do not currently set analytics or marketing "
+"cookies, and we do not currently use Google Analytics on this site."
+msgstr ""
+"Situs ini adalah aplikasi Arches. Situs menetapkan kuki pihak pertama yang "
+"diperlukan untuk menjalankan layanan. Saat ini kami tidak menetapkan kuki "
+"analitik atau pemasaran, dan tidak menggunakan Google Analytics di situs "
+"ini."
+
+#: templates/pages/cookies.htm:34
+msgid "Name"
+msgstr "Nama"
+
+#: templates/pages/cookies.htm:35
+msgid "Purpose"
+msgstr "Tujuan"
+
+#: templates/pages/cookies.htm:36
+msgid "Typical lifetime"
+msgstr "Masa berlaku umum"
+
+#: templates/pages/cookies.htm:42
+msgid ""
+"Keeps you signed in (when you have an account) and maintains your session as"
+" you move from page to page"
+msgstr ""
+"Menjaga Anda tetap masuk (jika punya akun) dan mempertahankan sesi saat "
+"berpindah halaman"
+
+#: templates/pages/cookies.htm:43
+msgid "Until you close the browser, or as configured on the server"
+msgstr "Sampai Anda menutup peramban, atau sesuai konfigurasi server"
+
+#: templates/pages/cookies.htm:47
+msgid "Protects forms and requests from cross-site request forgery"
+msgstr ""
+"Melindungi formulir dan permintaan dari pemalsuan permintaan lintas situs"
+
+#: templates/pages/cookies.htm:48
+msgid "Typically up to one year"
+msgstr "Biasanya hingga satu tahun"
+
+#: templates/pages/cookies.htm:52
+msgid "Remembers a language preference if the language switcher is used"
+msgstr "Mengingat preferensi bahasa jika pemilih bahasa digunakan"
+
+#: templates/pages/cookies.htm:53
+msgid "As configured; often until you clear cookies"
+msgstr "Sesuai konfigurasi; sering hingga Anda menghapus kuki"
+
+#: templates/pages/cookies.htm:58
+msgid ""
+"Your browser may also store cookies that you have chosen to allow from other"
+" sites. IPAD has no control over those cookies."
+msgstr ""
+"Peramban Anda juga dapat menyimpan kuki yang Anda izinkan dari situs lain. "
+"IPAD tidak mengendalikan kuki tersebut."
+
+#: templates/pages/cookies.htm:60
+msgid "Analytics and marketing cookies"
+msgstr "Kuki analitik dan pemasaran"
+
+#: templates/pages/cookies.htm:61
+msgid ""
+"The IPAD Indonesian Prehistoric Archaeology Database does not currently use "
+"analytics or marketing cookies. Optional analytics or marketing cookies "
+"would only be used with the visitor’s permission. If that changes, "
+"permission will be sought and this page will be updated first."
+msgstr ""
+"IPAD Indonesian Prehistoric Archaeology Database saat ini tidak menggunakan "
+"kuki analitik atau pemasaran. Kuki analitik atau pemasaran opsional hanya "
+"akan digunakan dengan izin pengunjung. Jika itu berubah, izin akan diminta "
+"dan halaman ini akan diperbarui terlebih dahulu."
+
+#: templates/pages/cookies.htm:63
+msgid "Related pages"
+msgstr "Halaman terkait"
+
+#: templates/pages/cookies.htm:64
+msgid ""
+"How we use personal information is described on the Privacy policy page. "
+"Using this site is also subject to the Terms & conditions page."
+msgstr ""
+"Cara kami menggunakan informasi pribadi diuraikan di halaman Kebijakan "
+"privasi. Penggunaan situs ini juga tunduk pada halaman Syarat & ketentuan."
+
+#: templates/pages/cookies.htm:67
+msgid ""
+"If you have questions about cookies on this site, email "
+"<strong>cata@nusantaraheritage.org</strong> (plain text; this is not a mail "
+"link)."
+msgstr ""
+"Jika Anda punya pertanyaan tentang kuki di situs ini, kirim surel ke "
+"<strong>cata@nusantaraheritage.org</strong> (teks biasa; ini bukan tautan "
+"surel)."
+
+#: templates/pages/policy_base.htm:103
+msgid "Information pages"
+msgstr "Halaman informasi"
+
+#: templates/pages/privacy.htm:9
+msgid ""
+"This policy explains how the <strong>IPAD Indonesian Prehistoric Archaeology"
+" Database</strong> (“IPAD”, “we”, “us”) uses personal information on this "
+"website. After this first mention we usually say “IPAD”."
+msgstr ""
+"Kebijakan ini menjelaskan bagaimana <strong>IPAD Indonesian Prehistoric "
+"Archaeology Database</strong> (“IPAD”, “kami”) menggunakan informasi pribadi"
+" di situs web ini. Setelah penyebutan pertama ini kami biasanya menyebut "
+"“IPAD”."
+
+#: templates/pages/privacy.htm:11
+msgid ""
+"IPAD is the operator of this service. IPAD is the organisation responsible "
+"for personal information collected through this website."
+msgstr ""
+"IPAD adalah pengelola layanan ini. IPAD adalah organisasi yang bertanggung "
+"jawab atas informasi pribadi yang dikumpulkan melalui situs web ini."
+
+#: templates/pages/privacy.htm:13
+msgid ""
+"If you have questions about personal information, email "
+"<strong>cata@nusantaraheritage.org</strong> (plain text; this is not a mail "
+"link)."
+msgstr ""
+"Jika Anda punya pertanyaan tentang informasi pribadi, kirim surel ke "
+"<strong>cata@nusantaraheritage.org</strong> (teks biasa; ini bukan tautan "
+"surel)."
+
+#: templates/pages/privacy.htm:15
+msgid "Policy in brief"
+msgstr "Kebijakan secara ringkas"
+
+#: templates/pages/privacy.htm:16
+msgid ""
+"We are committed to protecting your privacy and will only use the "
+"information that we collect about you for the purposes described here. This "
+"policy is intended to give you an understanding of how and why we use the "
+"personal information you give us and that we receive from others."
+msgstr ""
+"Kami berkomitmen melindungi privasi Anda dan hanya akan menggunakan "
+"informasi yang kami kumpulkan tentang Anda untuk tujuan yang diuraikan di "
+"sini. Kebijakan ini dimaksudkan agar Anda memahami bagaimana dan mengapa "
+"kami menggunakan informasi pribadi yang Anda berikan dan yang kami terima "
+"dari pihak lain."
+
+#: templates/pages/privacy.htm:17
+msgid ""
+"We recommend that you read the full policy to understand what information we"
+" hold, how we may use it, how we protect it, and how to contact us."
+msgstr ""
+"Kami menganjurkan Anda membaca kebijakan lengkap untuk memahami informasi "
+"apa yang kami simpan, bagaimana kami menggunakannya, bagaimana kami "
+"melindunginya, dan cara menghubungi kami."
+
+#: templates/pages/privacy.htm:19
+msgid "Why we collect personal information"
+msgstr "Mengapa kami mengumpulkan informasi pribadi"
+
+#: templates/pages/privacy.htm:21
+msgid ""
+"To operate the IPAD website and search service, to respond to enquiries, to "
+"administer user accounts for staff and authorised users, and to protect the "
+"integrity of the database"
+msgstr ""
+"Untuk mengoperasikan situs web dan layanan pencarian IPAD, menjawab "
+"pertanyaan, mengelola akun staf dan pengguna yang berwenang, serta "
+"melindungi integritas basis data"
+
+#: templates/pages/privacy.htm:22
+msgid ""
+"We only collect the information that we need or that will help us to provide"
+" the service"
+msgstr ""
+"Kami hanya mengumpulkan informasi yang kami butuhkan atau yang membantu kami"
+" menyediakan layanan"
+
+#: templates/pages/privacy.htm:25
+msgid "The types of personal information we collect"
+msgstr "Jenis informasi pribadi yang kami kumpulkan"
+
+#: templates/pages/privacy.htm:27
+msgid ""
+"Personal information that you choose to give us (including name, email "
+"address, and similar contact details)"
+msgstr ""
+"Informasi pribadi yang Anda pilih untuk berikan kepada kami (termasuk nama, "
+"alamat surel, dan rincian kontak serupa)"
+
+#: templates/pages/privacy.htm:28
+msgid "Account details for people who sign in (for example a username)"
+msgstr "Rincian akun bagi orang yang masuk (misalnya nama pengguna)"
+
+#: templates/pages/privacy.htm:29
+msgid ""
+"Technical information needed to run the website, such as session information"
+" described on the Cookies page"
+msgstr ""
+"Informasi teknis yang diperlukan untuk menjalankan situs, seperti informasi "
+"sesi yang diuraikan di halaman Kuki"
+
+#: templates/pages/privacy.htm:32
+msgid "Keeping information secure"
+msgstr "Menjaga keamanan informasi"
+
+#: templates/pages/privacy.htm:34
+msgid ""
+"We will never sell your personal data, and we will never share it with "
+"another organisation for marketing purposes"
+msgstr ""
+"Kami tidak akan pernah menjual data pribadi Anda, dan tidak akan pernah "
+"membagikannya kepada organisasi lain untuk tujuan pemasaran"
+
+#: templates/pages/privacy.htm:35
+msgid ""
+"Information is only shared when we are required to do so by applicable law, "
+"or with service providers who work for us to host or operate this website"
+msgstr ""
+"Informasi hanya dibagikan jika diwajibkan oleh hukum yang berlaku, atau "
+"kepada penyedia layanan yang bekerja untuk kami untuk menyelenggarakan atau "
+"mengoperasikan situs ini"
+
+#: templates/pages/privacy.htm:36
+msgid ""
+"This website uses cookies. See the Cookies page linked at the bottom of this"
+" page"
+msgstr ""
+"Situs ini menggunakan kuki. Lihat halaman Kuki yang tertaut di bagian bawah "
+"halaman ini"
+
+#: templates/pages/privacy.htm:38
+msgid ""
+"The IPAD Indonesian Prehistoric Archaeology Database does not currently use "
+"analytics or marketing cookies; optional analytics or marketing cookies "
+"would only be used with the visitor’s permission."
+msgstr ""
+"IPAD Indonesian Prehistoric Archaeology Database saat ini tidak menggunakan "
+"kuki analitik atau pemasaran; kuki analitik atau pemasaran opsional hanya "
+"akan digunakan dengan izin pengunjung."
+
+#: templates/pages/privacy.htm:40
+msgid "Use of information"
+msgstr "Penggunaan informasi"
+
+#: templates/pages/privacy.htm:41
+msgid ""
+"We do not collect personal information about you except where it is "
+"specifically and knowingly given by you (for example, when you register for "
+"an account, sign in, or email us), or where the website must store a session"
+" cookie so that the service can function."
+msgstr ""
+"Kami tidak mengumpulkan informasi pribadi tentang Anda kecuali jika secara "
+"khusus dan sadar diberikan oleh Anda (misalnya saat mendaftar akun, masuk, "
+"atau mengirim surel kepada kami), atau jika situs harus menyimpan kuki sesi "
+"agar layanan dapat berfungsi."
+
+#: templates/pages/privacy.htm:42
+msgid ""
+"When personal information is collected, it may be used by us to confirm your"
+" identity so we can provide our services to you, to process and fulfil "
+"requests for information, and to operate and improve this website."
+msgstr ""
+"Jika informasi pribadi dikumpulkan, informasi itu dapat kami gunakan untuk "
+"mengonfirmasi identitas Anda agar kami dapat menyediakan layanan, memproses "
+"dan memenuhi permintaan informasi, serta mengoperasikan dan meningkatkan "
+"situs ini."
+
+#: templates/pages/privacy.htm:43
+msgid ""
+"We may share non-personal aggregated (grouped) data about visits to this "
+"website, its use, and other traffic patterns with technical operators who "
+"host the service for us."
+msgstr ""
+"Kami dapat membagikan data agregat non-pribadi (dikelompokkan) tentang "
+"kunjungan ke situs ini, penggunaannya, dan pola lalu lintas lain kepada "
+"operator teknis yang menyelenggarakan layanan bagi kami."
+
+#: templates/pages/privacy.htm:44
+msgid ""
+"We do not sell or share information about you as an individual user of this "
+"website unless you agree to us doing so, or unless we are required to do so "
+"by applicable law."
+msgstr ""
+"Kami tidak menjual atau membagikan informasi tentang Anda sebagai pengguna "
+"individu situs ini kecuali Anda menyetujuinya, atau kecuali diwajibkan oleh "
+"hukum yang berlaku."
+
+#: templates/pages/privacy.htm:45
+msgid ""
+"This website does not send marketing communications as part of the public "
+"search service. If that ever changes, we will say so on this page first."
+msgstr ""
+"Situs ini tidak mengirim komunikasi pemasaran sebagai bagian dari layanan "
+"pencarian publik. Jika itu pernah berubah, kami akan menyatakannya di "
+"halaman ini terlebih dahulu."
+
+#: templates/pages/privacy.htm:46
+msgid ""
+"When you arrive at this website from another web page, the referring page "
+"name may be stored for internal administration and analysis, as described on"
+" the Cookies page."
+msgstr ""
+"Jika Anda tiba di situs ini dari halaman web lain, nama halaman perujuk "
+"dapat disimpan untuk administrasi dan analisis internal, sebagaimana "
+"diuraikan di halaman Kuki."
+
+#: templates/pages/privacy.htm:47
+msgid ""
+"If you have any questions concerning your personal data and how we look "
+"after it, email <strong>cata@nusantaraheritage.org</strong>."
+msgstr ""
+"Jika Anda punya pertanyaan tentang data pribadi Anda dan bagaimana kami "
+"menjaganya, kirim surel ke <strong>cata@nusantaraheritage.org</strong>."
+
+#: templates/pages/privacy.htm:50
+msgid ""
+"Details are on the Accessibility page linked at the bottom of this page."
+msgstr ""
+"Rinciannya ada di halaman Aksesibilitas yang tertaut di bagian bawah halaman"
+" ini."
+
+#: templates/pages/privacy.htm:54
+msgid "Changes to this policy"
+msgstr "Perubahan kebijakan ini"
+
+#: templates/pages/privacy.htm:55
+msgid ""
+"We will amend this privacy policy from time to time to ensure it remains up "
+"to date and accurately reflects how and why we use your personal data. The "
+"current version will always be on this website."
+msgstr ""
+"Kami akan mengubah kebijakan privasi ini dari waktu ke waktu agar tetap "
+"mutakhir dan mencerminkan secara akurat bagaimana dan mengapa kami "
+"menggunakan data pribadi Anda. Versi yang berlaku selalu ada di situs web "
+"ini."
+
+#: templates/pages/terms.htm:7
+msgid ""
+"Please read these terms and conditions carefully before using this site. "
+"These terms were published on 24 August 2026."
+msgstr ""
+"Harap baca syarat dan ketentuan ini dengan saksama sebelum menggunakan situs"
+" ini. Syarat ini diterbitkan pada 24 Agustus 2026."
+
+#: templates/pages/terms.htm:9
+msgid ""
+"These terms tell you the rules for using the <strong>IPAD Indonesian "
+"Prehistoric Archaeology Database</strong> (“IPAD”, “we”, “us”) website (this"
+" “site”). After this first mention we usually say “IPAD”."
+msgstr ""
+"Syarat ini menjelaskan aturan penggunaan situs web <strong>IPAD Indonesian "
+"Prehistoric Archaeology Database</strong> (“IPAD”, “kami”) (situs “ini”). "
+"Setelah penyebutan pertama ini kami biasanya menyebut “IPAD”."
+
+#: templates/pages/terms.htm:11
+msgid "Who we are and how to contact us"
+msgstr "Siapa kami dan cara menghubungi kami"
+
+#: templates/pages/terms.htm:12
+msgid ""
+"This site is operated by the IPAD Indonesian Prehistoric Archaeology "
+"Database."
+msgstr ""
+"Situs ini dikelola oleh IPAD Indonesian Prehistoric Archaeology Database."
+
+#: templates/pages/terms.htm:13
+msgid ""
+"IPAD allows you to access information from the Indonesian prehistoric "
+"archaeology database and uses Arches, an open-source heritage data "
+"management platform developed by the Getty Conservation Institute and the "
+"World Monuments Fund."
+msgstr ""
+"IPAD memungkinkan Anda mengakses informasi dari basis data arkeologi "
+"prasejarah Indonesia dan menggunakan Arches, platform pengelolaan data "
+"warisan sumber terbuka yang dikembangkan Getty Conservation Institute dan "
+"World Monuments Fund."
+
+#: templates/pages/terms.htm:14
+msgid ""
+"If you have a query about this site, email "
+"<strong>cata@nusantaraheritage.org</strong> (plain text; this is not a mail "
+"link)."
+msgstr ""
+"Jika Anda punya pertanyaan tentang situs ini, kirim surel ke "
+"<strong>cata@nusantaraheritage.org</strong> (teks biasa; ini bukan tautan "
+"surel)."
+
+#: templates/pages/terms.htm:16
+msgid "By using this site you accept these terms"
+msgstr "Dengan menggunakan situs ini Anda menerima syarat ini"
+
+#: templates/pages/terms.htm:17
+msgid ""
+"By accessing and using this site, you confirm that you accept these terms of"
+" use and that you agree to comply with them. These terms of use are a legal "
+"agreement between you and us."
+msgstr ""
+"Dengan mengakses dan menggunakan situs ini, Anda menegaskan bahwa Anda "
+"menerima syarat penggunaan ini dan setuju untuk mematuhinya. Syarat "
+"penggunaan ini adalah perjanjian hukum antara Anda dan kami."
+
+#: templates/pages/terms.htm:18
+msgid "If you do not agree to these terms, you must not use this site."
+msgstr ""
+"Jika Anda tidak setuju dengan syarat ini, Anda tidak boleh menggunakan situs"
+" ini."
+
+#: templates/pages/terms.htm:19
+msgid ""
+"We recommend that you print a copy of these terms for future reference."
+msgstr ""
+"Kami menganjurkan Anda mencetak salinan syarat ini untuk rujukan di kemudian"
+" hari."
+
+#: templates/pages/terms.htm:21
+msgid "There are other terms that may apply to you"
+msgstr "Ada syarat lain yang mungkin berlaku bagi Anda"
+
+#: templates/pages/terms.htm:22
+msgid ""
+"These terms of use apply to members of the public (“General Users”) who are "
+"accessing IPAD for basic search purposes. General Users have read-only "
+"access to the data that IPAD has chosen to make public."
+msgstr ""
+"Syarat penggunaan ini berlaku bagi anggota masyarakat (“Pengguna Umum”) yang"
+" mengakses IPAD untuk pencarian dasar. Pengguna Umum memiliki akses hanya-"
+"baca terhadap data yang IPAD pilih untuk dipublikasikan."
+
+#: templates/pages/terms.htm:23
+msgid ""
+"If we have given you additional access rights, other terms of use will apply"
+" as notified to you when we grant those rights, and from time to time "
+"thereafter."
+msgstr ""
+"Jika kami memberikan hak akses tambahan, syarat penggunaan lain akan berlaku"
+" sebagaimana diberitahukan kepada Anda saat hak itu diberikan, dan dari "
+"waktu ke waktu setelahnya."
+
+#: templates/pages/terms.htm:24
+msgid ""
+"These terms of use also refer to the following additional terms, which also "
+"apply to your use of this site as a General User:"
+msgstr ""
+"Syarat penggunaan ini juga merujuk pada syarat tambahan berikut, yang juga "
+"berlaku bagi penggunaan situs ini sebagai Pengguna Umum:"
+
+#: templates/pages/terms.htm:26
+msgid ""
+"Our privacy policy (see How we may use your information, and the Privacy "
+"policy page)"
+msgstr ""
+"Kebijakan privasi kami (lihat Bagaimana kami dapat menggunakan informasi "
+"Anda, dan halaman Kebijakan privasi)"
+
+#: templates/pages/terms.htm:27
+msgid ""
+"Our cookies page, which sets out information about the cookies on this site"
+msgstr ""
+"Halaman kuki kami, yang menguraikan informasi tentang kuki di situs ini"
+
+#: templates/pages/terms.htm:30
+msgid "Further information and reuse"
+msgstr "Informasi lanjutan dan penggunaan ulang"
+
+#: templates/pages/terms.htm:31
+msgid ""
+"You may decide, after using this site, to contact IPAD to request further "
+"information, data, or resources. If you do this, you may be subject to "
+"additional terms, such as a licence to use the requested information, which "
+"will be made available to you at the time."
+msgstr ""
+"Setelah menggunakan situs ini, Anda dapat menghubungi IPAD untuk meminta "
+"informasi, data, atau sumber daya lebih lanjut. Jika demikian, Anda mungkin "
+"tunduk pada syarat tambahan, misalnya lisensi untuk menggunakan informasi "
+"yang diminta, yang akan disediakan pada saat itu."
+
+#: templates/pages/terms.htm:32
+msgid ""
+"You must not use any of the information that you have found using this site "
+"for commercial purposes without obtaining a licence to do so from us or our "
+"licensors. To ask about a licence, email cata@nusantaraheritage.org."
+msgstr ""
+"Anda tidak boleh menggunakan informasi yang ditemukan melalui situs ini "
+"untuk tujuan komersial tanpa memperoleh lisensi dari kami atau pemberi "
+"lisensi kami. Untuk menanyakan lisensi, kirim surel ke "
+"cata@nusantaraheritage.org."
+
+#: templates/pages/terms.htm:34
+msgid "We may make changes to these terms"
+msgstr "Kami dapat mengubah syarat ini"
+
+#: templates/pages/terms.htm:35
+msgid ""
+"We amend these terms from time to time. Every time you wish to use this "
+"site, please check these terms to ensure you understand the terms that apply"
+" at that time."
+msgstr ""
+"Kami mengubah syarat ini dari waktu ke waktu. Setiap kali Anda ingin "
+"menggunakan situs ini, periksa syarat ini agar memahami syarat yang berlaku "
+"pada saat itu."
+
+#: templates/pages/terms.htm:37
+msgid "We may make changes to this site"
+msgstr "Kami dapat mengubah situs ini"
+
+#: templates/pages/terms.htm:38
+msgid "We may update and change this site from time to time."
+msgstr "Kami dapat memperbarui dan mengubah situs ini dari waktu ke waktu."
+
+#: templates/pages/terms.htm:40
+msgid "We may suspend or withdraw this site"
+msgstr "Kami dapat menangguhkan atau menarik situs ini"
+
+#: templates/pages/terms.htm:41
+msgid "This site is made available to General Users free of charge."
+msgstr "Situs ini disediakan bagi Pengguna Umum secara cuma-cuma."
+
+#: templates/pages/terms.htm:42
+msgid ""
+"We do not guarantee that this site, or any content on it, will always be "
+"available or be uninterrupted. We may suspend or withdraw or restrict the "
+"availability of all or any part of this site for business and operational "
+"reasons. We will try to give you reasonable notice of any suspension or "
+"withdrawal."
+msgstr ""
+"Kami tidak menjamin bahwa situs ini, atau konten apa pun di dalamnya, akan "
+"selalu tersedia atau tanpa gangguan. Kami dapat menangguhkan, menarik, atau "
+"membatasi ketersediaan seluruh atau sebagian situs ini karena alasan "
+"operasional. Kami akan berupaya memberikan pemberitahuan yang wajar atas "
+"penangguhan atau penarikan."
+
+#: templates/pages/terms.htm:43
+msgid ""
+"You are also responsible for ensuring that all persons who access this site "
+"through your internet connection are aware of these terms of use and other "
+"applicable terms and conditions, and that they comply with them."
+msgstr ""
+"Anda juga bertanggung jawab memastikan semua orang yang mengakses situs ini "
+"melalui koneksi internet Anda mengetahui syarat penggunaan ini dan syarat "
+"lain yang berlaku, serta mematuhinya."
+
+#: templates/pages/terms.htm:44
+msgid ""
+"You are responsible for ensuring that your computer system meets all "
+"relevant technical specifications necessary to use this site and is "
+"compatible with this site."
+msgstr ""
+"Anda bertanggung jawab memastikan sistem komputer Anda memenuhi semua "
+"spesifikasi teknis yang relevan untuk menggunakan situs ini dan kompatibel "
+"dengan situs ini."
+
+#: templates/pages/terms.htm:46
+msgid "We may transfer this agreement to someone else"
+msgstr "Kami dapat mengalihkan perjanjian ini kepada pihak lain"
+
+#: templates/pages/terms.htm:47
+msgid ""
+"We may transfer our rights and obligations under these terms to another "
+"organisation. We will always tell you in writing if this happens, including "
+"by issuing a statement on this site, and we will ensure that the transfer "
+"will not affect your rights under the contract."
+msgstr ""
+"Kami dapat mengalihkan hak dan kewajiban kami berdasarkan syarat ini kepada "
+"organisasi lain. Kami akan selalu memberitahu Anda secara tertulis jika itu "
+"terjadi, termasuk dengan pernyataan di situs ini, dan kami akan memastikan "
+"pengalihan itu tidak memengaruhi hak Anda berdasarkan kontrak."
+
+#: templates/pages/terms.htm:49
+msgid "Intended audience"
+msgstr "Audiens yang dituju"
+
+#: templates/pages/terms.htm:50
+msgid ""
+"This site is provided for people interested in Indonesian prehistoric "
+"archaeology. We do not represent that content available on or through this "
+"site is appropriate for use or available in every location."
+msgstr ""
+"Situs ini disediakan bagi orang yang tertarik pada arkeologi prasejarah "
+"Indonesia. Kami tidak menyatakan bahwa konten yang tersedia di atau melalui "
+"situs ini sesuai untuk digunakan atau tersedia di setiap lokasi."
+
+#: templates/pages/terms.htm:52
+msgid "You must keep your account details safe"
+msgstr "Anda harus menjaga kerahasiaan rincian akun"
+
+#: templates/pages/terms.htm:53
+msgid ""
+"General Users do not need login details to use the public parts of this "
+"site, although we reserve the right to change this in the future."
+msgstr ""
+"Pengguna Umum tidak memerlukan rincian masuk untuk menggunakan bagian publik"
+" situs ini, meskipun kami berhak mengubah hal ini di kemudian hari."
+
+#: templates/pages/terms.htm:54
+msgid ""
+"If you are asked to choose, or you are provided with, a user identification "
+"code, password, or any other piece of information as part of our security "
+"procedures, you must treat such information as confidential. You must not "
+"disclose it to any third party."
+msgstr ""
+"Jika Anda diminta memilih, atau diberi, kode identifikasi pengguna, kata "
+"sandi, atau informasi lain sebagai bagian dari prosedur keamanan kami, Anda "
+"harus memperlakukan informasi itu sebagai rahasia. Anda tidak boleh "
+"mengungkapkannya kepada pihak ketiga."
+
+#: templates/pages/terms.htm:55
+msgid ""
+"We have the right to disable any user identification code or password, "
+"whether chosen by you or allocated by us, at any time, if in our reasonable "
+"opinion you have failed to comply with any of the provisions of these terms "
+"of use."
+msgstr ""
+"Kami berhak menonaktifkan kode identifikasi pengguna atau kata sandi apa "
+"pun, baik yang Anda pilih maupun yang kami berikan, kapan saja, jika menurut"
+" pendapat wajar kami Anda gagal mematuhi ketentuan syarat penggunaan ini."
+
+#: templates/pages/terms.htm:56
+msgid ""
+"If you know or suspect that anyone other than you knows your user "
+"identification code or password, you must promptly notify us at "
+"cata@nusantaraheritage.org."
+msgstr ""
+"Jika Anda mengetahui atau menduga bahwa orang lain selain Anda mengetahui "
+"kode identifikasi pengguna atau kata sandi Anda, segera beritahu kami di "
+"cata@nusantaraheritage.org."
+
+#: templates/pages/terms.htm:58
+msgid "How you may use this site"
+msgstr "Bagaimana Anda boleh menggunakan situs ini"
+
+#: templates/pages/terms.htm:59
+msgid ""
+"You must use this site and the information available from it responsibly. No"
+" such information may be used for or in connection with any unlawful, "
+"immoral, or anti-social purpose, or in a manner which is or may be damaging "
+"to our name or reputation or prejudicial to any of the featured sites or "
+"properties, their owners, or occupants."
+msgstr ""
+"Anda harus menggunakan situs ini dan informasi yang tersedia darinya secara "
+"bertanggung jawab. Informasi itu tidak boleh digunakan untuk atau berkaitan "
+"dengan tujuan yang melanggar hukum, tidak bermoral, atau antisosial, atau "
+"dengan cara yang merusak atau dapat merusak nama atau reputasi kami, atau "
+"merugikan situs atau properti yang ditampilkan, pemilik, atau penghuninya."
+
+#: templates/pages/terms.htm:60
+msgid ""
+"This site is designed to meet the needs of a wide range of users wishing to "
+"look up information online. Due to limitations of equipment and bandwidth, "
+"this site is not intended to be a source for bulk downloads. Users, IP "
+"addresses, or blocks of IP addresses who deny or degrade service to other "
+"users by generating unusually high numbers of database accesses, whether "
+"generated manually or by automated means, may be denied access without "
+"notice."
+msgstr ""
+"Situs ini dirancang untuk memenuhi kebutuhan berbagai pengguna yang ingin "
+"mencari informasi daring. Karena keterbatasan peralatan dan lebar pita, "
+"situs ini tidak dimaksudkan sebagai sumber unduhan massal. Pengguna, alamat "
+"IP, atau blok alamat IP yang menolak atau menurunkan layanan bagi pengguna "
+"lain dengan menghasilkan akses basis data dalam jumlah sangat tinggi, baik "
+"secara manual maupun otomatis, dapat ditolak aksesnya tanpa pemberitahuan."
+
+#: templates/pages/terms.htm:62
+msgid "How you may use material on this site"
+msgstr "Bagaimana Anda boleh menggunakan materi di situs ini"
+
+#: templates/pages/terms.htm:63
+msgid ""
+"We are the owner or the licensee of all intellectual property rights in this"
+" site, and in the material published on it. Site content and database "
+"contents are protected by copyright laws and treaties around the world. All "
+"such rights are reserved."
+msgstr ""
+"Kami adalah pemilik atau pemegang lisensi semua hak kekayaan intelektual di "
+"situs ini, dan pada materi yang diterbitkan di dalamnya. Konten situs dan "
+"isi basis data dilindungi undang-undang dan perjanjian hak cipta di seluruh "
+"dunia. Semua hak tersebut dilindungi."
+
+#: templates/pages/terms.htm:64
+msgid ""
+"You may print off one copy, and may download extracts, of any page(s) from "
+"this site for your use, and you may draw the attention of others within your"
+" organisation to content posted on this site."
+msgstr ""
+"Anda boleh mencetak satu salinan, dan mengunduh kutipan, dari halaman situs "
+"ini untuk penggunaan Anda, dan Anda boleh menarik perhatian orang lain di "
+"organisasi Anda pada konten yang dipasang di situs ini."
+
+#: templates/pages/terms.htm:65
+msgid ""
+"You must not modify the paper or digital copies of any materials you have "
+"printed off or downloaded in any way, and you must not use any "
+"illustrations, photographs, video or audio sequences or any graphics "
+"separately from any accompanying text."
+msgstr ""
+"Anda tidak boleh mengubah salinan kertas atau digital dari materi yang Anda "
+"cetak atau unduh dengan cara apa pun, dan tidak boleh menggunakan ilustrasi,"
+" foto, urutan video atau audio, atau grafik secara terpisah dari teks yang "
+"menyertainya."
+
+#: templates/pages/terms.htm:66
+msgid ""
+"Our status (and that of any identified contributors) as the authors of "
+"content on this site must always be acknowledged."
+msgstr ""
+"Status kami (dan kontributor yang diidentifikasi) sebagai penulis konten di "
+"situs ini harus selalu diakui."
+
+#: templates/pages/terms.htm:67
+msgid ""
+"You must not use any part of the content on this site for commercial "
+"purposes, including by using it to create a product or materials for sale to"
+" other organisations or members of the public, or for the supply of charged-"
+"for services, without obtaining a licence to do so from us or our licensors."
+msgstr ""
+"Anda tidak boleh menggunakan bagian mana pun dari konten di situs ini untuk "
+"tujuan komersial, termasuk untuk membuat produk atau materi yang dijual "
+"kepada organisasi lain atau masyarakat, atau untuk penyediaan layanan "
+"berbayar, tanpa memperoleh lisensi dari kami atau pemberi lisensi kami."
+
+#: templates/pages/terms.htm:68
+msgid ""
+"If you print off, copy, download, share, or repost any part of this site in "
+"breach of these terms of use, your right to use this site will cease "
+"immediately and you must, at our option, return or destroy any copies of the"
+" materials you have made."
+msgstr ""
+"Jika Anda mencetak, menyalin, mengunduh, membagikan, atau memasang ulang "
+"bagian mana pun dari situs ini yang melanggar syarat penggunaan ini, hak "
+"Anda untuk menggunakan situs ini segera berakhir dan Anda harus, atas "
+"pilihan kami, mengembalikan atau memusnahkan salinan materi yang telah Anda "
+"buat."
+
+#: templates/pages/terms.htm:70
+msgid "No text or data mining, or web scraping"
+msgstr "Dilarang penambangan teks atau data, atau web scraping"
+
+#: templates/pages/terms.htm:71
+msgid ""
+"You shall not conduct, facilitate, authorise, or permit any text or data "
+"mining or web scraping in relation to this site or any services provided "
+"via, or in relation to, this site. This includes using (or permitting, "
+"authorising, or attempting the use of):"
+msgstr ""
+"Anda tidak boleh melakukan, memfasilitasi, mengizinkan, atau memperkenankan "
+"penambangan teks atau data atau web scraping terkait situs ini atau layanan "
+"apa pun yang disediakan melalui, atau terkait, situs ini. Ini termasuk "
+"menggunakan (atau memperkenankan, mengizinkan, atau mencoba menggunakan):"
+
+#: templates/pages/terms.htm:73
+msgid ""
+"Any “robot”, “bot”, “spider”, “scraper”, or other automated device, program,"
+" tool, algorithm, code, process, or methodology to access, obtain, copy, "
+"monitor, or republish any portion of the site or any data, content, "
+"information, or services accessed via the same"
+msgstr ""
+"Setiap “robot”, “bot”, “spider”, “scraper”, atau perangkat, program, alat, "
+"algoritma, kode, proses, atau metodologi otomatis lain untuk mengakses, "
+"memperoleh, menyalin, memantau, atau menerbitkan ulang bagian mana pun dari "
+"situs atau data, konten, informasi, atau layanan yang diakses melalui situs "
+"tersebut"
+
+#: templates/pages/terms.htm:74
+msgid ""
+"Any automated analytical technique aimed at analysing text and data in "
+"digital form to generate information, which includes but is not limited to "
+"patterns, trends, and correlations"
+msgstr ""
+"Setiap teknik analitis otomatis yang bertujuan menganalisis teks dan data "
+"dalam bentuk digital untuk menghasilkan informasi, termasuk tetapi tidak "
+"terbatas pada pola, tren, dan korelasi"
+
+#: templates/pages/terms.htm:77
+msgid ""
+"This clause shall not apply insofar as (but only to the extent that) we are "
+"unable to exclude or limit text or data mining or web scraping activity by "
+"contract under the laws which are applicable to us."
+msgstr ""
+"Klausul ini tidak berlaku sepanjang (tetapi hanya sepanjang) kami tidak "
+"dapat mengecualikan atau membatasi kegiatan penambangan teks atau data atau "
+"web scraping melalui kontrak berdasarkan hukum yang berlaku bagi kami."
+
+#: templates/pages/terms.htm:79
+msgid "Do not rely on information on this site"
+msgstr "Jangan mengandalkan informasi di situs ini"
+
+#: templates/pages/terms.htm:80
+msgid ""
+"The content on this site is provided for general information only. It is not"
+" intended to amount to advice or authority on which you should rely. In "
+"particular, information on this site should not be used by itself as the "
+"basis for planning, development, land management, or other management advice"
+" or recommendations."
+msgstr ""
+"Konten di situs ini disediakan hanya untuk informasi umum. Konten ini tidak "
+"dimaksudkan sebagai nasihat atau kewenangan yang patut Anda andalkan. "
+"Khususnya, informasi di situs ini tidak boleh digunakan semata-mata sebagai "
+"dasar perencanaan, pembangunan, pengelolaan lahan, atau nasihat atau "
+"rekomendasi pengelolaan lainnya."
+
+#: templates/pages/terms.htm:81
+msgid ""
+"You must obtain professional or specialist advice before taking, or "
+"refraining from, any action on the basis of the content on this site."
+msgstr ""
+"Anda harus memperoleh nasihat profesional atau spesialis sebelum mengambil, "
+"atau menahan diri dari, tindakan apa pun berdasarkan konten di situs ini."
+
+#: templates/pages/terms.htm:82
+msgid ""
+"Although we make reasonable efforts to update the information on this site, "
+"we make no representations, warranties, or guarantees, whether express or "
+"implied, that the content on this site is accurate, correct, complete, "
+"reliable, or up to date."
+msgstr ""
+"Meskipun kami berupaya secara wajar memperbarui informasi di situs ini, kami"
+" tidak membuat pernyataan, jaminan, atau garansi, baik tersurat maupun "
+"tersirat, bahwa konten di situs ini akurat, benar, lengkap, andal, atau "
+"mutakhir."
+
+#: templates/pages/terms.htm:83
+msgid ""
+"Please contact us at cata@nusantaraheritage.org if you believe that any of "
+"the information on this site is inaccurate."
+msgstr ""
+"Hubungi kami di cata@nusantaraheritage.org jika Anda yakin informasi di "
+"situs ini tidak akurat."
+
+#: templates/pages/terms.htm:85
+msgid "We are not responsible for websites we link to"
+msgstr "Kami tidak bertanggung jawab atas situs web yang kami tautkan"
+
+#: templates/pages/terms.htm:86
+msgid ""
+"Where this site contains links to other sites and resources provided by "
+"third parties, those links are provided for your information only. Such "
+"links should not be interpreted as approval by us of those linked websites "
+"or information you may obtain from them. We have no control over the "
+"contents of those sites or resources."
+msgstr ""
+"Jika situs ini memuat tautan ke situs dan sumber daya lain yang disediakan "
+"pihak ketiga, tautan itu hanya untuk informasi Anda. Tautan tersebut tidak "
+"boleh ditafsirkan sebagai persetujuan kami atas situs tertaut atau informasi"
+" yang Anda peroleh darinya. Kami tidak mengendalikan isi situs atau sumber "
+"daya tersebut."
+
+#: templates/pages/terms.htm:88
+msgid "User-generated content is not approved by us"
+msgstr "Konten buatan pengguna tidak disetujui oleh kami"
+
+#: templates/pages/terms.htm:89
+msgid ""
+"This site may include information and materials uploaded by other users of "
+"the site. This information and these materials have not been verified or "
+"approved by us. The views expressed by other users on this site do not "
+"represent our views or values."
+msgstr ""
+"Situs ini dapat memuat informasi dan materi yang diunggah pengguna lain. "
+"Informasi dan materi itu belum diverifikasi atau disetujui oleh kami. "
+"Pandangan pengguna lain di situs ini tidak mewakili pandangan atau nilai "
+"kami."
+
+#: templates/pages/terms.htm:91
+msgid "How to complain about or report content"
+msgstr "Cara mengeluh atau melaporkan konten"
+
+#: templates/pages/terms.htm:92
+msgid ""
+"If you become aware of any material that could comprise or be connected to "
+"child sexual abuse or exploitation or that could comprise terrorist content "
+"or be connected to terrorism, please contact us immediately at "
+"cata@nusantaraheritage.org."
+msgstr ""
+"Jika Anda mengetahui materi yang dapat meliputi atau terkait dengan "
+"kekerasan seksual atau eksploitasi terhadap anak, atau yang dapat meliputi "
+"konten terorisme atau terkait terorisme, segera hubungi kami di "
+"cata@nusantaraheritage.org."
+
+#: templates/pages/terms.htm:93
+msgid ""
+"If you wish to complain about any other content, email "
+"cata@nusantaraheritage.org."
+msgstr ""
+"Jika Anda ingin mengeluh tentang konten lain, kirim surel ke "
+"cata@nusantaraheritage.org."
+
+#: templates/pages/terms.htm:95
+msgid "Our responsibility for loss or damage suffered by you"
+msgstr "Tanggung jawab kami atas kerugian atau kerusakan yang Anda derita"
+
+#: templates/pages/terms.htm:96
+msgid ""
+"Whether you are a consumer or a business user, we do not exclude or limit in"
+" any way our liability to you where it would be unlawful to do so. This "
+"includes liability for death or personal injury caused by our negligence or "
+"the negligence of our employees, agents, or subcontractors, and for fraud or"
+" fraudulent misrepresentation."
+msgstr ""
+"Baik Anda konsumen maupun pengguna bisnis, kami tidak mengecualikan atau "
+"membatasi tanggung jawab kepada Anda jika hal itu melanggar hukum. Ini "
+"termasuk tanggung jawab atas kematian atau cedera pribadi yang disebabkan "
+"kelalaian kami atau kelalaian karyawan, agen, atau subkontraktor kami, serta"
+" atas penipuan atau pernyataan menyesatkan yang curang."
+
+#: templates/pages/terms.htm:97
+msgid ""
+"Different limitations and exclusions of liability may apply to liability "
+"arising as a result of the supply of any resources to you under a separate "
+"licence or search arrangement."
+msgstr ""
+"Pembatasan dan pengecualian tanggung jawab yang berbeda dapat berlaku atas "
+"tanggung jawab yang timbul dari penyediaan sumber daya kepada Anda "
+"berdasarkan lisensi atau pengaturan pencarian terpisah."
+
+#: templates/pages/terms.htm:99
+msgid "If you are a business user"
+msgstr "Jika Anda pengguna bisnis"
+
+#: templates/pages/terms.htm:101
+msgid ""
+"We exclude all implied conditions, warranties, representations, or other "
+"terms that may apply to this site or any content on it."
+msgstr ""
+"Kami mengecualikan semua syarat tersirat, jaminan, pernyataan, atau "
+"ketentuan lain yang mungkin berlaku pada situs ini atau konten apa pun di "
+"dalamnya."
+
+#: templates/pages/terms.htm:102
+msgid ""
+"We will not be liable to you for any loss or damage, whether in contract, "
+"tort (including negligence), breach of statutory duty, or otherwise, even if"
+" foreseeable, arising under or in connection with use of, or inability to "
+"use, this site, or use of or reliance on any content displayed on this site."
+msgstr ""
+"Kami tidak bertanggung jawab kepada Anda atas kerugian atau kerusakan apa "
+"pun, baik dalam kontrak, perbuatan melawan hukum (termasuk kelalaian), "
+"pelanggaran kewajiban menurut undang-undang, atau lainnya, meskipun dapat "
+"diperkirakan, yang timbul dari atau terkait dengan penggunaan, atau "
+"ketidakmampuan menggunakan, situs ini, atau penggunaan atau ketergantungan "
+"pada konten yang ditampilkan di situs ini."
+
+#: templates/pages/terms.htm:103
+msgid ""
+"In particular, we will not be liable for: loss of profits, sales, business, "
+"or revenue; business interruption; loss of anticipated savings; loss of "
+"business opportunity, goodwill, or reputation; or any indirect or "
+"consequential loss or damage."
+msgstr ""
+"Khususnya, kami tidak bertanggung jawab atas: kehilangan laba, penjualan, "
+"usaha, atau pendapatan; gangguan usaha; kehilangan penghematan yang "
+"diharapkan; kehilangan peluang usaha, niat baik, atau reputasi; atau "
+"kerugian atau kerusakan tidak langsung atau konsekuensial apa pun."
+
+#: templates/pages/terms.htm:106
+msgid "If you are a consumer user"
+msgstr "Jika Anda pengguna konsumen"
+
+#: templates/pages/terms.htm:107
+msgid ""
+"We provide this site for personal research and private use. You agree not to"
+" use this site for any commercial or business purposes, and we have no "
+"liability to you for any loss of profit, loss of business, business "
+"interruption, or loss of business opportunity."
+msgstr ""
+"Kami menyediakan situs ini untuk penelitian pribadi dan penggunaan pribadi. "
+"Anda setuju untuk tidak menggunakan situs ini untuk tujuan komersial atau "
+"usaha, dan kami tidak bertanggung jawab kepada Anda atas kehilangan laba, "
+"kehilangan usaha, gangguan usaha, atau kehilangan peluang usaha."
+
+#: templates/pages/terms.htm:110
+msgid "How we may use your personal information"
+msgstr "Bagaimana kami dapat menggunakan informasi pribadi Anda"
+
+#: templates/pages/terms.htm:111
+msgid ""
+"We will only use your personal information as set out in our privacy policy."
+msgstr ""
+"Kami hanya akan menggunakan informasi pribadi Anda sebagaimana diatur dalam "
+"kebijakan privasi kami."
+
+#: templates/pages/terms.htm:113
+msgid "Uploading content"
+msgstr "Mengunggah konten"
+
+#: templates/pages/terms.htm:114
+msgid ""
+"General Users are not permitted, nor will they be able, to upload any "
+"content to the public parts of this site. Access for General Users is "
+"limited to read-only."
+msgstr ""
+"Pengguna Umum tidak diizinkan, dan tidak akan dapat, mengunggah konten ke "
+"bagian publik situs ini. Akses Pengguna Umum terbatas pada hanya-baca."
+
+#: templates/pages/terms.htm:116
+msgid "We are not responsible for viruses and you must not introduce them"
+msgstr ""
+"Kami tidak bertanggung jawab atas virus dan Anda tidak boleh memasukkannya"
+
+#: templates/pages/terms.htm:117
+msgid ""
+"We do not guarantee that this site will be secure or free from bugs or "
+"viruses."
+msgstr ""
+"Kami tidak menjamin bahwa situs ini akan aman atau bebas dari kutu atau "
+"virus."
+
+#: templates/pages/terms.htm:118
+msgid ""
+"You are responsible for configuring your information technology, computer "
+"programmes, and platform to access this site. You should use your own virus "
+"protection software."
+msgstr ""
+"Anda bertanggung jawab mengonfigurasi teknologi informasi, program komputer,"
+" dan platform Anda untuk mengakses situs ini. Anda sebaiknya menggunakan "
+"perangkat lunak pelindung virus sendiri."
+
+#: templates/pages/terms.htm:119
+msgid ""
+"You must not misuse this site by knowingly introducing viruses, trojans, "
+"worms, logic bombs, or other material that is malicious or technologically "
+"harmful. You must not attempt to gain unauthorised access to this site, the "
+"server on which it is stored, or any server, computer, or database connected"
+" to this site. You must not attack this site via a denial-of-service attack "
+"or a distributed denial-of-service attack."
+msgstr ""
+"Anda tidak boleh menyalahgunakan situs ini dengan dengan sengaja memasukkan "
+"virus, trojan, worm, logic bomb, atau materi lain yang berbahaya atau "
+"merugikan secara teknologi. Anda tidak boleh mencoba memperoleh akses tanpa "
+"wewenang ke situs ini, server tempat situs disimpan, atau server, komputer, "
+"atau basis data mana pun yang terhubung ke situs ini. Anda tidak boleh "
+"menyerang situs ini melalui serangan denial-of-service atau denial-of-"
+"service terdistribusi."
+
+#: templates/pages/terms.htm:121
+msgid ""
+"We will report any such breach to the relevant law enforcement authorities "
+"and we will co-operate with those authorities by disclosing your identity to"
+" them. In the event of such a breach, your right to use this site will cease"
+" immediately."
+msgstr ""
+"Kami akan melaporkan pelanggaran tersebut kepada aparat penegak hukum yang "
+"relevan dan akan bekerja sama dengan mereka dengan mengungkapkan identitas "
+"Anda. Jika terjadi pelanggaran demikian, hak Anda untuk menggunakan situs "
+"ini segera berakhir."
+
+#: templates/pages/terms.htm:123
+msgid "Rules about linking to this site"
+msgstr "Aturan menautkan ke situs ini"
+
+#: templates/pages/terms.htm:124
+msgid ""
+"You may link to our home page, provided you do so in a way that is fair and "
+"legal and does not damage our reputation or take advantage of it."
+msgstr ""
+"Anda boleh menautkan ke beranda kami, asalkan dilakukan secara wajar dan sah"
+" serta tidak merusak reputasi kami atau memanfaatkannya."
+
+#: templates/pages/terms.htm:125
+msgid ""
+"You must not establish a link in such a way as to suggest any form of "
+"association, approval, or endorsement on our part where none exists."
+msgstr ""
+"Anda tidak boleh membuat tautan sedemikian rupa sehingga menyiratkan bentuk "
+"asosiasi, persetujuan, atau dukungan dari kami jika tidak ada."
+
+#: templates/pages/terms.htm:126
+msgid ""
+"You must not establish a link to this site in any website that is not owned "
+"by you."
+msgstr ""
+"Anda tidak boleh membuat tautan ke situs ini di situs web yang tidak Anda "
+"miliki."
+
+#: templates/pages/terms.htm:127
+msgid ""
+"This site must not be framed on any other site, nor may you create a link to"
+" any part of this site other than the home page, without our permission."
+msgstr ""
+"Situs ini tidak boleh di-frame di situs lain, dan Anda tidak boleh membuat "
+"tautan ke bagian situs ini selain beranda, tanpa izin kami."
+
+#: templates/pages/terms.htm:128
+msgid "We reserve the right to withdraw linking permission without notice."
+msgstr "Kami berhak menarik izin penautan tanpa pemberitahuan."
+
+#: templates/pages/terms.htm:129
+msgid ""
+"If you wish to link to or make any use of content on this site other than "
+"that set out above, email cata@nusantaraheritage.org."
+msgstr ""
+"Jika Anda ingin menautkan ke atau menggunakan konten di situs ini selain "
+"yang diatur di atas, kirim surel ke cata@nusantaraheritage.org."
+
+#: templates/pages/terms.htm:133
+msgid "Trade marks"
+msgstr "Merek dagang"
+
+#: templates/pages/terms.htm:134
+msgid ""
+"“ARCHES” and “The Getty Conservation Institute” are registered trade marks "
+"of The J. Paul Getty Trust. You are not permitted to use those trade marks "
+"without the approval of the relevant trade mark holder, unless they are part"
+" of material you are using as permitted under How you may use material on "
+"this site."
+msgstr ""
+"“ARCHES” dan “The Getty Conservation Institute” adalah merek dagang "
+"terdaftar The J. Paul Getty Trust. Anda tidak diizinkan menggunakan merek "
+"dagang tersebut tanpa persetujuan pemegang merek yang relevan, kecuali merek"
+" itu merupakan bagian dari materi yang Anda gunakan sebagaimana diizinkan "
+"dalam Bagaimana Anda boleh menggunakan materi di situs ini."
+
+#: templates/pages/terms.htm:135
+msgid ""
+"You are not permitted to use the IPAD name or branding in a way that "
+"suggests any form of association, approval, or endorsement where none "
+"exists."
+msgstr ""
+"Anda tidak diizinkan menggunakan nama atau identitas visual IPAD dengan cara"
+" yang menyiratkan bentuk asosiasi, persetujuan, atau dukungan jika tidak "
+"ada."
+
+#: templates/views/components/search/standard-search-view.htm:14
+msgid "Search page contents"
+msgstr "Isi halaman pencarian"
+
+#: templates/views/components/search/standard-search-view.htm:15
+msgid "Search results"
+msgstr "Hasil pencarian"
+
+#: templates/views/components/search/standard-search-view.htm:36
+msgid "Hide Filters"
+msgstr "Sembunyikan Filter"
+
+#: templates/views/components/search/standard-search-view.htm:36
+msgid "Show Filters"
+msgstr "Tampilkan Filter"
+
+#: templates/views/components/search/standard-search-view.htm:96
+msgid "Map and filters"
+msgstr "Peta dan filter"
+
+#: templates/views/resource/report.htm:7
+msgid "Resource Report"
+msgstr "Laporan Sumber Daya"
+
+#: templates/views/search.htm:17
+msgid "IPAD"
+msgstr "IPAD"

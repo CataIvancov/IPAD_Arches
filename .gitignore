@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets and local overrides
+.settings_local.py
+settings_local.py
+*.secrets
+.env
+.env.*
+
+# Generated / vendor
+node_modules/
+ipad/staticfiles/
+ipad/media/build/
+ipad/logs/
+webpack/webpack-stats.json
+webpack/webpack-metadata.json
+frontend_configuration/webpack-metadata.json
+frontend_configuration/urls.json
+*.log
+
+# Local backups and uploaded files (not source)
+backups/
+*.bak
+*.bak.*
+uploadedfiles/
+ipad/uploadedfiles/
+
+# OS
+.DS_Store

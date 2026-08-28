@@ -1,0 +1,45 @@
+{% extends "base-manager.htm" %}
+{% load i18n %}
+{% load template_tags %}
+{% load static %}
+{% load webpack_static from webpack_loader %}
+
+{% block title %} {{ block.super }} {% trans "Search" %} {% endblock title %}
+
+{% block navheader %}
+            <a href="#" class="sidenav-brand" data-bind="onEnterkeyClick, onSpaceClick, click: function () { navExpanded(!navExpanded()) },
+                attr: {
+                    'aria-label': $root.translations.toggleNavigation,
+                    'aria-description': $root.translations.toggleNavigationDescription,
+                    'aria-expanded': navExpanded().toString()
+                }
+            ">
+                <img src="{% webpack_static 'img/portal/ipad-map-logo.png' %}" class="brand-icon" alt="{% trans 'IPAD' %}">
+                <div class="brand-title">
+                    <h1 class="brand-text" style="margin-top: 15px;">{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}</h1>
+                </div>
+            </a>
+{% endblock navheader %}
+
+{% block main_content %}
+{% if user.username == 'anonymous' %}
+<style>
+/* Guest: hide Search Export popup control if the KO filter list still includes it. */
+#search-export-type-open-btn,
+[id="search-export-type-popup-tabpanel"] {
+    display: none !important;
+}
+</style>
+{% endif %}
+<!-- ko if: sharedStateObject.searchViewComponentName -->
+<div data-bind="component: {
+    name: sharedStateObject.searchViewComponentName(),
+    params: sharedStateObject
+}">
+</div>
+<!-- /ko -->
+{% endblock main_content %}
+
+{% block pre_require_js %}
+{{block.super}}
+{% endblock pre_require_js %}

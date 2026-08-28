@@ -1,0 +1,66 @@
+{% extends "pages/policy_base.htm" %}
+{% load i18n %}
+
+{% block policy_body %}
+<!-- Pending: UK-law clauses omitted from this public page. See Phase 0 questions. -->
+<h1>{% trans "Accessibility" %}</h1>
+<p class="ipad-policy-updated">{% trans "Updated 24 August 2026" %}</p>
+
+<p>{% blocktrans trimmed %}This accessibility statement applies to the <strong>IPAD Indonesian Prehistoric Archaeology Database</strong> (“IPAD”, “we”, “us”) website. After this first mention we usually say “IPAD”.{% endblocktrans %}</p>
+<p>{% trans "This website is run by IPAD. We want as many people as possible to be able to use this website. For example, that means you should be able to:" %}</p>
+<ul>
+    <li>{% trans "change colours, contrast levels, and fonts using your browser or device settings" %}</li>
+    <li>{% trans "zoom in up to 300% without the text spilling off the screen on most pages" %}</li>
+    <li>{% trans "navigate most of the website using just a keyboard" %}</li>
+    <li>{% trans "navigate most of the website using speech recognition software" %}</li>
+    <li>{% trans "listen to most of the website using a screen reader (including recent versions of JAWS, NVDA, and VoiceOver)" %}</li>
+</ul>
+<p>{% trans "We have also tried to keep the website text as simple as possible to understand." %}</p>
+
+<h2>{% trans "How accessible this website is" %}</h2>
+<p>{% trans "We know some parts of this website are not fully accessible:" %}</p>
+<ul>
+    <li>{% trans "maps used in search and resource views may be difficult to navigate with a keyboard alone and hard to read for users with a visual impairment" %}</li>
+    <li>{% trans "some map colours and contrast may not meet recommended contrast levels" %}</li>
+    <li>{% trans "some heritage images or archival reproductions may not have alternative text" %}</li>
+    <li>{% trans "parts of the Arches application interface (for example complex editors used by staff) may be harder to use with assistive technology than these information pages" %}</li>
+</ul>
+<p>{% trans "Search tools that do not rely on the map remain available so that record information can be found as text." %}</p>
+
+<h2>{% trans "Feedback and contact information" %}</h2>
+<p>{% trans "If you need information on this website in a different format, such as large print, easy read, or another accessible file:" %}</p>
+<ul>
+    <li>{% trans "email cata@nusantaraheritage.org (plain text; this is not a mail link)" %}</li>
+</ul>
+<p>{% trans "We will consider your request and get back to you." %}</p>
+
+<h2>{% trans "Reporting accessibility problems with this website" %}</h2>
+<p>{% trans "We are always looking to improve the accessibility of this website. If you find any problems not listed on this page, or think we are not meeting the aims described here, email cata@nusantaraheritage.org." %}</p>
+
+<!-- Pending: named public-sector accessibility regulations and named equality-law enforcement omitted. See Phase 0 questions. -->
+
+<h2>{% trans "Technical information about this website’s accessibility" %}</h2>
+<p>{% trans "IPAD aims to make this website accessible. We use the Web Content Accessibility Guidelines (WCAG) version 2.2, Level AA, as our technical reference. WCAG is an international standard; this page does not claim compliance with any particular national accessibility statute until that is confirmed." %}</p>
+
+<h2>{% trans "Compliance status" %}</h2>
+<p>{% trans "This website has not yet had a full independent accessibility audit for IPAD. Until that work is done, we treat the site as only partially meeting WCAG 2.2 Level AA, because of the map, image, and interface issues listed above." %}</p>
+
+<h3>{% trans "Non-accessible content" %}</h3>
+<p>{% trans "The content listed below is not fully accessible for the following reasons." %}</p>
+<ul>
+    <li>{% trans "Online maps: keyboard access, colour, and contrast can fail recommended criteria. Essential record information is also available through text search." %}</li>
+    <li>{% trans "Images: some photographs and figures may lack alternative text." %}</li>
+    <li>{% trans "Staff-only editors and workflows in Arches may not yet meet the same standard as these public information pages." %}</li>
+</ul>
+<!-- Pending: named mapping-service statutory exemption omitted. See Phase 0 questions. -->
+
+<h2>{% trans "What we are doing to improve accessibility" %}</h2>
+<p>{% trans "It is IPAD’s intention to improve accessibility over time. We will review this statement when we complete testing or when we make significant changes to the public interface." %}</p>
+
+<h2>{% trans "Preparation of this accessibility statement" %}</h2>
+<p>{% trans "This statement was prepared on 24 August 2026 for the IPAD public Arches site. It was adapted from the structure of comparable heritage-database accessibility statements. It has not yet been validated by an external accessibility agency for this IPAD installation." %}</p>
+
+<h2>{% trans "Contact" %}</h2>
+<p>{% trans "IPAD Indonesian Prehistoric Archaeology Database" %}<br>
+Email: cata@nusantaraheritage.org</p>
+{% endblock policy_body %}

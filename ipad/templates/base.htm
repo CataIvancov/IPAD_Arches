@@ -1,0 +1,42 @@
+{% extends "base-root.htm" %}
+
+{% load i18n %}
+{% load static %}
+{% load render_bundle from webpack_loader %}
+
+{% if use_livereload %}
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':{{ livereload_port }}/livereload.js?snipver=1"></' + 'script>')</script>
+{% endif %}
+
+{% block title %}{% trans "IPAD Indonesian Prehistoric Archaeology Database" %} - {% endblock title %}
+
+{% block css %}
+    {% render_bundle 'css/arches' 'css' %}
+    {% render_bundle 'css/core' 'css' %}
+
+    {% if app_settings.ACTIVE_LANGUAGE_DIR == "rtl" %}
+        {% render_bundle 'css/rtl' 'css' %}
+    {% endif %}
+
+    {% if app_settings.ACCESSIBILITY_MODE %}
+        {% render_bundle 'css/accessibility' 'css' %}
+    {% endif %}
+
+    {% render_bundle 'css/package' 'css' %}
+    {% render_bundle 'css/project' 'css' %}
+    <link rel="stylesheet" href="{% static 'css/ipad-sidenav.css' %}?v=7" />
+{% endblock css %}
+
+{% block body_attributes %}class="scroll-y-auto"{% endblock %}
+
+{% block loading_mask %}
+<div class="loading-mask" data-bind="visible: typeof(loading()) === 'boolean' && loading()"></div>
+
+<div class="loading-mask" style="display: none;" data-bind="visible: typeof(loading())==='string' && loading().length > 0">
+    <div class="loading-mask-string" data-bind="text: loading"></div>
+</div>
+{% endblock loading_mask %}
+
+{% block arches_modules %}
+    {% include 'javascript.htm' %}
+{% endblock arches_modules %}

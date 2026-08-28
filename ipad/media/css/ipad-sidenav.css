@@ -1,0 +1,190 @@
+/* Expanded sidenav: full IPAD name wraps instead of overflowing the rail. */
+#arches-navigation .brand-text {
+    font-size: 11px;
+    line-height: 1.2;
+    white-space: normal;
+    max-width: 190px;
+}
+
+/* Keep collapsed nav icons inside the 50px rail; flyouts dock to the rail edge. */
+
+#container.sidenav-sm.base-manager-grid {
+    grid-template-columns: 50px minmax(0, 1fr) !important;
+}
+
+#container.sidenav-sm #arches-navigation {
+    width: 50px !important;
+    max-width: 50px !important;
+    min-width: 50px !important;
+    box-sizing: border-box;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-brand {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#container.sidenav-sm #arches-navigation .brand-icon {
+    height: 22px !important;
+    width: 22px !important;
+    margin: 0 !important;
+}
+
+#container.sidenav-sm #arches-navigation .brand-title,
+#container.sidenav-sm #arches-navigation .list-header,
+#container.sidenav-sm #arches-navigation .debug-notice {
+    display: none !important;
+}
+
+#container.sidenav-sm #arches-navigation .mainnav-container,
+#container.sidenav-sm #arches-navigation .sidenav-menu,
+#container.sidenav-sm #arches-navigation .sidenav-menu ul {
+    width: 50px !important;
+    max-width: 50px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu li:not(.link-submenu-item):not(.list-divider-dark) {
+    width: 50px !important;
+    max-width: 50px !important;
+    height: 45px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu a:not(.link-submenu) {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 50px !important;
+    max-width: 50px !important;
+    height: 45px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    white-space: nowrap;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu a:not(.link-submenu) .menu-title {
+    display: none !important;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu a:not(.link-submenu) i,
+#container.sidenav-sm #arches-navigation .sidenav-menu a:not(.link-submenu) i:before {
+    display: inline-block !important;
+    float: none !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+    position: static !important;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu .active-sub > a:after {
+    display: none !important;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu li:hover {
+    overflow: visible;
+    z-index: 10060;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu li:hover > a:not(.link-submenu) .menu-title {
+    display: flex !important;
+    align-items: center;
+    position: fixed !important;
+    left: 50px !important;
+    width: auto !important;
+    min-width: 180px;
+    height: 45px !important;
+    margin: 0 !important;
+    padding: 0 14px !important;
+    background-color: #394d61;
+    z-index: 10040;
+    overflow: visible !important;
+    white-space: nowrap;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu li:hover > ul {
+    display: block !important;
+    position: fixed !important;
+    left: 50px !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 280px;
+    margin: 0 !important;
+    padding: 8px 0 !important;
+    background-color: #2d3c4b;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+    z-index: 10050;
+    overflow: auto;
+    max-height: calc(100vh - 80px);
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu li:hover > ul,
+#container.sidenav-sm #arches-navigation .sidenav-menu li:hover > ul > li {
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    overflow: visible;
+}
+
+#container.sidenav-sm #arches-navigation .sidenav-menu li:hover > ul a {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 36px;
+    padding: 8px 16px !important;
+    overflow: visible !important;
+}
+
+#container.sidenav-sm .content-panel,
+#container.sidenav-sm .left-panel {
+    margin-left: 0;
+}
+
+#container.sidenav-sm .header,
+#container.sidenav-sm .ep-toolbar {
+    height: 50px;
+    box-sizing: border-box;
+}
+
+#container.sidenav-sm .ep-toolbar .page-header,
+#container.sidenav-sm .ep-graph-title {
+    display: flex !important;
+    align-items: center;
+    height: 50px !important;
+    margin: 0 !important;
+    padding: 0 8px 0 12px !important;
+    font-size: 1.6rem !important;
+    line-height: 1 !important;
+}
+
+#container.sidenav-sm .ep-tools-right {
+    width: 50px;
+    max-width: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Site-point hover: beat Mapbox Draw cursor classes */
+.mapboxgl-map.ipad-resource-hover .mapboxgl-canvas-container.mapboxgl-interactive,
+.mapboxgl-map.ipad-resource-hover canvas.mapboxgl-canvas {
+    cursor: pointer !important;
+}

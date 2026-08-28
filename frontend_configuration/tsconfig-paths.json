@@ -1,0 +1,28 @@
+{
+    "_comment": "This is a generated file. Do not edit directly.",
+    "compilerOptions": {
+        "paths": {
+            "@/arches/*": [
+                "../../envs-arches/lib/python3.12/site-packages/arches/app/src/arches/*"
+            ],
+            "@/ipad/*": [
+                "../ipad/src/ipad/*"
+            ],
+            "@/arches_modular_reports/*": [
+                "../../envs-arches/lib/python3.12/site-packages/arches_modular_reports/src/arches_modular_reports/*"
+            ],
+            "@/arches_controlled_lists/*": [
+                "../../envs-arches/lib/python3.12/site-packages/arches_controlled_lists/src/arches_controlled_lists/*"
+            ],
+            "@/arches_querysets/*": [
+                "../../envs-arches/lib/python3.12/site-packages/arches_querysets/src/arches_querysets/*"
+            ],
+            "@/arches_vue_components/*": [
+                "../../envs-arches/lib/python3.12/site-packages/arches_vue_components/src/arches_vue_components/*"
+            ],
+            "*": [
+                "../node_modules/*"
+            ]
+        }
+    }
+}

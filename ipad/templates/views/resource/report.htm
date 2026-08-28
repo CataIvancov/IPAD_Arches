@@ -1,0 +1,40 @@
+{% extends "base-manager.htm" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{{ block.super }}
+{% trans "Resource Report" %}
+{% endblock title %}
+
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'css/ipad-external-media.css' %}?v=1" />
+{% endblock css %}
+
+{% block main_content %}
+<div
+    id="ipad-external-media-root"
+    hidden
+    data-resource-id="{{ resourceid }}"
+    data-endpoint="{% url 'ipad_external_media' resourceid=resourceid %}"
+></div>
+<div
+    data-bind="
+        component: {
+            name: 'resource-report-abstract',
+            params: {
+                resourceid: '{{ resourceid }}',
+                graph_has_different_publication: '{{ graph_has_different_publication }}',
+                graph_has_unpublished_changes: '{{ graph_has_unpublished_changes }}',
+                graph_has_different_publication_and_user_has_insufficient_permissions: '{{ graph_has_different_publication_and_user_has_insufficient_permissions }}',
+                resource_instance_lifecycle_state_permits_editing: '{{ resource_instance_lifecycle_state_permits_editing }}',
+                user_can_edit_resource: '{{ user_can_edit_resource }}',
+                view: $data
+            }
+        }
+    "
+></div>
+<script src="{% static 'js-static/ipad-drive-urls.js' %}?v=1"></script>
+<script src="{% static 'js-static/ipad-external-media-viewer.js' %}?v=1"></script>
+{% endblock main_content %}

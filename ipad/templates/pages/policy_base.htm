@@ -1,0 +1,114 @@
+{% extends "base-manager.htm" %}
+{% load i18n %}
+
+{% block title %}{{ block.super }} {{ policy_title }}{% endblock title %}
+
+{% block body_attributes %}class="scroll-y-auto {{ body_class|default:'ipad-policy-page' }}"{% endblock %}
+
+{% block loading_mask %}{% endblock loading_mask %}
+
+{% block main_content %}
+<style>
+    /*
+     * Arches manager chrome clips the viewport: #container is height:100vh
+     * with overflow:hidden (nifty.css + .base-manager-grid). Search fills
+     * that box via .content-panel { height: calc(100vh - 50px) }. Policy
+     * pages have no .content-panel; #main-content is the grid child that
+     * must scroll. Do not apply this to search/map.
+     */
+    body.ipad-policy-page #main-content {
+        overflow-y: auto !important;
+        overflow-x: hidden;
+        min-height: 0;
+        height: calc(100vh - 50px);
+        max-height: calc(100vh - 50px);
+        -webkit-overflow-scrolling: touch;
+    }
+    .ipad-policy-wrap {
+        overflow: visible;
+        height: auto;
+        min-height: 100%;
+        background: #f4f5f7;
+    }
+    .ipad-policy {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 28px 32px 72px;
+        color: #2d3c4b;
+        font-size: 15px;
+        line-height: 1.65;
+        background: #fff;
+        min-height: 100%;
+        box-shadow: 0 0 0 1px #e4e8ec;
+    }
+    .ipad-policy h1 {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0 0 8px;
+        color: #1f2d3a;
+    }
+    .ipad-policy .ipad-policy-updated {
+        color: #5b6b7a;
+        margin: 0 0 24px;
+    }
+    .ipad-policy h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 28px 0 10px;
+        color: #1f2d3a;
+    }
+    .ipad-policy h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 20px 0 8px;
+    }
+    .ipad-policy p,
+    .ipad-policy li {
+        margin: 0 0 12px;
+    }
+    .ipad-policy ul,
+    .ipad-policy ol {
+        padding-left: 1.3em;
+        margin: 0 0 12px;
+    }
+    .ipad-policy table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0 20px;
+    }
+    .ipad-policy th,
+    .ipad-policy td {
+        border: 1px solid #d5dce3;
+        padding: 8px 10px;
+        text-align: left;
+        vertical-align: top;
+    }
+    .ipad-policy th {
+        background: #f4f7fa;
+        font-weight: 600;
+    }
+    .ipad-policy .ipad-policy-see-also {
+        margin-top: 36px;
+        padding-top: 16px;
+        border-top: 1px solid #d5dce3;
+    }
+    .ipad-policy .ipad-policy-see-also ul {
+        list-style: none;
+        padding-left: 0;
+    }
+</style>
+<div class="ipad-policy-wrap">
+    <article class="ipad-policy">
+        {% block policy_body %}{% endblock policy_body %}
+        <nav class="ipad-policy-see-also" aria-label="{% trans 'Information pages' %}">
+            <h2>{% trans "Information" %}</h2>
+            <ul>
+                <li><a href="{% url 'privacy' %}">{% trans "Privacy policy" %}</a></li>
+                <li><a href="{% url 'terms' %}">{% trans "Terms & conditions" %}</a></li>
+                <li><a href="{% url 'accessibility' %}">{% trans "Accessibility" %}</a></li>
+                <li><a href="{% url 'cookies' %}">{% trans "Cookies" %}</a></li>
+            </ul>
+        </nav>
+    </article>
+</div>
+{% endblock main_content %}

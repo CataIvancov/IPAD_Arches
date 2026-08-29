@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ipad"
-readme = "README.md"
+readme = "README.txt"
 authors = []
 license = "AGPL-3.0-or-later"
 classifiers = [

@@ -28,7 +28,10 @@ FUNCTION_LOCATIONS.append('ipad.functions')
 ETL_MODULE_LOCATIONS.append('ipad.etl_modules')
 SEARCH_COMPONENT_LOCATIONS.append('ipad.search_components')
 
+# Project strings first, then vendored Arches-core Indonesian from Weblate.
+# Do not put the Weblate file in site-packages: pip upgrades would wipe it.
 LOCALE_PATHS.insert(0, os.path.join(APP_ROOT, 'locale'))
+LOCALE_PATHS.insert(1, os.path.join(os.path.dirname(APP_ROOT), 'arches_locale'))
 
 FILE_TYPE_CHECKING = "lenient"
 FILE_TYPES = [

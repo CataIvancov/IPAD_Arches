@@ -1,0 +1,2107 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: dev@fargeo.com\n"
+"POT-Creation-Date: 2026-08-28 22:06:14\n"
+"PO-Revision-Date: 2026-08-28 22:06:14\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Secondary Threat Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select an option"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Default Zoom"
+msgstr "Zoom Default"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MapBox API Key (Optional)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter text"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Hexagon Size (in km)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "e.g.: 2"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Color Ramp"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Number of search results per page"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Application Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "e.g. Arches"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Thesaurus SPARQL Endpoint"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Google Analytics Key"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter key"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Search Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Start Date of Existence"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "GoogleAnalyticsKey"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "End Date of Existence"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Ancillary Feature Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "API Key"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Provider Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Investigator Name /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose investigator name or select NEW"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cache Seed Max Zoom"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "HEX_BIN_PRECISION"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Actor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter name here"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification/Alteration Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Temporal Coverage"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Briefly describe the temporal coverage"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Carrier Format Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Location Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Keyword"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select keywords"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Time Wheel Configuration"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select an activity type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Date Condition Assessed"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select a component"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Copyright Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Date of Update"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Description"
+msgstr "Deskripsi"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Actor Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select the Actor Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Language"
+msgstr "Bahasa"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select language"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Name"
+msgstr "Nama"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Resource Type Classification"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Title"
+msgstr "Judul"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter title"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Identifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter indentifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Historical Event Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select the Event Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Number /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Project map extent"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Map"
+msgstr "Peta"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometric Place Expression /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Grid ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Coordinates"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Depicted by image / Digambarkan oleh gambar"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Digital Reference / Referensi Digital"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Unit Timespan / Rentang Waktu Satuan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Unit Reference / Referensi Unit"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "DEFAULT_BOUNDS"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Part of location / Bagian dari lokasi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Site Shape Type / Tipe Bentuk Situs Secara Keseluruhan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Media"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select an Information Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Type / Jenis Tempat Warisan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose a place type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "General Description Type / Deskripsi Umum Tipe"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select description type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommended Migration Strategy Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Remarks Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "File Upload /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Assessment Investigator / Penyelidik Penilaian"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Detailed Condition Assessment / Penilaian Kondisi Terperinci"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select or Create Detailed Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource Used / Sumber Informasi yang Digunakan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select specific information resource instance, if used"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometric Place Expression / Ekspresi Tempat Geometris"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cause Type / Jenis Penyebab"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Category / Kategori Ancaman"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Site Condition / Kondisi Situs Secara Keseluruhan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "File ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Google Drive file ID (not a URL)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Title Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Storage Backend"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select storage backend"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Date of Creation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Investigator Role Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Extent / Tingkat Kerusakan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Copyright Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Migration Priority Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Function / Fungsi Tempat Warisan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose a function"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Resource Orientation / Orientasi Sumber Daya"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Type / Jenis Ancaman"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period(s)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select zero or multiple Cultural Periods"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Condition"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "General Description / Deskripsi Umum"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "To Date"
+msgstr "Hingga Tanggal"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Probability /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Type of Identifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select the type of identifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Hexagon Grid Precision (Integer, larger numbers ensure more precise counts "
+"at a performance cost)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "e.g.: 4"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Unit"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select unit"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mapbox Sprites"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Min Zoom"
+msgstr "Zoom Minimum"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Time wheel configuration"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Number of search hints per dropdown"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Default Data Import/Export Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select the component's material"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Search URL"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "(copy and paste from your browser address bar)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Name Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select a name type "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Beginning of Existence Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select type "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification/Alteration Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Start Date Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Provider Key"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "End of Existence Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Ancillary Feature Use Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Actor Name Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select a name type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "HEX_BIN_SIZE"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Dimension Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Sprites"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Carrier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Tile Cache Config"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Investigator Role Type / Jenis Peran Penyelidik"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Max Zoom"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Description Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select a description type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Ancillary Feature Cultural Period(s)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Next Assessment Date Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification/Alteration Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Source of Identifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select the source of the indentifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Island / Pulau"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Images or Documents"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Source Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Glyphs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Value"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter value"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "From Date"
+msgstr "Dari Tanggal"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Search Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Technique Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Actor Type From Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter a place name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Resource Orientation Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Percentage of Site Affected"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Type / Jenis Aktivitas"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Max number of search results to export (see help for limitations on this "
+"value)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MIME Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "image/jpeg or application/pdf"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship from Date /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Intervention Activity Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mapbox Glyphs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Technique/Attributes"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select the component's technique or attributes"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Remarks"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Spatial Coordinates Ref System / Sistem Koordinat Spasial Ref"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Unit /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Date /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Note /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Severity /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image"
+msgstr "Gambar"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship to Date /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "End Date Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Ancillary Feature From Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Date / Tanggal Kegiatan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Condition Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Caption"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Actor Type To Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Priority Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place/Site of Assessment /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose site"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Address / Alamat"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threats"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Threats are potential future disturbances.  Choose as many or as few threats"
+" are you can identify in this assessment."
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Type / Jenis Geometri"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Ancilary Feature To Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship Comments /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Built Component Assessed /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Google Earth Assessment / Penilaian Google Earth"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Acquisition Date / Tanggal Akuisisi Citra"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Address Type / Tipe Alamat"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbances"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Choose as many or as few disturbances as are relevant to this assessment."
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Administrative Division / Divisi Administrasi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommendations"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Choose as many or as few recommendations as are relevant to this assessment."
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Comments on Relationship to Heritage Place/Built Component"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommendation Type /"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Depositional Process / عملية الترسب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Administrative Division Type / Tipe Divisi Administrasi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Fetch Type / نوع المسافة بين يابستين"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cadastral Reference / Referensi Kadaster"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Disturbance Extent Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Assessment Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Damage Severity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mitigation Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date From"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Assignment Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Type "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Vulnerability Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Potential Impact Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date To "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Source Type / Jenis Sumber Pengukuran"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological To Date / Arkeologi Hingga Saat Ini"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Exposure"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date Occurred Before"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Trend Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Effect Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date Occurred On "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat and Risk Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Number Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Risk Level"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Datum Description/EPSG code / Deskripsi Data/Kode EPSG"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Surficial Geology Type / Jenis Geologi Permukaan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Unit / Unit Pengukuran"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "CE Date To / Tanggal Masehi Ke"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Date Inference Making Actor Name / Tanggal Inferensi Pembuatan Nama Aktor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Number / Nomor Pengukuran"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "DAMAGE_TREND_TYPE / JENIS_TREN_KERUSAKAN"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Category Type / Gangguan Penyebab Kategori Jenis"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Type "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Category Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "SH Date to"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Resource Instance / Contoh Sumber Daya Heritage Place"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Built Component / Komponen yang Dibangun"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period Type / Tipe Periode Budaya"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Arrangement Type / Jenis Pengaturan Fitur Situs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "SH Date From / Tanggal SH Dari"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Sub-period Type / Tipe Sub-periode Budaya"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Interpretation Type / Jenis Interpretasi Fitur Situs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Shape Type / Jenis Bentuk Fitur Situs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Form Type / Jenis Formulir Fitur Situs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Class / Kelas Material"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "CE Date From / Tanggal Masehi Dari"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "BP Date From / Tanggal BP Dari"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "BP Date To / Tanggal BP Sampai"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Disturbance Cause Assignment Assessor Name - Actor / Penugasan Penyebab "
+"Gangguan Nama Penilai - Aktor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Priority Type / Jenis Prioritas"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommendation Type / Tipe Rekomendasi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Threat Inference Making Assessor Name - Actor / Nama Penilai Pembuatan "
+"Inferensi Ancaman - Aktor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Intervention Activity Type / Jenis Kegiatan Intervensi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Type / Jenis Bahan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Site Morphology Type / Tipe Morfologi Situs Secara Keseluruhan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation From Date / Penunjukan Dari Tanggal"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation To Date / Penunjukan Sampai Saat Ini"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation / Penamaan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Information Resource Acquisition Date / Tanggal Akuisisi Sumber Informasi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "GE Imagery Acquisition Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Bedrock Geology Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Maximum Depth/Min Elevation / Kedalaman Maksimum/Ketinggian Minimum"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Technique / Teknik Konstruksi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Tidal Range / Rentang Pasang Surut"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Minimum Depth/Max Elevation / Kedalaman Minimum/Ketinggian Maksimum"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Land Cover Type / Jenis Penutup Lahan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Datum Type / Tipe Datum"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Land Cover Assessment Date / Tanggal Penilaian Penutupan Lahan"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Topography Type / Jenis Topografi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Dimension Type / Tipe Dimensi"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Site Feature Interpretation Number Type / Fitur Situs Interpretasi Nomor "
+"Jenis"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Geoarchaeology/Palaeolandscape"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological From Date / Arkeologi Dari Tanggal"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Effect Type / Jenis Efek"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Wave Climate / Iklim Gelombang"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Identifier"
+msgstr ""
+
+#: cards:1
+msgid "Phase Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Represents a single node in a graph"
+msgstr ""
+
+#: cards:1
+msgid "Select an activity type and its corresponding to and from dates."
+msgstr ""
+
+#: cards:1
+msgid "Heritage Resource Type"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This card ties together a Resource Type and Use Type with timeframe based on"
+" cultural period or actual dates.  For a separate combination Style and Use "
+"Type, create a separate entry."
+msgstr ""
+
+#: cards:1
+msgid "Mapbox API"
+msgstr "API Mapbox"
+
+#: cards:1
+msgid ""
+"Arches uses the Mapbox mapping library for map display and data creation.  "
+"Arches also supports Mapbox basemaps and other services"
+msgstr ""
+
+#: cards:1
+msgid "Spatial Location"
+msgstr ""
+
+#: cards:1
+msgid "Define the spatial location."
+msgstr ""
+
+#: cards:1
+msgid "Evaluation Date"
+msgstr ""
+
+#: cards:1
+msgid "Enter the date resource was evaluated."
+msgstr ""
+
+#: cards:1
+msgid "Publication Date"
+msgstr ""
+
+#: cards:1
+msgid "Select the date of the publication for the information resource."
+msgstr ""
+
+#: cards:1
+msgid "Designation or Protection"
+msgstr ""
+
+#: cards:1
+msgid "Define the resource's designation or protection status."
+msgstr ""
+
+#: cards:1
+msgid "Heritage Resource Group/Use Type"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This card ties together a Heritage Group Type and Use Type with timeframe "
+"based on cultural period or actual dates.  For a separate combination Group "
+"Type and Use Type, create a separate entry."
+msgstr ""
+
+#: cards:1
+msgid "Default Application Names"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Names used to identify your application and the system data import personna"
+msgstr ""
+
+#: cards:1
+msgid "Assessment Summary / Ringkasan Penilaian"
+msgstr ""
+
+#: cards:1
+msgid "Map API"
+msgstr ""
+
+#: cards:1
+msgid "App Names"
+msgstr ""
+
+#: cards:1
+msgid "Assessment Summary / "
+msgstr ""
+
+#: cards:1
+msgid "Style"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This card ties together a Style and Use Type with timeframe based on "
+"cultural period or actual dates.  For a separate combination Style and Use "
+"Type, create a separate entry."
+msgstr ""
+
+#: cards:1
+msgid "Address"
+msgstr ""
+
+#: cards:1
+msgid "Enter the address of the location."
+msgstr ""
+
+#: cards:1
+msgid "Resource Summary / Ringkasan Sumber Daya"
+msgstr ""
+
+#: cards:1
+msgid "Evaluation Criteria"
+msgstr ""
+
+#: cards:1
+msgid "Select the criteria type used for evaluation."
+msgstr ""
+
+#: cards:1
+msgid "Web Analytics"
+msgstr "Analitik Web"
+
+#: cards:1
+msgid "Google service used to track application usage and other metrics"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This card ties together a Heritage Group Style and Use Type with timeframe "
+"based on cultural period or actual dates.  For a separate combination Style "
+"and Use Type, create a separate entry."
+msgstr ""
+
+#: cards:1
+msgid "Tile Cache"
+msgstr ""
+
+#: cards:1
+msgid "Administration Subdivision"
+msgstr ""
+
+#: cards:1
+msgid "Select the administrative/governmental subdivision name and type."
+msgstr ""
+
+#: cards:1
+msgid "Measurements /"
+msgstr ""
+
+#: cards:1
+msgid "Project Extent"
+msgstr "Cakupan Proyek"
+
+#: cards:1
+msgid ""
+"Draw a polygon representing your project's extent. These bounds will serve "
+"as the default for the cache seed bounds, search result grid bounds, and map"
+" bounds in search, cards, and reports"
+msgstr ""
+
+#: cards:1
+msgid "Period of Significance"
+msgstr ""
+
+#: cards:1
+msgid "Define the period of significance that is being used for evaluation. "
+msgstr ""
+
+#: cards:1
+msgid "Related/Ancillary Feature"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This card ties together a Related/Acillary Features and Use Type with "
+"timeframe based on cultural period or actual dates.  For a separate "
+"combination Related/Ancillary Features and Use Type, create a separate "
+"entry."
+msgstr ""
+
+#: cards:1
+msgid "Geometries / Geometri"
+msgstr ""
+
+#: cards:1
+msgid "SPARQL Providers"
+msgstr ""
+
+#: cards:1
+msgid "Description Location"
+msgstr ""
+
+#: cards:1
+msgid "Describe the location of the resource."
+msgstr ""
+
+#: cards:1
+msgid "Location /"
+msgstr ""
+
+#: cards:1
+msgid "Thesaurus Service Providers"
+msgstr "Penyedia Layanan Tesaurus"
+
+#: cards:1
+msgid ""
+"Arches can access Thesaurus services, such as the Getty AAT, to acquire "
+"thesaurus entries using the Reference Data Manager (RDM)"
+msgstr ""
+
+#: cards:1
+msgid "Map Zoom"
+msgstr "Zoom Peta"
+
+#: cards:1
+msgid ""
+"You can define the zoom behavior of your maps by specifying max/min and "
+"default values.  Zoom level 0 shows the whole world (and is the minimum zoom"
+" level).  Most map services support a maximum of 20 or so zoom levels"
+msgstr ""
+
+#: cards:1
+msgid "Search Results Grid"
+msgstr "Kisi Hasil Pencarian"
+
+#: cards:1
+msgid ""
+"Arches aggregates search results and displays them as hexagons.  You will "
+"need to set default parameters for the hexagon size  and its precision."
+msgstr ""
+
+#: cards:1
+msgid "Geography / Geografi"
+msgstr ""
+
+#: cards:1
+msgid "Integrity"
+msgstr ""
+
+#: cards:1
+msgid "Select the type of integrity that the resource maintains. "
+msgstr ""
+
+#: cards:1
+msgid "Modification and Construction /"
+msgstr ""
+
+#: cards:1
+msgid "External Information Carrier"
+msgstr ""
+
+#: cards:1
+msgid "Setting Type"
+msgstr ""
+
+#: cards:1
+msgid ""
+"For Historic Resources only, define the setting of the historic resource."
+msgstr ""
+
+#: cards:1
+msgid "Eligibility Requirements"
+msgstr ""
+
+#: cards:1
+msgid "Select the eligibility requirements that the resource meets."
+msgstr ""
+
+#: cards:1
+msgid "Archaeological Assessment / Penilaian Arkeologi"
+msgstr ""
+
+#: cards:1
+msgid "Cadastral Reference"
+msgstr ""
+
+#: cards:1
+msgid "Enter the cadastral reference number."
+msgstr ""
+
+#: cards:1
+msgid "Damage Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Status"
+msgstr "Status"
+
+#: cards:1
+msgid "Select the resource status based on the evaluation."
+msgstr ""
+
+#: cards:1
+msgid "Providers"
+msgstr ""
+
+#: cards:1
+msgid "Threat and Risk Assessment /"
+msgstr ""
+
+#: cards:1
+msgid "Environment Assessment / Penilaian Lingkungan"
+msgstr ""
+
+#: cards:1
+msgid "Reasons"
+msgstr ""
+
+#: cards:1
+msgid "Describe the reasons for the evaluated resource's status."
+msgstr ""
+
+#: cards:1
+msgid "Condition Assessment / Penilaian Kondisi"
+msgstr ""
+
+#: cards:1
+msgid "Overall Condition Assessment /"
+msgstr ""
+
+#: cards:1
+msgid "Related Information Resources"
+msgstr ""
+
+#: cards:1
+msgid "Contains"
+msgstr ""
+
+#: cards:1
+msgid "CONDITION ID"
+msgstr ""
+
+#: cards:1
+msgid "Measurement"
+msgstr ""
+
+#: cards:1
+msgid ""
+"The Measurement branch measures instances of a Heritage Resource E18 or a Heritage Resource Group E27\n"
+"\n"
+"Relates to those resource models via P39i"
+msgstr ""
+
+#: cards:1
+msgid "Capture the measurements associated to this resource."
+msgstr ""
+
+#: cards:1
+msgid "Place 1"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the physical location of a heritage resource or heritage resource group.  Includes extra nodes for cadastral information.\n"
+"\n"
+"Relates to Heritage Resource E18 with P53\n"
+"Relates to Heritage Resource Group E27 with P89\n"
+msgstr ""
+
+#: cards:1
+msgid "Evaluation"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This branch evaluates instances of Heritage Resource E18 and Heritage Resource Group E27, and is based on the City of Los Angeles' SurveyLA survey methodology for evaluation of  significance and eligibility for designation as a heritage resource or heritage resource group. Evaluation consists of defining a historic context (Evaluation Criteria) which triggers specific eligibility requirements (Eligibility Requirements) and results in the selection of one or more status codes (Status) and the writing of a reasons statement (Reasons). The branch also contains nodes to record the date of Evaluation, the dates defining the Period of Significance for evaluation.\n"
+"\n"
+"Relates to E18 and E27 resource models via P140i."
+msgstr ""
+
+#: cards:1
+msgid ""
+"Used to hold identifiers necessary to link a given resource to records in an"
+" external (perhaps legacy) system."
+msgstr ""
+
+#: cards:1
+msgid ""
+"Enter information for identifiers of the resource from other external "
+"sources."
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the type of resource. \n"
+"\n"
+"Applies to: Heritage Group, Heritage"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Resource Group Phase Type"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Phase Type Assignments for Heritage Resource Group E27\n"
+"\n"
+"Connects via P92i"
+msgstr ""
+
+#: cards:1
+msgid "Actor Phase"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Phase Type Assignment for the Actor resource model.\n"
+"\n"
+"Connects to Actor E39 via P41i"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Define one Actor Type, n cultural periods, and (optionally) one from/to date"
+" range. Additional Actor Types or date ranges requires additional entries"
+msgstr ""
+
+#: cards:1
+msgid ""
+"An informative word used for resource information retrieval that indicates the content of a resource.\n"
+"\n"
+"Relates to resources via P2."
+msgstr ""
+
+#: cards:1
+msgid "Select keywords associated with the resource."
+msgstr ""
+
+#: cards:1
+msgid "Appellation"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes an appellation assigned to an Actor Resource.\n"
+"\n"
+"Relates to resource model via P131"
+msgstr ""
+
+#: cards:1
+msgid "Enter the Actor name and respective name type."
+msgstr ""
+
+#: cards:1
+msgid "Condition Assessment"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the conditions, threats, and disturbances affecting a Heritage "
+"Resource or Heritage Resource Group. Additional information may include a "
+"management recommendation, a condition image, the data the condition was "
+"assessed and a description of the condition."
+msgstr ""
+
+#: cards:1
+msgid "One assessment of condition at a particular point in time. "
+msgstr ""
+
+#: cards:1
+msgid "Place 2"
+msgstr ""
+
+#: cards:1
+msgid ""
+"For Actor resources: Describes the former and current residences of an Actor resource. Relates to Actor E39 with P74 \n"
+"For Activity and Historic Event: Describes the location of where an activity or historic event took place. Relates to Activity E7 with P7. Relates to Historical Event E5 with P7\n"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Generic branch for capturing free-form written descriptive information.\n"
+"Intended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n"
+"\n"
+"This branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n"
+"\n"
+"Connects to all resources with P140i"
+msgstr ""
+
+#: cards:1
+msgid "Enter a description and description type for the resource."
+msgstr ""
+
+#: cards:1
+msgid "Existence"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Start/End dates for resources.  Assumed to be typed and within calendar time. \n"
+"\n"
+"Connects to Activity (E7) and Historical Event (E5) resource models via P114\n"
+"Connects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\n"
+"Connects to Actor (E39) resource model via P11i"
+msgstr ""
+
+#: cards:1
+msgid "Record the start and end dates of the resource's existence."
+msgstr ""
+
+#: cards:1
+msgid "Right"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Captures information about special status, protection, or privileges afforded under law.\n"
+"\n"
+"Applies to: Heritage Resource, Heritage Resource Model"
+msgstr ""
+
+#: cards:1
+msgid "Modification Event"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the modification of a Heritage Resource.\n"
+"\n"
+"Connects to Heritage Resource (E18) via P12i"
+msgstr ""
+
+#: cards:1
+msgid "Describe modification or alteration to the resource."
+msgstr ""
+
+#: cards:1
+msgid ""
+"The name of a resource.\n"
+"\n"
+"Applies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their \"names\" from the Appellation branch."
+msgstr ""
+
+#: cards:1
+msgid "Enter the resource name and its respective type."
+msgstr ""
+
+#: cards:1
+msgid ""
+"Physical thing on a heritage resource. Connect to Heritage Resource E18 via "
+"P46"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Select the architectural component and the component's material and "
+"technique"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Resource Phase Type"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Phase Type Assignments for Heritage Resource E18.\n"
+"\n"
+"Connects via P92i"
+msgstr ""
+
+#: cards:1
+msgid "Activity Phase"
+msgstr ""
+
+#: cards:1
+msgid "Describes the time span and type of an Activity Resource."
+msgstr ""
+
+#: cards:1
+msgid "Event Phase Type"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes a Historical Event Type within a given timespan/phase. \n"
+"\n"
+"Connects to the Historical Event resource model via P10"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Define one Event Type, n cultural periods, and (optionally) one from/to date"
+" range. Additional Event Types or date ranges requires additional entries"
+msgstr ""
+
+#: cards:1
+msgid "Describes the title of an Information Resource."
+msgstr ""
+
+#: cards:1
+msgid "Enter the information resource's title and the type of that title. "
+msgstr ""
+
+#: cards:1
+msgid "This branch describes the language of an Information Resource."
+msgstr ""
+
+#: cards:1
+msgid "Select language of the information resource."
+msgstr ""
+
+#: cards:1
+msgid "Information Resource Creation Event"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the creators, contributors, type, and date of a creation and/or "
+"update event of an information resource."
+msgstr ""
+
+#: cards:1
+msgid "Describe the information resource  and its date of creation"
+msgstr ""
+
+#: cards:1
+msgid "Resource Update Event"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This is intended as a sub-branch to Resource Creation Event within the "
+"Information Resource Resource Model.  Stores the date when an update to the "
+"information resource occurred."
+msgstr ""
+
+#: cards:1
+msgid "Select the date the information resource was updated. "
+msgstr ""
+
+#: cards:1
+msgid "Information Resource Copyright"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Used to define legal privileges associated with an Information Resource."
+msgstr ""
+
+#: cards:1
+msgid "Describe the copyright for the information resource."
+msgstr ""
+
+#: cards:1
+msgid "An object or substance used to record and accumulate data"
+msgstr ""
+
+#: cards:1
+msgid "Select the information carrier for the information resource."
+msgstr ""
+
+#: cards:1
+msgid "Publication Event"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This branch describes the publication of an Information Resource.\n"
+"\n"
+"Connects to Information Resource (E73) with -P128"
+msgstr ""
+
+#: cards:1
+msgid "Settings Time Search"
+msgstr ""
+
+#: cards:1
+msgid "Configuration Settings for temporal search"
+msgstr ""
+
+#: cards:1
+msgid "Time Settings"
+msgstr ""
+
+#: cards:1
+msgid ""
+"<p>You can see the color ramps at:</p><p><a "
+"href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-"
+"Scales.md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-"
+"reference/blob/master/Ordinal-Scales.md</font></a><br></p>"
+msgstr ""
+
+#: cards:1
+msgid "New Node"
+msgstr "Simpul Baru"
+
+#: cards:1
+msgid "old node"
+msgstr ""
+
+#: cards:1
+msgid "Place 3"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the location of an information resource. Relates to Information "
+"Resource E73 with P67"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Defines time span for which the Information Resource is relevant.\n"
+"Applies to: Information Resource"
+msgstr ""
+
+#: cards:1
+msgid "Describe the temporal coverage of the information resource's subject. "
+msgstr ""
+
+#: cards:1
+msgid "Settings Map"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Initial settings for Arches maps displayed in reports, cards, and search"
+msgstr ""
+
+#: cards:1
+msgid "Settings Basic Search"
+msgstr ""
+
+#: cards:1
+msgid "Configuration settings for search returns"
+msgstr ""
+
+#: cards:1
+msgid "End of Existence"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the type and time span of the end of a resource's existence.\n"
+"\n"
+"Relates to the Actor E39 Resource Model via P93i"
+msgstr ""
+
+#: cards:1
+msgid "Please enter the date of the end of existence for the resource."
+msgstr ""
+
+#: cards:1
+msgid "Settings Saved Searches"
+msgstr ""
+
+#: cards:1
+msgid "System configuration for saving searches"
+msgstr ""
+
+#: cards:1
+msgid "Settings System Defaults"
+msgstr ""
+
+#: cards:1
+msgid "Beginning of Existence"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Describes the type and time span of the beginning of a resource's existence.\n"
+"\n"
+"Relates to the Actor resource model E39 via P92i.\n"
+"Relates to Historic Event E5 and Activity E7 via p116i."
+msgstr ""
+
+#: cards:1
+msgid "Please enter the date of the beginning of existence for the resource."
+msgstr ""
+
+#: cards:1
+msgid "Saved Searches"
+msgstr "Pencarian Tersimpan"
+
+#: cards:1
+msgid ""
+"Arches allows you save a search and present it as convenience for your "
+"users."
+msgstr ""
+
+#: cards:1
+msgid "Set the default search results behavior"
+msgstr ""
+
+#: cards:1
+msgid "System Data Settings"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Arches supports temporal binning.  Define the configuration and colors to "
+"use in your time wheel"
+msgstr ""
+
+#: cards:1
+msgid "Default Map Settings"
+msgstr ""
+
+#: cards:1
+msgid "Reference"
+msgstr ""
+
+#: cards:1
+msgid "Botanical Sample / Sampel Botani"
+msgstr ""
+
+#: cards:1
+msgid "Zoological Sample"
+msgstr ""
+
+#: cards:1
+msgid "Excavation Participant / Peserta Penggalian"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This field is used to document the specific role of a person (trench supervisor, excavator, etc.) participating in the excavation process of the excavation unit.\n"
+"Bidang ini digunakan untuk mendokumentasikan peran spesifik seseorang (pengawas parit, penggali, dll.) yang berpartisipasi dalam proses penggalian unit penggalian."
+msgstr ""
+
+#: cards:1
+msgid ""
+"This field is used to relate the excavation unit to a digital object representing it (such digital objects can be digital photographs, drawings, maps, plans, audio, video, etc. of various types and file formats)\n"
+"Bidang ini digunakan untuk menghubungkan unit penggalian dengan objek digital yang mewakilinya (objek digital tersebut dapat berupa foto digital, gambar, peta, rencana, audio, video, dll. dari berbagai jenis dan format file)"
+msgstr ""
+
+#: cards:1
+msgid "Sampling Activity / Aktivitas Pengambilan Sampel"
+msgstr ""
+
+#: cards:1
+msgid "Excavation Process Unit / Unit Proses Penggalian"
+msgstr ""
+
+#: cards:1
+msgid "Type / Jenis"
+msgstr ""
+
+#: cards:1
+msgid "Jenis Sedimen Fitur"
+msgstr ""
+
+#: cards:1
+msgid "Area 3D Model"
+msgstr ""
+
+#: cards:1
+msgid "Skeletal Sample / Sampel Kerangka"
+msgstr ""
+
+#: cards:1
+msgid "identified by a unique identifier"
+msgstr ""
+
+#: cards:1
+msgid "Stratigraphic Genesis"
+msgstr ""
+
+#: cards:1
+msgid "Description / Deskripsi"
+msgstr ""
+
+#: cards:1
+msgid "Excavation Process"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This field is used to relate the excavation unit to a spatial unit such as trench, area, sector, etc.\n"
+"\n"
+"Bidang ini digunakan untuk menghubungkan unit penggalian dengan unit spasial seperti parit, area, sektor, dan lain-lain."
+msgstr ""
+
+#: cards:1
+msgid "Interpretation / Interpretasi"
+msgstr ""
+
+#: cards:1
+msgid "Context Interpretation / Interpretasi Konteks"
+msgstr ""
+
+#: cards:1
+msgid "Field Drawing / Gambar Lapangan"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This field is used to record any textual reference associated with the excavation unit.\n"
+"Bidang ini digunakan untuk mencatat referensi tekstual apa pun yang terkait dengan unit penggalian.\n"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This field is used to record the time-span (start date-end date) of the excavation of the excavation unit.\n"
+"Bidang ini digunakan untuk mencatat rentang waktu (tanggal mulai-tanggal akhir) penggalian unit penggalian.\n"
+msgstr ""
+
+#: cards:1
+msgid ""
+"This field is used to relate the excavation unit to an image depicting it.\n"
+"Bidang ini digunakan untuk menghubungkan unit penggalian dengan gambar yang menggambarkannya."
+msgstr ""

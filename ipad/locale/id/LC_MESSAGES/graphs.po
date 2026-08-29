@@ -4,18 +4,21 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: dev@fargeo.com\n"
 "POT-Creation-Date: 2026-08-28 22:06:14\n"
-"PO-Revision-Date: 2026-08-28 22:06:14\n"
+"PO-Revision-Date: 2026-08-29 05:28+0000\n"
+"Last-Translator: CataIvancov <cata@nusantaraheritage.org>\n"
+"Language-Team: Indonesian <cata@nusantaraheritage.org>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Secondary Threat Type /"
-msgstr ""
+msgstr "Jenis Ancaman Sekunder"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select an option"
-msgstr ""
+msgstr "Pilih opsi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Default Zoom"
@@ -23,175 +26,175 @@ msgstr "Zoom Default"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter number"
-msgstr ""
+msgstr "Masukkan angka"
 
 #: cards_x_nodes_x_widgets:1
 msgid "MapBox API Key (Optional)"
-msgstr ""
+msgstr "Kunci API Mapbox (opsional)"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter text"
-msgstr ""
+msgstr "Masukkan teks"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Hexagon Size (in km)"
-msgstr ""
+msgstr "Ukuran heksagon (km)"
 
 #: cards_x_nodes_x_widgets:1
 msgid "e.g.: 2"
-msgstr ""
+msgstr "mis.: 2"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Color Ramp"
-msgstr ""
+msgstr "Skala warna"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Number of search results per page"
-msgstr ""
+msgstr "Jumlah hasil pencarian per halaman"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Application Name"
-msgstr ""
+msgstr "Nama aplikasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "e.g. Arches"
-msgstr ""
+msgstr "mis. Arches"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Thesaurus SPARQL Endpoint"
-msgstr ""
+msgstr "Endpoint SPARQL tesaurus"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Google Analytics Key"
-msgstr ""
+msgstr "Kunci Google Analytics"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter key"
-msgstr ""
+msgstr "Masukkan kunci"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Search Name"
-msgstr ""
+msgstr "Nama pencarian"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Start Date of Existence"
-msgstr ""
+msgstr "Tanggal mulai keberadaan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "GoogleAnalyticsKey"
-msgstr ""
+msgstr "GoogleAnalyticsKey"
 
 #: cards_x_nodes_x_widgets:1
 msgid "End Date of Existence"
-msgstr ""
+msgstr "Tanggal akhir keberadaan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Ancillary Feature Type"
-msgstr ""
+msgstr "Jenis fitur tambahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "API Key"
-msgstr ""
+msgstr "Kunci API"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Provider Name"
-msgstr ""
+msgstr "Nama penyedia"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Investigator Name /"
-msgstr ""
+msgstr "Nama penyelidik"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Choose investigator name or select NEW"
-msgstr ""
+msgstr "Pilih nama penyelidik atau pilih BARU"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Cache Seed Max Zoom"
-msgstr ""
+msgstr "Zoom maksimum seed cache"
 
 #: cards_x_nodes_x_widgets:1
 msgid "HEX_BIN_PRECISION"
-msgstr ""
+msgstr "HEX_BIN_PRECISION"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Actor Name"
-msgstr ""
+msgstr "Nama aktor"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter name here"
-msgstr ""
+msgstr "Masukkan nama di sini"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Modification/Alteration Date"
-msgstr ""
+msgstr "Tanggal modifikasi/perubahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Temporal Coverage"
-msgstr ""
+msgstr "Cakupan temporal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Briefly describe the temporal coverage"
-msgstr ""
+msgstr "Uraikan singkat cakupan temporal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Information Carrier Format Type"
-msgstr ""
+msgstr "Jenis format pembawa informasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select type"
-msgstr ""
+msgstr "Pilih jenis"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Location Description"
-msgstr ""
+msgstr "Deskripsi lokasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Type"
-msgstr ""
+msgstr "Jenis pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Keyword"
-msgstr ""
+msgstr "Kata kunci"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select keywords"
-msgstr ""
+msgstr "Pilih kata kunci"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Time Wheel Configuration"
-msgstr ""
+msgstr "Konfigurasi roda waktu"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Activity Type"
-msgstr ""
+msgstr "Jenis aktivitas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select an activity type"
-msgstr ""
+msgstr "Pilih jenis aktivitas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Date Condition Assessed"
-msgstr ""
+msgstr "Tanggal kondisi dinilai"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Component"
-msgstr ""
+msgstr "Komponen"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select a component"
-msgstr ""
+msgstr "Pilih komponen"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Copyright Type"
-msgstr ""
+msgstr "Jenis hak cipta"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Date of Update"
-msgstr ""
+msgstr "Tanggal pembaruan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Information Resource Type"
-msgstr ""
+msgstr "Jenis sumber informasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Description"
@@ -199,11 +202,11 @@ msgstr "Deskripsi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Actor Type"
-msgstr ""
+msgstr "Jenis aktor"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select the Actor Type"
-msgstr ""
+msgstr "Pilih jenis aktor"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Language"
@@ -211,7 +214,7 @@ msgstr "Bahasa"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select language"
-msgstr ""
+msgstr "Pilih bahasa"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Name"
@@ -219,7 +222,7 @@ msgstr "Nama"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Resource Type Classification"
-msgstr ""
+msgstr "Klasifikasi jenis sumber daya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Title"
@@ -227,31 +230,31 @@ msgstr "Judul"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter title"
-msgstr ""
+msgstr "Masukkan judul"
 
 #: cards_x_nodes_x_widgets:1
 msgid "External Identifier"
-msgstr ""
+msgstr "Pengenal eksternal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter indentifier"
-msgstr ""
+msgstr "Masukkan pengenal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Historical Event Type"
-msgstr ""
+msgstr "Jenis peristiwa sejarah"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select the Event Type"
-msgstr ""
+msgstr "Pilih jenis peristiwa"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Number /"
-msgstr ""
+msgstr "Nomor pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Project map extent"
-msgstr ""
+msgstr "Cakupan peta proyek"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Map"
@@ -259,195 +262,195 @@ msgstr "Peta"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Geometric Place Expression /"
-msgstr ""
+msgstr "Ekspresi tempat geometris"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Grid ID"
-msgstr ""
+msgstr "ID kisi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Coordinates"
-msgstr ""
+msgstr "Koordinat"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Depicted by image / Digambarkan oleh gambar"
-msgstr ""
+msgstr "Digambarkan oleh gambar"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Digital Reference / Referensi Digital"
-msgstr ""
+msgstr "Referensi Digital"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Unit Timespan / Rentang Waktu Satuan"
-msgstr ""
+msgstr "Rentang waktu satuan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Unit Reference / Referensi Unit"
-msgstr ""
+msgstr "Referensi Unit"
 
 #: cards_x_nodes_x_widgets:1
 msgid "DEFAULT_BOUNDS"
-msgstr ""
+msgstr "DEFAULT_BOUNDS"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Part of location / Bagian dari lokasi"
-msgstr ""
+msgstr "Bagian dari lokasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Site Shape Type / Tipe Bentuk Situs Secara Keseluruhan"
-msgstr ""
+msgstr "Jenis bentuk situs keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "External Media"
-msgstr ""
+msgstr "Media eksternal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select an Information Resource"
-msgstr ""
+msgstr "Pilih sumber informasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Heritage Place Type / Jenis Tempat Warisan"
-msgstr ""
+msgstr "Jenis Tempat Warisan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Choose a place type"
-msgstr ""
+msgstr "Pilih jenis tempat"
 
 #: cards_x_nodes_x_widgets:1
 msgid "General Description Type / Deskripsi Umum Tipe"
-msgstr ""
+msgstr "Jenis deskripsi umum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select description type"
-msgstr ""
+msgstr "Pilih jenis deskripsi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Recommended Migration Strategy Type"
-msgstr ""
+msgstr "Jenis strategi migrasi yang disarankan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Threat Type /"
-msgstr ""
+msgstr "Jenis ancaman"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Condition Remarks Type"
-msgstr ""
+msgstr "Jenis catatan kondisi keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "File Upload /"
-msgstr ""
+msgstr "Unggah berkas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Information Resource /"
-msgstr ""
+msgstr "Sumber informasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Assessment Investigator / Penyelidik Penilaian"
-msgstr ""
+msgstr "Penyelidik Penilaian"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Detailed Condition Assessment / Penilaian Kondisi Terperinci"
-msgstr ""
+msgstr "Penilaian Kondisi Terperinci"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select or Create Detailed Assessment"
-msgstr ""
+msgstr "Pilih atau buat penilaian terperinci"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Information Resource Used / Sumber Informasi yang Digunakan"
-msgstr ""
+msgstr "Sumber informasi yang digunakan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select specific information resource instance, if used"
-msgstr ""
+msgstr "Pilih instansi sumber informasi tertentu, jika digunakan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Geometric Place Expression / Ekspresi Tempat Geometris"
-msgstr ""
+msgstr "Ekspresi Tempat Geometris"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Cause Type / Jenis Penyebab"
-msgstr ""
+msgstr "Jenis Penyebab"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Threat Category / Kategori Ancaman"
-msgstr ""
+msgstr "Kategori Ancaman"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Site Condition / Kondisi Situs Secara Keseluruhan"
-msgstr ""
+msgstr "Kondisi situs keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "File ID"
-msgstr ""
+msgstr "ID berkas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Google Drive file ID (not a URL)"
-msgstr ""
+msgstr "ID berkas Google Drive (bukan URL)"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Title Type"
-msgstr ""
+msgstr "Jenis judul"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Storage Backend"
-msgstr ""
+msgstr "Backend penyimpanan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select storage backend"
-msgstr ""
+msgstr "Pilih backend penyimpanan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Date of Creation"
-msgstr ""
+msgstr "Tanggal pembuatan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Investigator Role Type /"
-msgstr ""
+msgstr "Jenis peran penyelidik"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Damage Extent / Tingkat Kerusakan"
-msgstr ""
+msgstr "Tingkat kerusakan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Copyright Description"
-msgstr ""
+msgstr "Deskripsi hak cipta"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Migration Priority Type"
-msgstr ""
+msgstr "Jenis prioritas migrasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Heritage Place Function / Fungsi Tempat Warisan"
-msgstr ""
+msgstr "Fungsi Tempat Warisan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Choose a function"
-msgstr ""
+msgstr "Pilih fungsi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Resource Orientation / Orientasi Sumber Daya"
-msgstr ""
+msgstr "Orientasi Sumber Daya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Threat Type / Jenis Ancaman"
-msgstr ""
+msgstr "Jenis Ancaman"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Cultural Period(s)"
-msgstr ""
+msgstr "Periode budaya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select zero or multiple Cultural Periods"
-msgstr ""
+msgstr "Pilih nol atau beberapa periode budaya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Condition"
-msgstr ""
+msgstr "Kondisi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "General Description / Deskripsi Umum"
-msgstr ""
+msgstr "Deskripsi Umum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "To Date"
@@ -455,37 +458,35 @@ msgstr "Hingga Tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Probability /"
-msgstr ""
+msgstr "Probabilitas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Type of Identifier"
-msgstr ""
+msgstr "Jenis pengenal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select the type of identifier"
-msgstr ""
+msgstr "Pilih jenis pengenal"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Hexagon Grid Precision (Integer, larger numbers ensure more precise counts "
-"at a performance cost)"
-msgstr ""
+msgid "Hexagon Grid Precision (Integer, larger numbers ensure more precise counts at a performance cost)"
+msgstr "Presisi kisi heksagon (bilangan bulat; angka lebih besar lebih akurat, dengan biaya kinerja)"
 
 #: cards_x_nodes_x_widgets:1
 msgid "e.g.: 4"
-msgstr ""
+msgstr "mis.: 4"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Unit"
-msgstr ""
+msgstr "Satuan pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select unit"
-msgstr ""
+msgstr "Pilih satuan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Mapbox Sprites"
-msgstr ""
+msgstr "Sprite Mapbox"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Min Zoom"
@@ -493,163 +494,163 @@ msgstr "Zoom Minimum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Time wheel configuration"
-msgstr ""
+msgstr "Konfigurasi roda waktu"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Number of search hints per dropdown"
-msgstr ""
+msgstr "Jumlah petunjuk pencarian per daftar turun"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Condition Type"
-msgstr ""
+msgstr "Jenis kondisi keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Default Data Import/Export Name"
-msgstr ""
+msgstr "Nama bawaan impor/ekspor data"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Material"
-msgstr ""
+msgstr "Bahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select the component's material"
-msgstr ""
+msgstr "Pilih bahan komponen"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Search URL"
-msgstr ""
+msgstr "URL pencarian"
 
 #: cards_x_nodes_x_widgets:1
 msgid "(copy and paste from your browser address bar)"
-msgstr ""
+msgstr "(salin dan tempel dari bilah alamat peramban)"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Name Type"
-msgstr ""
+msgstr "Jenis nama"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select a name type "
-msgstr ""
+msgstr "Pilih jenis nama "
 
 #: cards_x_nodes_x_widgets:1
 msgid "Beginning of Existence Type"
-msgstr ""
+msgstr "Jenis awal keberadaan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select type "
-msgstr ""
+msgstr "Pilih jenis "
 
 #: cards_x_nodes_x_widgets:1
 msgid "Modification/Alteration Type"
-msgstr ""
+msgstr "Jenis modifikasi/perubahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Start Date Type"
-msgstr ""
+msgstr "Jenis tanggal mulai"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Provider Key"
-msgstr ""
+msgstr "Kunci penyedia"
 
 #: cards_x_nodes_x_widgets:1
 msgid "End of Existence Type"
-msgstr ""
+msgstr "Jenis akhir keberadaan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Ancillary Feature Use Type"
-msgstr ""
+msgstr "Jenis penggunaan fitur tambahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Actor Name Type"
-msgstr ""
+msgstr "Jenis nama aktor"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select a name type"
-msgstr ""
+msgstr "Pilih jenis nama"
 
 #: cards_x_nodes_x_widgets:1
 msgid "HEX_BIN_SIZE"
-msgstr ""
+msgstr "HEX_BIN_SIZE"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Dimension Type /"
-msgstr ""
+msgstr "Jenis dimensi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Sprites"
-msgstr ""
+msgstr "Sprite"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Information Carrier"
-msgstr ""
+msgstr "Pembawa informasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Tile Cache Config"
-msgstr ""
+msgstr "Konfigurasi cache tile"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Investigator Role Type / Jenis Peran Penyelidik"
-msgstr ""
+msgstr "Jenis Peran Penyelidik"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Max Zoom"
-msgstr ""
+msgstr "Zoom maksimum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Description Type"
-msgstr ""
+msgstr "Jenis deskripsi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select a description type"
-msgstr ""
+msgstr "Pilih jenis deskripsi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Ancillary Feature Cultural Period(s)"
-msgstr ""
+msgstr "Periode budaya fitur tambahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Next Assessment Date Type"
-msgstr ""
+msgstr "Jenis tanggal penilaian berikutnya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Modification/Alteration Description"
-msgstr ""
+msgstr "Deskripsi modifikasi/perubahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Source of Identifier"
-msgstr ""
+msgstr "Sumber pengenal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select the source of the indentifier"
-msgstr ""
+msgstr "Pilih sumber pengenal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Island / Pulau"
-msgstr ""
+msgstr "Pulau"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Images or Documents"
-msgstr ""
+msgstr "Gambar atau dokumen"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Source Type /"
-msgstr ""
+msgstr "Jenis sumber pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Activity Type /"
-msgstr ""
+msgstr "Jenis aktivitas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Glyphs"
-msgstr ""
+msgstr "Glif"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Value"
-msgstr ""
+msgstr "Nilai pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter value"
-msgstr ""
+msgstr "Masukkan nilai"
 
 #: cards_x_nodes_x_widgets:1
 msgid "From Date"
@@ -661,89 +662,87 @@ msgstr "Nama Tampilan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Search Description"
-msgstr ""
+msgstr "Deskripsi pencarian"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Construction Technique Type /"
-msgstr ""
+msgstr "Jenis teknik konstruksi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Actor Type From Date"
-msgstr ""
+msgstr "Jenis aktor dari tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Enter a place name"
-msgstr ""
+msgstr "Masukkan nama tempat"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Resource Orientation Type /"
-msgstr ""
+msgstr "Jenis orientasi sumber daya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Percentage of Site Affected"
-msgstr ""
+msgstr "Persentase situs yang terdampak"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Activity Type / Jenis Aktivitas"
-msgstr ""
+msgstr "Jenis Aktivitas"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Max number of search results to export (see help for limitations on this "
-"value)"
-msgstr ""
+msgid "Max number of search results to export (see help for limitations on this value)"
+msgstr "Jumlah maksimum hasil pencarian untuk diekspor (lihat bantuan untuk batasan nilai ini)"
 
 #: cards_x_nodes_x_widgets:1
 msgid "MIME Type"
-msgstr ""
+msgstr "Jenis MIME"
 
 #: cards_x_nodes_x_widgets:1
 msgid "image/jpeg or application/pdf"
-msgstr ""
+msgstr "image/jpeg atau application/pdf"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Relationship from Date /"
-msgstr ""
+msgstr "Relasi dari tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Intervention Activity Type /"
-msgstr ""
+msgstr "Jenis kegiatan intervensi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Mapbox Glyphs"
-msgstr ""
+msgstr "Glif Mapbox"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Technique/Attributes"
-msgstr ""
+msgstr "Teknik/atribut"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Select the component's technique or attributes"
-msgstr ""
+msgstr "Pilih teknik atau atribut komponen"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Condition Remarks"
-msgstr ""
+msgstr "Catatan kondisi keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Spatial Coordinates Ref System / Sistem Koordinat Spasial Ref"
-msgstr ""
+msgstr "Sistem referensi koordinat spasial"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Unit /"
-msgstr ""
+msgstr "Satuan pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Activity Date /"
-msgstr ""
+msgstr "Tanggal kegiatan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Construction Note /"
-msgstr ""
+msgstr "Catatan konstruksi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Severity /"
-msgstr ""
+msgstr "Tingkat keparahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Image"
@@ -751,575 +750,551 @@ msgstr "Gambar"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Relationship to Date /"
-msgstr ""
+msgstr "Relasi hingga tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "End Date Type"
-msgstr ""
+msgstr "Jenis tanggal akhir"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Ancillary Feature From Date"
-msgstr ""
+msgstr "Fitur tambahan dari tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Activity Date / Tanggal Kegiatan"
-msgstr ""
+msgstr "Tanggal Kegiatan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Condition Description"
-msgstr ""
+msgstr "Deskripsi kondisi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Caption"
-msgstr ""
+msgstr "Keterangan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Actor Type To Date"
-msgstr ""
+msgstr "Jenis aktor hingga tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Priority Type /"
-msgstr ""
+msgstr "Jenis prioritas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Heritage Place/Site of Assessment /"
-msgstr ""
+msgstr "Tempat/situs warisan yang dinilai"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Choose site"
-msgstr ""
+msgstr "Pilih situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Address / Alamat"
-msgstr ""
+msgstr "Alamat"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Threats"
-msgstr ""
+msgstr "Ancaman"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Threats are potential future disturbances.  Choose as many or as few threats"
-" are you can identify in this assessment."
-msgstr ""
+msgid "Threats are potential future disturbances.  Choose as many or as few threats are you can identify in this assessment."
+msgstr "Ancaman adalah gangguan potensial di masa depan. Pilih sebanyak atau sesedikit ancaman yang dapat Anda identifikasi dalam penilaian ini."
 
 #: cards_x_nodes_x_widgets:1
 msgid "Geometry Type / Jenis Geometri"
-msgstr ""
+msgstr "Jenis Geometri"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Ancilary Feature To Date"
-msgstr ""
+msgstr "Fitur tambahan hingga tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Relationship Comments /"
-msgstr ""
+msgstr "Komentar relasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Built Component Assessed /"
-msgstr ""
+msgstr "Komponen terbangun yang dinilai"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Google Earth Assessment / Penilaian Google Earth"
-msgstr ""
+msgstr "Penilaian Google Earth"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Imagery Acquisition Date / Tanggal Akuisisi Citra"
-msgstr ""
+msgstr "Tanggal Akuisisi Citra"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Address Type / Tipe Alamat"
-msgstr ""
+msgstr "Tipe Alamat"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbances"
-msgstr ""
+msgstr "Gangguan"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Choose as many or as few disturbances as are relevant to this assessment."
-msgstr ""
+msgid "Choose as many or as few disturbances as are relevant to this assessment."
+msgstr "Pilih sebanyak atau sesedikit gangguan yang relevan dengan penilaian ini."
 
 #: cards_x_nodes_x_widgets:1
 msgid "Administrative Division / Divisi Administrasi"
-msgstr ""
+msgstr "Wilayah administrasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Recommendations"
-msgstr ""
+msgstr "Rekomendasi"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Choose as many or as few recommendations as are relevant to this assessment."
-msgstr ""
+msgid "Choose as many or as few recommendations as are relevant to this assessment."
+msgstr "Pilih sebanyak atau sesedikit rekomendasi yang relevan dengan penilaian ini."
 
 #: cards_x_nodes_x_widgets:1
 msgid "Comments on Relationship to Heritage Place/Built Component"
-msgstr ""
+msgstr "Komentar tentang relasi dengan tempat warisan/komponen terbangun"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Recommendation Type /"
-msgstr ""
+msgstr "Jenis rekomendasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Depositional Process / عملية الترسب"
-msgstr ""
+msgstr "Proses deposisi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Administrative Division Type / Tipe Divisi Administrasi"
-msgstr ""
+msgstr "Jenis wilayah administrasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Fetch Type / نوع المسافة بين يابستين"
-msgstr ""
+msgstr "Jenis fetch"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Cadastral Reference / Referensi Kadaster"
-msgstr ""
+msgstr "Referensi Kadaster"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Disturbance Extent Type"
-msgstr ""
+msgstr "Jenis cakupan gangguan keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Damage Assessment Assessor"
-msgstr ""
+msgstr "Penilai penilaian kerusakan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Damage Severity Type"
-msgstr ""
+msgstr "Jenis tingkat keparahan kerusakan keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Mitigation Activity Type"
-msgstr ""
+msgstr "Jenis kegiatan mitigasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Date From"
-msgstr ""
+msgstr "Tanggal gangguan dari"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Modification Type"
-msgstr ""
+msgstr "Jenis modifikasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Cause Assignment Assessor Name"
-msgstr ""
+msgstr "Nama penilai penugasan penyebab gangguan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Modification Description"
-msgstr ""
+msgstr "Deskripsi modifikasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Cause Type "
-msgstr ""
+msgstr "Jenis penyebab gangguan "
 
 #: cards_x_nodes_x_widgets:1
 msgid "Vulnerability Type"
-msgstr ""
+msgstr "Jenis kerentanan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Potential Impact Type"
-msgstr ""
+msgstr "Jenis dampak potensial"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Date To "
-msgstr ""
+msgstr "Tanggal gangguan hingga "
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Source Type / Jenis Sumber Pengukuran"
-msgstr ""
+msgstr "Jenis Sumber Pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Archaeological To Date / Arkeologi Hingga Saat Ini"
-msgstr ""
+msgstr "Arkeologi hingga tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Exposure"
-msgstr ""
+msgstr "Paparan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Date Occurred Before"
-msgstr ""
+msgstr "Tanggal gangguan terjadi sebelum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Damage Trend Type"
-msgstr ""
+msgstr "Jenis tren kerusakan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Material Class"
-msgstr ""
+msgstr "Kelas bahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Effect Type"
-msgstr ""
+msgstr "Jenis efek"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Date Occurred On "
-msgstr ""
+msgstr "Tanggal gangguan terjadi pada "
 
 #: cards_x_nodes_x_widgets:1
 msgid "Threat and Risk Assessor"
-msgstr ""
+msgstr "Penilai ancaman dan risiko"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Site Feature Number Type"
-msgstr ""
+msgstr "Jenis nomor fitur situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Risk Level"
-msgstr ""
+msgstr "Tingkat risiko"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Datum Description/EPSG code / Deskripsi Data/Kode EPSG"
-msgstr ""
+msgstr "Deskripsi datum/kode EPSG"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Surficial Geology Type / Jenis Geologi Permukaan"
-msgstr ""
+msgstr "Jenis Geologi Permukaan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Unit / Unit Pengukuran"
-msgstr ""
+msgstr "Unit Pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "CE Date To / Tanggal Masehi Ke"
-msgstr ""
+msgstr "Tanggal Masehi Ke"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Date Inference Making Actor Name / Tanggal Inferensi Pembuatan Nama Aktor"
-msgstr ""
+msgid "Date Inference Making Actor Name / Tanggal Inferensi Pembuatan Nama Aktor"
+msgstr "Nama aktor yang membuat inferensi tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Measurement Number / Nomor Pengukuran"
-msgstr ""
+msgstr "Nomor Pengukuran"
 
 #: cards_x_nodes_x_widgets:1
 msgid "DAMAGE_TREND_TYPE / JENIS_TREN_KERUSAKAN"
-msgstr ""
+msgstr "Jenis tren kerusakan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Cause Category Type / Gangguan Penyebab Kategori Jenis"
-msgstr ""
+msgstr "Jenis kategori penyebab gangguan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Material Type "
-msgstr ""
+msgstr "Jenis bahan "
 
 #: cards_x_nodes_x_widgets:1
 msgid "Disturbance Cause Category Type"
-msgstr ""
+msgstr "Jenis kategori penyebab gangguan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "SH Date to"
-msgstr ""
+msgstr "Tanggal SH hingga"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Heritage Place Resource Instance / Contoh Sumber Daya Heritage Place"
-msgstr ""
+msgstr "Instansi sumber daya tempat warisan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Built Component / Komponen yang Dibangun"
-msgstr ""
+msgstr "Komponen yang Dibangun"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Cultural Period Type / Tipe Periode Budaya"
-msgstr ""
+msgstr "Tipe Periode Budaya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Site Feature Arrangement Type / Jenis Pengaturan Fitur Situs"
-msgstr ""
+msgstr "Jenis susunan fitur situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "SH Date From / Tanggal SH Dari"
-msgstr ""
+msgstr "Tanggal SH Dari"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Cultural Sub-period Type / Tipe Sub-periode Budaya"
-msgstr ""
+msgstr "Tipe Sub-periode Budaya"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Site Feature Interpretation Type / Jenis Interpretasi Fitur Situs"
-msgstr ""
+msgstr "Jenis interpretasi fitur situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Site Feature Shape Type / Jenis Bentuk Fitur Situs"
-msgstr ""
+msgstr "Jenis bentuk fitur situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Site Feature Form Type / Jenis Formulir Fitur Situs"
-msgstr ""
+msgstr "Jenis wujud fitur situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Material Class / Kelas Material"
-msgstr ""
+msgstr "Kelas bahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "CE Date From / Tanggal Masehi Dari"
-msgstr ""
+msgstr "Tanggal Masehi Dari"
 
 #: cards_x_nodes_x_widgets:1
 msgid "BP Date From / Tanggal BP Dari"
-msgstr ""
+msgstr "Tanggal BP Dari"
 
 #: cards_x_nodes_x_widgets:1
 msgid "BP Date To / Tanggal BP Sampai"
-msgstr ""
+msgstr "Tanggal BP Sampai"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Disturbance Cause Assignment Assessor Name - Actor / Penugasan Penyebab "
-"Gangguan Nama Penilai - Aktor"
-msgstr ""
+msgid "Disturbance Cause Assignment Assessor Name - Actor / Penugasan Penyebab Gangguan Nama Penilai - Aktor"
+msgstr "Nama penilai (aktor) penugasan penyebab gangguan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Priority Type / Jenis Prioritas"
-msgstr ""
+msgstr "Jenis Prioritas"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Recommendation Type / Tipe Rekomendasi"
-msgstr ""
+msgstr "Tipe Rekomendasi"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Threat Inference Making Assessor Name - Actor / Nama Penilai Pembuatan "
-"Inferensi Ancaman - Aktor"
-msgstr ""
+msgid "Threat Inference Making Assessor Name - Actor / Nama Penilai Pembuatan Inferensi Ancaman - Aktor"
+msgstr "Nama penilai (aktor) inferensi ancaman"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Intervention Activity Type / Jenis Kegiatan Intervensi"
-msgstr ""
+msgstr "Jenis Kegiatan Intervensi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Material Type / Jenis Bahan"
-msgstr ""
+msgstr "Jenis Bahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Overall Site Morphology Type / Tipe Morfologi Situs Secara Keseluruhan"
-msgstr ""
+msgstr "Jenis morfologi situs keseluruhan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Designation From Date / Penunjukan Dari Tanggal"
-msgstr ""
+msgstr "Penetapan dari tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Designation To Date / Penunjukan Sampai Saat Ini"
-msgstr ""
+msgstr "Penetapan hingga tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Designation / Penamaan"
-msgstr ""
+msgstr "Penetapan"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Information Resource Acquisition Date / Tanggal Akuisisi Sumber Informasi"
-msgstr ""
+msgid "Information Resource Acquisition Date / Tanggal Akuisisi Sumber Informasi"
+msgstr "Tanggal akuisisi sumber informasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "GE Imagery Acquisition Date"
-msgstr ""
+msgstr "Tanggal akuisisi citra GE"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Bedrock Geology Type"
-msgstr ""
+msgstr "Jenis geologi batuan dasar"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Maximum Depth/Min Elevation / Kedalaman Maksimum/Ketinggian Minimum"
-msgstr ""
+msgstr "Kedalaman Maksimum/Ketinggian Minimum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Construction Technique / Teknik Konstruksi"
-msgstr ""
+msgstr "Teknik Konstruksi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Tidal Range / Rentang Pasang Surut"
-msgstr ""
+msgstr "Rentang Pasang Surut"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Minimum Depth/Max Elevation / Kedalaman Minimum/Ketinggian Maksimum"
-msgstr ""
+msgstr "Kedalaman Minimum/Ketinggian Maksimum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Land Cover Type / Jenis Penutup Lahan"
-msgstr ""
+msgstr "Jenis Penutup Lahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Datum Type / Tipe Datum"
-msgstr ""
+msgstr "Jenis datum"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Land Cover Assessment Date / Tanggal Penilaian Penutupan Lahan"
-msgstr ""
+msgstr "Tanggal penilaian penutup lahan"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Topography Type / Jenis Topografi"
-msgstr ""
+msgstr "Jenis Topografi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Dimension Type / Tipe Dimensi"
-msgstr ""
+msgstr "Jenis dimensi"
 
 #: cards_x_nodes_x_widgets:1
-msgid ""
-"Site Feature Interpretation Number Type / Fitur Situs Interpretasi Nomor "
-"Jenis"
-msgstr ""
+msgid "Site Feature Interpretation Number Type / Fitur Situs Interpretasi Nomor Jenis"
+msgstr "Jenis nomor interpretasi fitur situs"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Related Geoarchaeology/Palaeolandscape"
-msgstr ""
+msgstr "Geoarkeologi/paleolanskap terkait"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Archaeological From Date / Arkeologi Dari Tanggal"
-msgstr ""
+msgstr "Arkeologi Dari Tanggal"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Effect Type / Jenis Efek"
-msgstr ""
+msgstr "Jenis Efek"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Wave Climate / Iklim Gelombang"
-msgstr ""
+msgstr "Iklim gelombang"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Modification Date"
-msgstr ""
+msgstr "Tanggal modifikasi"
 
 #: cards_x_nodes_x_widgets:1
 msgid "Identifier"
-msgstr ""
+msgstr "Pengenal"
 
 #: cards:1
 msgid "Phase Type Assignment"
-msgstr ""
+msgstr "Penugasan jenis fase"
 
 #: cards:1
 msgid "Represents a single node in a graph"
-msgstr ""
+msgstr "Mewakili satu simpul dalam graf"
 
 #: cards:1
 msgid "Select an activity type and its corresponding to and from dates."
-msgstr ""
+msgstr "Pilih jenis aktivitas beserta tanggal dari dan hingga yang sesuai."
 
 #: cards:1
 msgid "Heritage Resource Type"
-msgstr ""
+msgstr "Jenis sumber daya warisan"
 
 #: cards:1
-msgid ""
-"This card ties together a Resource Type and Use Type with timeframe based on"
-" cultural period or actual dates.  For a separate combination Style and Use "
-"Type, create a separate entry."
-msgstr ""
+msgid "This card ties together a Resource Type and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Style and Use Type, create a separate entry."
+msgstr "Kartu ini menghubungkan jenis sumber daya dan jenis penggunaan dengan kerangka waktu berdasarkan periode budaya atau tanggal aktual. Untuk kombinasi gaya dan jenis penggunaan yang terpisah, buat entri terpisah."
 
 #: cards:1
 msgid "Mapbox API"
 msgstr "API Mapbox"
 
 #: cards:1
-msgid ""
-"Arches uses the Mapbox mapping library for map display and data creation.  "
-"Arches also supports Mapbox basemaps and other services"
-msgstr ""
+msgid "Arches uses the Mapbox mapping library for map display and data creation.  Arches also supports Mapbox basemaps and other services"
+msgstr "Arches memakai pustaka peta Mapbox untuk tampilan peta dan pembuatan data. Arches juga mendukung peta dasar Mapbox dan layanan lain."
 
 #: cards:1
 msgid "Spatial Location"
-msgstr ""
+msgstr "Lokasi spasial"
 
 #: cards:1
 msgid "Define the spatial location."
-msgstr ""
+msgstr "Tentukan lokasi spasial."
 
 #: cards:1
 msgid "Evaluation Date"
-msgstr ""
+msgstr "Tanggal evaluasi"
 
 #: cards:1
 msgid "Enter the date resource was evaluated."
-msgstr ""
+msgstr "Masukkan tanggal sumber daya dievaluasi."
 
 #: cards:1
 msgid "Publication Date"
-msgstr ""
+msgstr "Tanggal terbit"
 
 #: cards:1
 msgid "Select the date of the publication for the information resource."
-msgstr ""
+msgstr "Pilih tanggal terbit sumber informasi."
 
 #: cards:1
 msgid "Designation or Protection"
-msgstr ""
+msgstr "Penetapan atau perlindungan"
 
 #: cards:1
 msgid "Define the resource's designation or protection status."
-msgstr ""
+msgstr "Tentukan status penetapan atau perlindungan sumber daya."
 
 #: cards:1
 msgid "Heritage Resource Group/Use Type"
-msgstr ""
+msgstr "Kelompok sumber daya warisan / jenis penggunaan"
 
 #: cards:1
-msgid ""
-"This card ties together a Heritage Group Type and Use Type with timeframe "
-"based on cultural period or actual dates.  For a separate combination Group "
-"Type and Use Type, create a separate entry."
-msgstr ""
+msgid "This card ties together a Heritage Group Type and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Group Type and Use Type, create a separate entry."
+msgstr "Kartu ini menghubungkan jenis kelompok warisan dan jenis penggunaan dengan kerangka waktu berdasarkan periode budaya atau tanggal aktual. Untuk kombinasi jenis kelompok dan jenis penggunaan yang terpisah, buat entri terpisah."
 
 #: cards:1
 msgid "Default Application Names"
-msgstr ""
+msgstr "Nama aplikasi bawaan"
 
 #: cards:1
-msgid ""
-"Names used to identify your application and the system data import personna"
-msgstr ""
+msgid "Names used to identify your application and the system data import personna"
+msgstr "Nama yang dipakai untuk mengidentifikasi aplikasi dan persona impor data sistem"
 
 #: cards:1
 msgid "Assessment Summary / Ringkasan Penilaian"
-msgstr ""
+msgstr "Ringkasan Penilaian"
 
 #: cards:1
 msgid "Map API"
-msgstr ""
+msgstr "API peta"
 
 #: cards:1
 msgid "App Names"
-msgstr ""
+msgstr "Nama aplikasi"
 
 #: cards:1
 msgid "Assessment Summary / "
-msgstr ""
+msgstr "Ringkasan penilaian "
 
 #: cards:1
 msgid "Style"
-msgstr ""
+msgstr "Gaya"
 
 #: cards:1
-msgid ""
-"This card ties together a Style and Use Type with timeframe based on "
-"cultural period or actual dates.  For a separate combination Style and Use "
-"Type, create a separate entry."
-msgstr ""
+msgid "This card ties together a Style and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Style and Use Type, create a separate entry."
+msgstr "Kartu ini menghubungkan gaya dan jenis penggunaan dengan kerangka waktu berdasarkan periode budaya atau tanggal aktual. Untuk kombinasi gaya dan jenis penggunaan yang terpisah, buat entri terpisah."
 
 #: cards:1
 msgid "Address"
-msgstr ""
+msgstr "Alamat"
 
 #: cards:1
 msgid "Enter the address of the location."
-msgstr ""
+msgstr "Masukkan alamat lokasi."
 
 #: cards:1
 msgid "Resource Summary / Ringkasan Sumber Daya"
-msgstr ""
+msgstr "Ringkasan Sumber Daya"
 
 #: cards:1
 msgid "Evaluation Criteria"
-msgstr ""
+msgstr "Kriteria evaluasi"
 
 #: cards:1
 msgid "Select the criteria type used for evaluation."
-msgstr ""
+msgstr "Pilih jenis kriteria yang dipakai untuk evaluasi."
 
 #: cards:1
 msgid "Web Analytics"
@@ -1327,165 +1302,147 @@ msgstr "Analitik Web"
 
 #: cards:1
 msgid "Google service used to track application usage and other metrics"
-msgstr ""
+msgstr "Layanan Google untuk melacak penggunaan aplikasi dan metrik lain"
 
 #: cards:1
-msgid ""
-"This card ties together a Heritage Group Style and Use Type with timeframe "
-"based on cultural period or actual dates.  For a separate combination Style "
-"and Use Type, create a separate entry."
-msgstr ""
+msgid "This card ties together a Heritage Group Style and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Style and Use Type, create a separate entry."
+msgstr "Kartu ini menghubungkan gaya kelompok warisan dan jenis penggunaan dengan kerangka waktu berdasarkan periode budaya atau tanggal aktual. Untuk kombinasi gaya dan jenis penggunaan yang terpisah, buat entri terpisah."
 
 #: cards:1
 msgid "Tile Cache"
-msgstr ""
+msgstr "Cache tile"
 
 #: cards:1
 msgid "Administration Subdivision"
-msgstr ""
+msgstr "Subdivisi administrasi"
 
 #: cards:1
 msgid "Select the administrative/governmental subdivision name and type."
-msgstr ""
+msgstr "Pilih nama dan jenis subdivisi administratif/pemerintahan."
 
 #: cards:1
 msgid "Measurements /"
-msgstr ""
+msgstr "Pengukuran"
 
 #: cards:1
 msgid "Project Extent"
 msgstr "Cakupan Proyek"
 
 #: cards:1
-msgid ""
-"Draw a polygon representing your project's extent. These bounds will serve "
-"as the default for the cache seed bounds, search result grid bounds, and map"
-" bounds in search, cards, and reports"
-msgstr ""
+msgid "Draw a polygon representing your project's extent. These bounds will serve as the default for the cache seed bounds, search result grid bounds, and map bounds in search, cards, and reports"
+msgstr "Gambar poligon yang mewakili cakupan proyek. Batas ini menjadi bawaan untuk seed cache, kisi hasil pencarian, dan batas peta di pencarian, kartu, dan laporan."
 
 #: cards:1
 msgid "Period of Significance"
-msgstr ""
+msgstr "Periode signifikansi"
 
 #: cards:1
 msgid "Define the period of significance that is being used for evaluation. "
-msgstr ""
+msgstr "Tentukan periode signifikansi yang dipakai untuk evaluasi. "
 
 #: cards:1
 msgid "Related/Ancillary Feature"
-msgstr ""
+msgstr "Fitur terkait/tambahan"
 
 #: cards:1
-msgid ""
-"This card ties together a Related/Acillary Features and Use Type with "
-"timeframe based on cultural period or actual dates.  For a separate "
-"combination Related/Ancillary Features and Use Type, create a separate "
-"entry."
-msgstr ""
+msgid "This card ties together a Related/Acillary Features and Use Type with timeframe based on cultural period or actual dates.  For a separate combination Related/Ancillary Features and Use Type, create a separate entry."
+msgstr "Kartu ini menghubungkan fitur terkait/tambahan dan jenis penggunaan dengan kerangka waktu berdasarkan periode budaya atau tanggal aktual. Untuk kombinasi terpisah, buat entri terpisah."
 
 #: cards:1
 msgid "Geometries / Geometri"
-msgstr ""
+msgstr "Geometri"
 
 #: cards:1
 msgid "SPARQL Providers"
-msgstr ""
+msgstr "Penyedia SPARQL"
 
 #: cards:1
 msgid "Description Location"
-msgstr ""
+msgstr "Deskripsi lokasi"
 
 #: cards:1
 msgid "Describe the location of the resource."
-msgstr ""
+msgstr "Uraikan lokasi sumber daya."
 
 #: cards:1
 msgid "Location /"
-msgstr ""
+msgstr "Lokasi"
 
 #: cards:1
 msgid "Thesaurus Service Providers"
 msgstr "Penyedia Layanan Tesaurus"
 
 #: cards:1
-msgid ""
-"Arches can access Thesaurus services, such as the Getty AAT, to acquire "
-"thesaurus entries using the Reference Data Manager (RDM)"
-msgstr ""
+msgid "Arches can access Thesaurus services, such as the Getty AAT, to acquire thesaurus entries using the Reference Data Manager (RDM)"
+msgstr "Arches dapat mengakses layanan tesaurus, seperti Getty AAT, untuk mengambil entri tesaurus lewat Pengelola Data Referensi (RDM)."
 
 #: cards:1
 msgid "Map Zoom"
 msgstr "Zoom Peta"
 
 #: cards:1
-msgid ""
-"You can define the zoom behavior of your maps by specifying max/min and "
-"default values.  Zoom level 0 shows the whole world (and is the minimum zoom"
-" level).  Most map services support a maximum of 20 or so zoom levels"
-msgstr ""
+msgid "You can define the zoom behavior of your maps by specifying max/min and default values.  Zoom level 0 shows the whole world (and is the minimum zoom level).  Most map services support a maximum of 20 or so zoom levels"
+msgstr "Anda dapat mengatur perilaku zoom peta dengan nilai maksimum/minimum dan bawaan. Tingkat zoom 0 menampilkan seluruh dunia (tingkat minimum). Sebagian besar layanan peta mendukung hingga sekitar 20 tingkat zoom."
 
 #: cards:1
 msgid "Search Results Grid"
 msgstr "Kisi Hasil Pencarian"
 
 #: cards:1
-msgid ""
-"Arches aggregates search results and displays them as hexagons.  You will "
-"need to set default parameters for the hexagon size  and its precision."
-msgstr ""
+msgid "Arches aggregates search results and displays them as hexagons.  You will need to set default parameters for the hexagon size  and its precision."
+msgstr "Arches menggabungkan hasil pencarian dan menampilkannya sebagai heksagon. Tetapkan parameter bawaan untuk ukuran heksagon dan presisinya."
 
 #: cards:1
 msgid "Geography / Geografi"
-msgstr ""
+msgstr "Geografi"
 
 #: cards:1
 msgid "Integrity"
-msgstr ""
+msgstr "Integritas"
 
 #: cards:1
 msgid "Select the type of integrity that the resource maintains. "
-msgstr ""
+msgstr "Pilih jenis integritas yang dipertahankan sumber daya. "
 
 #: cards:1
 msgid "Modification and Construction /"
-msgstr ""
+msgstr "Modifikasi dan konstruksi"
 
 #: cards:1
 msgid "External Information Carrier"
-msgstr ""
+msgstr "Pembawa informasi eksternal"
 
 #: cards:1
 msgid "Setting Type"
-msgstr ""
+msgstr "Jenis seting"
 
 #: cards:1
-msgid ""
-"For Historic Resources only, define the setting of the historic resource."
-msgstr ""
+msgid "For Historic Resources only, define the setting of the historic resource."
+msgstr "Hanya untuk sumber daya bersejarah: tentukan seting sumber daya bersejarah."
 
 #: cards:1
 msgid "Eligibility Requirements"
-msgstr ""
+msgstr "Persyaratan kelayakan"
 
 #: cards:1
 msgid "Select the eligibility requirements that the resource meets."
-msgstr ""
+msgstr "Pilih persyaratan kelayakan yang dipenuhi sumber daya."
 
 #: cards:1
 msgid "Archaeological Assessment / Penilaian Arkeologi"
-msgstr ""
+msgstr "Penilaian Arkeologi"
 
 #: cards:1
 msgid "Cadastral Reference"
-msgstr ""
+msgstr "Referensi kadaster"
 
 #: cards:1
 msgid "Enter the cadastral reference number."
-msgstr ""
+msgstr "Masukkan nomor referensi kadaster."
 
 #: cards:1
 msgid "Damage Assessment"
-msgstr ""
+msgstr "Penilaian kerusakan"
 
 #: cards:1
 msgid "Status"
@@ -1493,51 +1450,51 @@ msgstr "Status"
 
 #: cards:1
 msgid "Select the resource status based on the evaluation."
-msgstr ""
+msgstr "Pilih status sumber daya berdasarkan evaluasi."
 
 #: cards:1
 msgid "Providers"
-msgstr ""
+msgstr "Penyedia"
 
 #: cards:1
 msgid "Threat and Risk Assessment /"
-msgstr ""
+msgstr "Penilaian ancaman dan risiko"
 
 #: cards:1
 msgid "Environment Assessment / Penilaian Lingkungan"
-msgstr ""
+msgstr "Penilaian Lingkungan"
 
 #: cards:1
 msgid "Reasons"
-msgstr ""
+msgstr "Alasan"
 
 #: cards:1
 msgid "Describe the reasons for the evaluated resource's status."
-msgstr ""
+msgstr "Uraikan alasan status sumber daya yang dievaluasi."
 
 #: cards:1
 msgid "Condition Assessment / Penilaian Kondisi"
-msgstr ""
+msgstr "Penilaian Kondisi"
 
 #: cards:1
 msgid "Overall Condition Assessment /"
-msgstr ""
+msgstr "Penilaian kondisi keseluruhan"
 
 #: cards:1
 msgid "Related Information Resources"
-msgstr ""
+msgstr "Sumber informasi terkait"
 
 #: cards:1
 msgid "Contains"
-msgstr ""
+msgstr "Berisi"
 
 #: cards:1
 msgid "CONDITION ID"
-msgstr ""
+msgstr "ID KONDISI"
 
 #: cards:1
 msgid "Measurement"
-msgstr ""
+msgstr "Pengukuran"
 
 #: cards:1
 msgid ""
@@ -1545,14 +1502,17 @@ msgid ""
 "\n"
 "Relates to those resource models via P39i"
 msgstr ""
+"Cabang Pengukuran mengukur instansi Sumber Daya Warisan E18 atau Kelompok Sumber Daya Warisan E27.\n"
+"\n"
+"Terhubung ke model sumber daya itu lewat P39i."
 
 #: cards:1
 msgid "Capture the measurements associated to this resource."
-msgstr ""
+msgstr "Catat pengukuran yang terkait dengan sumber daya ini."
 
 #: cards:1
 msgid "Place 1"
-msgstr ""
+msgstr "Tempat 1"
 
 #: cards:1
 msgid ""
@@ -1561,10 +1521,14 @@ msgid ""
 "Relates to Heritage Resource E18 with P53\n"
 "Relates to Heritage Resource Group E27 with P89\n"
 msgstr ""
+"Menguraikan lokasi fisik sumber daya warisan atau kelompok sumber daya warisan. Termasuk simpul tambahan untuk informasi kadaster.\n"
+"\n"
+"Terhubung ke Sumber Daya Warisan E18 dengan P53.\n"
+"Terhubung ke Kelompok Sumber Daya Warisan E27 dengan P89.\n"
 
 #: cards:1
 msgid "Evaluation"
-msgstr ""
+msgstr "Evaluasi"
 
 #: cards:1
 msgid ""
@@ -1572,18 +1536,17 @@ msgid ""
 "\n"
 "Relates to E18 and E27 resource models via P140i."
 msgstr ""
+"Cabang ini mengevaluasi instansi Sumber Daya Warisan E18 dan Kelompok Sumber Daya Warisan E27, berdasarkan metodologi survei SurveyLA Kota Los Angeles untuk menilai signifikansi dan kelayakan penetapan sebagai sumber daya atau kelompok sumber daya warisan. Evaluasi mencakup konteks sejarah (Kriteria Evaluasi) yang memicu persyaratan kelayakan tertentu dan menghasilkan satu atau lebih kode status serta pernyataan alasan. Cabang ini juga mencatat tanggal evaluasi dan tanggal Periode Signifikansi.\n"
+"\n"
+"Terhubung ke model E18 dan E27 lewat P140i."
 
 #: cards:1
-msgid ""
-"Used to hold identifiers necessary to link a given resource to records in an"
-" external (perhaps legacy) system."
-msgstr ""
+msgid "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system."
+msgstr "Menyimpan pengenal untuk menghubungkan sumber daya dengan catatan di sistem eksternal (termasuk sistem lama)."
 
 #: cards:1
-msgid ""
-"Enter information for identifiers of the resource from other external "
-"sources."
-msgstr ""
+msgid "Enter information for identifiers of the resource from other external sources."
+msgstr "Masukkan informasi pengenal sumber daya dari sumber eksternal lain."
 
 #: cards:1
 msgid ""
@@ -1591,10 +1554,13 @@ msgid ""
 "\n"
 "Applies to: Heritage Group, Heritage"
 msgstr ""
+"Menguraikan jenis sumber daya.\n"
+"\n"
+"Berlaku untuk: Kelompok Warisan, Warisan"
 
 #: cards:1
 msgid "Heritage Resource Group Phase Type"
-msgstr ""
+msgstr "Jenis fase kelompok sumber daya warisan"
 
 #: cards:1
 msgid ""
@@ -1602,10 +1568,13 @@ msgid ""
 "\n"
 "Connects via P92i"
 msgstr ""
+"Penugasan jenis fase untuk Kelompok Sumber Daya Warisan E27.\n"
+"\n"
+"Terhubung lewat P92i."
 
 #: cards:1
 msgid "Actor Phase"
-msgstr ""
+msgstr "Fase aktor"
 
 #: cards:1
 msgid ""
@@ -1613,12 +1582,13 @@ msgid ""
 "\n"
 "Connects to Actor E39 via P41i"
 msgstr ""
+"Penugasan jenis fase untuk model sumber daya Aktor.\n"
+"\n"
+"Terhubung ke Aktor E39 lewat P41i."
 
 #: cards:1
-msgid ""
-"Define one Actor Type, n cultural periods, and (optionally) one from/to date"
-" range. Additional Actor Types or date ranges requires additional entries"
-msgstr ""
+msgid "Define one Actor Type, n cultural periods, and (optionally) one from/to date range. Additional Actor Types or date ranges requires additional entries"
+msgstr "Tentukan satu jenis aktor, n periode budaya, dan (opsional) satu rentang tanggal dari/hingga. Jenis aktor atau rentang tanggal tambahan memerlukan entri tambahan."
 
 #: cards:1
 msgid ""
@@ -1626,14 +1596,17 @@ msgid ""
 "\n"
 "Relates to resources via P2."
 msgstr ""
+"Kata informatif untuk temu kembali informasi yang menunjukkan isi sumber daya.\n"
+"\n"
+"Terhubung ke sumber daya lewat P2."
 
 #: cards:1
 msgid "Select keywords associated with the resource."
-msgstr ""
+msgstr "Pilih kata kunci yang terkait dengan sumber daya."
 
 #: cards:1
 msgid "Appellation"
-msgstr ""
+msgstr "Sebutan"
 
 #: cards:1
 msgid ""
@@ -1641,36 +1614,37 @@ msgid ""
 "\n"
 "Relates to resource model via P131"
 msgstr ""
+"Menguraikan sebutan yang diberikan pada sumber daya Aktor.\n"
+"\n"
+"Terhubung ke model sumber daya lewat P131."
 
 #: cards:1
 msgid "Enter the Actor name and respective name type."
-msgstr ""
+msgstr "Masukkan nama aktor dan jenis namanya."
 
 #: cards:1
 msgid "Condition Assessment"
-msgstr ""
+msgstr "Penilaian kondisi"
 
 #: cards:1
-msgid ""
-"Describes the conditions, threats, and disturbances affecting a Heritage "
-"Resource or Heritage Resource Group. Additional information may include a "
-"management recommendation, a condition image, the data the condition was "
-"assessed and a description of the condition."
-msgstr ""
+msgid "Describes the conditions, threats, and disturbances affecting a Heritage Resource or Heritage Resource Group. Additional information may include a management recommendation, a condition image, the data the condition was assessed and a description of the condition."
+msgstr "Menguraikan kondisi, ancaman, dan gangguan yang memengaruhi sumber daya warisan atau kelompoknya. Informasi tambahan dapat berupa rekomendasi pengelolaan, gambar kondisi, data saat kondisi dinilai, dan deskripsi kondisi."
 
 #: cards:1
 msgid "One assessment of condition at a particular point in time. "
-msgstr ""
+msgstr "Satu penilaian kondisi pada suatu titik waktu. "
 
 #: cards:1
 msgid "Place 2"
-msgstr ""
+msgstr "Tempat 2"
 
 #: cards:1
 msgid ""
 "For Actor resources: Describes the former and current residences of an Actor resource. Relates to Actor E39 with P74 \n"
 "For Activity and Historic Event: Describes the location of where an activity or historic event took place. Relates to Activity E7 with P7. Relates to Historical Event E5 with P7\n"
 msgstr ""
+"Untuk sumber daya Aktor: menguraikan tempat tinggal lama dan kini. Terhubung ke Aktor E39 dengan P74.\n"
+"Untuk Aktivitas dan Peristiwa Sejarah: menguraikan lokasi kegiatan atau peristiwa. Terhubung ke Aktivitas E7 dengan P7. Terhubung ke Peristiwa Sejarah E5 dengan P7.\n"
 
 #: cards:1
 msgid ""
@@ -1681,14 +1655,20 @@ msgid ""
 "\n"
 "Connects to all resources with P140i"
 msgstr ""
+"Cabang generik untuk deskripsi tertulis bebas.\n"
+"Dirancang sebagai evolusi cabang deskripsi HIP 3. Simpul deskripsi semantik dengan string dan jenis deskripsi. Deskripsi menjadi simpul pengelompokan (jenis dan string).\n"
+"\n"
+"Secara teknis memenuhi aturan CRM, tetapi ahli CRM menilai ini implementasi E62 yang kurang tepat.\n"
+"\n"
+"Terhubung ke semua sumber daya dengan P140i."
 
 #: cards:1
 msgid "Enter a description and description type for the resource."
-msgstr ""
+msgstr "Masukkan deskripsi dan jenis deskripsi untuk sumber daya."
 
 #: cards:1
 msgid "Existence"
-msgstr ""
+msgstr "Keberadaan"
 
 #: cards:1
 msgid ""
@@ -1698,14 +1678,19 @@ msgid ""
 "Connects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\n"
 "Connects to Actor (E39) resource model via P11i"
 msgstr ""
+"Tanggal mulai/akhir sumber daya, bertipe dan dalam kalender.\n"
+"\n"
+"Terhubung ke model Aktivitas (E7) dan Peristiwa Sejarah (E5) lewat P114.\n"
+"Terhubung ke Sumber Daya Warisan (E18) dan Kelompok (E27) lewat P12i.\n"
+"Terhubung ke Aktor (E39) lewat P11i."
 
 #: cards:1
 msgid "Record the start and end dates of the resource's existence."
-msgstr ""
+msgstr "Catat tanggal mulai dan akhir keberadaan sumber daya."
 
 #: cards:1
 msgid "Right"
-msgstr ""
+msgstr "Hak"
 
 #: cards:1
 msgid ""
@@ -1713,10 +1698,13 @@ msgid ""
 "\n"
 "Applies to: Heritage Resource, Heritage Resource Model"
 msgstr ""
+"Mencatat status khusus, perlindungan, atau hak istimewa menurut hukum.\n"
+"\n"
+"Berlaku untuk: Sumber Daya Warisan, Model Sumber Daya Warisan."
 
 #: cards:1
 msgid "Modification Event"
-msgstr ""
+msgstr "Peristiwa modifikasi"
 
 #: cards:1
 msgid ""
@@ -1724,10 +1712,13 @@ msgid ""
 "\n"
 "Connects to Heritage Resource (E18) via P12i"
 msgstr ""
+"Menguraikan modifikasi Sumber Daya Warisan.\n"
+"\n"
+"Terhubung ke Sumber Daya Warisan (E18) lewat P12i."
 
 #: cards:1
 msgid "Describe modification or alteration to the resource."
-msgstr ""
+msgstr "Uraikan modifikasi atau perubahan pada sumber daya."
 
 #: cards:1
 msgid ""
@@ -1735,26 +1726,25 @@ msgid ""
 "\n"
 "Applies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their \"names\" from the Appellation branch."
 msgstr ""
+"Nama sumber daya.\n"
+"\n"
+"Berlaku untuk Sumber Daya Warisan, Kelompok Sumber Daya Warisan, Aktivitas, dan Peristiwa Sejarah. Aktor mendapat nama dari cabang Sebutan."
 
 #: cards:1
 msgid "Enter the resource name and its respective type."
-msgstr ""
+msgstr "Masukkan nama sumber daya dan jenisnya."
 
 #: cards:1
-msgid ""
-"Physical thing on a heritage resource. Connect to Heritage Resource E18 via "
-"P46"
-msgstr ""
+msgid "Physical thing on a heritage resource. Connect to Heritage Resource E18 via P46"
+msgstr "Benda fisik pada sumber daya warisan. Terhubung ke Sumber Daya Warisan E18 lewat P46."
 
 #: cards:1
-msgid ""
-"Select the architectural component and the component's material and "
-"technique"
-msgstr ""
+msgid "Select the architectural component and the component's material and technique"
+msgstr "Pilih komponen arsitektur beserta bahan dan tekniknya"
 
 #: cards:1
 msgid "Heritage Resource Phase Type"
-msgstr ""
+msgstr "Jenis fase sumber daya warisan"
 
 #: cards:1
 msgid ""
@@ -1762,18 +1752,21 @@ msgid ""
 "\n"
 "Connects via P92i"
 msgstr ""
+"Penugasan jenis fase untuk Sumber Daya Warisan E18.\n"
+"\n"
+"Terhubung lewat P92i."
 
 #: cards:1
 msgid "Activity Phase"
-msgstr ""
+msgstr "Fase aktivitas"
 
 #: cards:1
 msgid "Describes the time span and type of an Activity Resource."
-msgstr ""
+msgstr "Menguraikan rentang waktu dan jenis sumber daya Aktivitas."
 
 #: cards:1
 msgid "Event Phase Type"
-msgstr ""
+msgstr "Jenis fase peristiwa"
 
 #: cards:1
 msgid ""
@@ -1781,82 +1774,77 @@ msgid ""
 "\n"
 "Connects to the Historical Event resource model via P10"
 msgstr ""
+"Menguraikan jenis peristiwa sejarah dalam rentang waktu/fase tertentu.\n"
+"\n"
+"Terhubung ke model Peristiwa Sejarah lewat P10."
 
 #: cards:1
-msgid ""
-"Define one Event Type, n cultural periods, and (optionally) one from/to date"
-" range. Additional Event Types or date ranges requires additional entries"
-msgstr ""
+msgid "Define one Event Type, n cultural periods, and (optionally) one from/to date range. Additional Event Types or date ranges requires additional entries"
+msgstr "Tentukan satu jenis peristiwa, n periode budaya, dan (opsional) satu rentang tanggal dari/hingga. Jenis peristiwa atau rentang tanggal tambahan memerlukan entri tambahan."
 
 #: cards:1
 msgid "Describes the title of an Information Resource."
-msgstr ""
+msgstr "Menguraikan judul sumber informasi."
 
 #: cards:1
 msgid "Enter the information resource's title and the type of that title. "
-msgstr ""
+msgstr "Masukkan judul sumber informasi dan jenis judul itu. "
 
 #: cards:1
 msgid "This branch describes the language of an Information Resource."
-msgstr ""
+msgstr "Cabang ini menguraikan bahasa sumber informasi."
 
 #: cards:1
 msgid "Select language of the information resource."
-msgstr ""
+msgstr "Pilih bahasa sumber informasi."
 
 #: cards:1
 msgid "Information Resource Creation Event"
-msgstr ""
+msgstr "Peristiwa pembuatan sumber informasi"
 
 #: cards:1
-msgid ""
-"Describes the creators, contributors, type, and date of a creation and/or "
-"update event of an information resource."
-msgstr ""
+msgid "Describes the creators, contributors, type, and date of a creation and/or update event of an information resource."
+msgstr "Menguraikan pembuat, kontributor, jenis, dan tanggal pembuatan dan/atau pembaruan sumber informasi."
 
 #: cards:1
 msgid "Describe the information resource  and its date of creation"
-msgstr ""
+msgstr "Uraikan sumber informasi dan tanggal pembuatannya"
 
 #: cards:1
 msgid "Resource Update Event"
-msgstr ""
+msgstr "Peristiwa pembaruan sumber daya"
 
 #: cards:1
-msgid ""
-"This is intended as a sub-branch to Resource Creation Event within the "
-"Information Resource Resource Model.  Stores the date when an update to the "
-"information resource occurred."
-msgstr ""
+msgid "This is intended as a sub-branch to Resource Creation Event within the Information Resource Resource Model.  Stores the date when an update to the information resource occurred."
+msgstr "Subcabang Peristiwa Pembuatan dalam model Sumber Informasi. Menyimpan tanggal pembaruan sumber informasi."
 
 #: cards:1
 msgid "Select the date the information resource was updated. "
-msgstr ""
+msgstr "Pilih tanggal sumber informasi diperbarui. "
 
 #: cards:1
 msgid "Information Resource Copyright"
-msgstr ""
+msgstr "Hak cipta sumber informasi"
 
 #: cards:1
-msgid ""
-"Used to define legal privileges associated with an Information Resource."
-msgstr ""
+msgid "Used to define legal privileges associated with an Information Resource."
+msgstr "Menentukan hak hukum yang terkait dengan sumber informasi."
 
 #: cards:1
 msgid "Describe the copyright for the information resource."
-msgstr ""
+msgstr "Uraikan hak cipta sumber informasi."
 
 #: cards:1
 msgid "An object or substance used to record and accumulate data"
-msgstr ""
+msgstr "Objek atau bahan yang dipakai untuk merekam dan mengumpulkan data"
 
 #: cards:1
 msgid "Select the information carrier for the information resource."
-msgstr ""
+msgstr "Pilih pembawa informasi untuk sumber informasi."
 
 #: cards:1
 msgid "Publication Event"
-msgstr ""
+msgstr "Peristiwa terbit"
 
 #: cards:1
 msgid ""
@@ -1864,26 +1852,25 @@ msgid ""
 "\n"
 "Connects to Information Resource (E73) with -P128"
 msgstr ""
+"Cabang ini menguraikan penerbitan sumber informasi.\n"
+"\n"
+"Terhubung ke Sumber Informasi (E73) dengan -P128."
 
 #: cards:1
 msgid "Settings Time Search"
-msgstr ""
+msgstr "Pengaturan pencarian waktu"
 
 #: cards:1
 msgid "Configuration Settings for temporal search"
-msgstr ""
+msgstr "Pengaturan konfigurasi pencarian temporal"
 
 #: cards:1
 msgid "Time Settings"
-msgstr ""
+msgstr "Pengaturan waktu"
 
 #: cards:1
-msgid ""
-"<p>You can see the color ramps at:</p><p><a "
-"href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-"
-"Scales.md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-"
-"reference/blob/master/Ordinal-Scales.md</font></a><br></p>"
-msgstr ""
+msgid "<p>You can see the color ramps at:</p><p><a href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md</font></a><br></p>"
+msgstr "<p>Anda dapat melihat skala warna di:</p><p><a href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales.md</font></a><br></p>"
 
 #: cards:1
 msgid "New Node"
@@ -1891,48 +1878,47 @@ msgstr "Simpul Baru"
 
 #: cards:1
 msgid "old node"
-msgstr ""
+msgstr "simpul lama"
 
 #: cards:1
 msgid "Place 3"
-msgstr ""
+msgstr "Tempat 3"
 
 #: cards:1
-msgid ""
-"Describes the location of an information resource. Relates to Information "
-"Resource E73 with P67"
-msgstr ""
+msgid "Describes the location of an information resource. Relates to Information Resource E73 with P67"
+msgstr "Menguraikan lokasi sumber informasi. Terhubung ke Sumber Informasi E73 dengan P67."
 
 #: cards:1
 msgid ""
 "Defines time span for which the Information Resource is relevant.\n"
 "Applies to: Information Resource"
 msgstr ""
+"Menentukan rentang waktu relevansi sumber informasi.\n"
+"Berlaku untuk: Sumber Informasi."
 
 #: cards:1
 msgid "Describe the temporal coverage of the information resource's subject. "
-msgstr ""
+msgstr "Uraikan cakupan temporal subjek sumber informasi. "
 
 #: cards:1
 msgid "Settings Map"
-msgstr ""
+msgstr "Pengaturan peta"
 
 #: cards:1
-msgid ""
-"Initial settings for Arches maps displayed in reports, cards, and search"
-msgstr ""
+msgid "Initial settings for Arches maps displayed in reports, cards, and search"
+msgstr "Pengaturan awal peta Arches di laporan, kartu, dan pencarian"
 
 #: cards:1
 msgid "Settings Basic Search"
-msgstr ""
+msgstr "Pengaturan pencarian dasar"
 
 #: cards:1
 msgid "Configuration settings for search returns"
-msgstr ""
+msgstr "Pengaturan konfigurasi hasil pencarian"
 
 #: cards:1
 msgid "End of Existence"
-msgstr ""
+msgstr "Akhir keberadaan"
 
 #: cards:1
 msgid ""
@@ -1940,26 +1926,29 @@ msgid ""
 "\n"
 "Relates to the Actor E39 Resource Model via P93i"
 msgstr ""
+"Menguraikan jenis dan rentang waktu akhir keberadaan sumber daya.\n"
+"\n"
+"Terhubung ke model Aktor E39 lewat P93i."
 
 #: cards:1
 msgid "Please enter the date of the end of existence for the resource."
-msgstr ""
+msgstr "Masukkan tanggal akhir keberadaan sumber daya."
 
 #: cards:1
 msgid "Settings Saved Searches"
-msgstr ""
+msgstr "Pengaturan pencarian tersimpan"
 
 #: cards:1
 msgid "System configuration for saving searches"
-msgstr ""
+msgstr "Konfigurasi sistem untuk menyimpan pencarian"
 
 #: cards:1
 msgid "Settings System Defaults"
-msgstr ""
+msgstr "Pengaturan bawaan sistem"
 
 #: cards:1
 msgid "Beginning of Existence"
-msgstr ""
+msgstr "Awal keberadaan"
 
 #: cards:1
 msgid ""
@@ -1968,140 +1957,140 @@ msgid ""
 "Relates to the Actor resource model E39 via P92i.\n"
 "Relates to Historic Event E5 and Activity E7 via p116i."
 msgstr ""
+"Menguraikan jenis dan rentang waktu awal keberadaan sumber daya.\n"
+"\n"
+"Terhubung ke model Aktor E39 lewat P92i.\n"
+"Terhubung ke Peristiwa Sejarah E5 dan Aktivitas E7 lewat p116i."
 
 #: cards:1
 msgid "Please enter the date of the beginning of existence for the resource."
-msgstr ""
+msgstr "Masukkan tanggal awal keberadaan sumber daya."
 
 #: cards:1
 msgid "Saved Searches"
 msgstr "Pencarian Tersimpan"
 
 #: cards:1
-msgid ""
-"Arches allows you save a search and present it as convenience for your "
-"users."
-msgstr ""
+msgid "Arches allows you save a search and present it as convenience for your users."
+msgstr "Arches memungkinkan Anda menyimpan pencarian dan menyajikannya sebagai kemudahan bagi pengguna."
 
 #: cards:1
 msgid "Set the default search results behavior"
-msgstr ""
+msgstr "Atur perilaku bawaan hasil pencarian"
 
 #: cards:1
 msgid "System Data Settings"
-msgstr ""
+msgstr "Pengaturan data sistem"
 
 #: cards:1
-msgid ""
-"Arches supports temporal binning.  Define the configuration and colors to "
-"use in your time wheel"
-msgstr ""
+msgid "Arches supports temporal binning.  Define the configuration and colors to use in your time wheel"
+msgstr "Arches mendukung pengelompokan temporal. Tentukan konfigurasi dan warna untuk roda waktu."
 
 #: cards:1
 msgid "Default Map Settings"
-msgstr ""
+msgstr "Pengaturan peta bawaan"
 
 #: cards:1
 msgid "Reference"
-msgstr ""
+msgstr "Referensi"
 
 #: cards:1
 msgid "Botanical Sample / Sampel Botani"
-msgstr ""
+msgstr "Sampel Botani"
 
 #: cards:1
 msgid "Zoological Sample"
-msgstr ""
+msgstr "Sampel zoologi"
 
 #: cards:1
 msgid "Excavation Participant / Peserta Penggalian"
-msgstr ""
+msgstr "Peserta Penggalian"
 
 #: cards:1
 msgid ""
 "This field is used to document the specific role of a person (trench supervisor, excavator, etc.) participating in the excavation process of the excavation unit.\n"
 "Bidang ini digunakan untuk mendokumentasikan peran spesifik seseorang (pengawas parit, penggali, dll.) yang berpartisipasi dalam proses penggalian unit penggalian."
-msgstr ""
+msgstr "Bidang ini digunakan untuk mendokumentasikan peran spesifik seseorang (pengawas parit, penggali, dll.) yang berpartisipasi dalam proses penggalian unit penggalian."
 
 #: cards:1
 msgid ""
 "This field is used to relate the excavation unit to a digital object representing it (such digital objects can be digital photographs, drawings, maps, plans, audio, video, etc. of various types and file formats)\n"
 "Bidang ini digunakan untuk menghubungkan unit penggalian dengan objek digital yang mewakilinya (objek digital tersebut dapat berupa foto digital, gambar, peta, rencana, audio, video, dll. dari berbagai jenis dan format file)"
-msgstr ""
+msgstr "Bidang ini digunakan untuk menghubungkan unit penggalian dengan objek digital yang mewakilinya (objek digital tersebut dapat berupa foto digital, gambar, peta, rencana, audio, video, dll. dari berbagai jenis dan format file)"
 
 #: cards:1
 msgid "Sampling Activity / Aktivitas Pengambilan Sampel"
-msgstr ""
+msgstr "Aktivitas Pengambilan Sampel"
 
 #: cards:1
 msgid "Excavation Process Unit / Unit Proses Penggalian"
-msgstr ""
+msgstr "Unit Proses Penggalian"
 
 #: cards:1
 msgid "Type / Jenis"
-msgstr ""
+msgstr "Jenis"
 
 #: cards:1
 msgid "Jenis Sedimen Fitur"
-msgstr ""
+msgstr "Jenis sedimen fitur"
 
 #: cards:1
 msgid "Area 3D Model"
-msgstr ""
+msgstr "Model 3D area"
 
 #: cards:1
 msgid "Skeletal Sample / Sampel Kerangka"
-msgstr ""
+msgstr "Sampel Kerangka"
 
 #: cards:1
 msgid "identified by a unique identifier"
-msgstr ""
+msgstr "diidentifikasi dengan pengenal unik"
 
 #: cards:1
 msgid "Stratigraphic Genesis"
-msgstr ""
+msgstr "Genesis stratigrafi"
 
 #: cards:1
 msgid "Description / Deskripsi"
-msgstr ""
+msgstr "Deskripsi"
 
 #: cards:1
 msgid "Excavation Process"
-msgstr ""
+msgstr "Proses penggalian"
 
 #: cards:1
 msgid ""
 "This field is used to relate the excavation unit to a spatial unit such as trench, area, sector, etc.\n"
 "\n"
 "Bidang ini digunakan untuk menghubungkan unit penggalian dengan unit spasial seperti parit, area, sektor, dan lain-lain."
-msgstr ""
+msgstr "Bidang ini digunakan untuk menghubungkan unit penggalian dengan unit spasial seperti parit, area, sektor, dan lain-lain."
 
 #: cards:1
 msgid "Interpretation / Interpretasi"
-msgstr ""
+msgstr "Interpretasi"
 
 #: cards:1
 msgid "Context Interpretation / Interpretasi Konteks"
-msgstr ""
+msgstr "Interpretasi Konteks"
 
 #: cards:1
 msgid "Field Drawing / Gambar Lapangan"
-msgstr ""
+msgstr "Gambar Lapangan"
 
 #: cards:1
 msgid ""
 "This field is used to record any textual reference associated with the excavation unit.\n"
 "Bidang ini digunakan untuk mencatat referensi tekstual apa pun yang terkait dengan unit penggalian.\n"
-msgstr ""
+msgstr "Bidang ini digunakan untuk mencatat referensi tekstual apa pun yang terkait dengan unit penggalian.\n"
 
 #: cards:1
 msgid ""
 "This field is used to record the time-span (start date-end date) of the excavation of the excavation unit.\n"
 "Bidang ini digunakan untuk mencatat rentang waktu (tanggal mulai-tanggal akhir) penggalian unit penggalian.\n"
-msgstr ""
+msgstr "Bidang ini digunakan untuk mencatat rentang waktu (tanggal mulai-tanggal akhir) penggalian unit penggalian.\n"
 
 #: cards:1
 msgid ""
 "This field is used to relate the excavation unit to an image depicting it.\n"
 "Bidang ini digunakan untuk menghubungkan unit penggalian dengan gambar yang menggambarkannya."
-msgstr ""
+msgstr "Bidang ini digunakan untuk menghubungkan unit penggalian dengan gambar yang menggambarkannya."

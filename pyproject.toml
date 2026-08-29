@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ipad"
-readme = "README.md"
+readme = "README.txt"
 authors = []
 license = "AGPL-3.0-or-later"
 classifiers = [
@@ -24,6 +24,11 @@ classifiers = [
 requires-python = ">=3.11"
 dependencies = [
     "arches>=8.1.3,<8.2.0",
+    "arches-querysets==1.3.0a1",
+    "arches-vue-components>=2.0.2,<3",
+    "arches-controlled-lists>=1.2.0,<1.3",
+    "arches-modular-reports>=2.0.0,<2.1",
+    "djangorestframework>=3.15,<4",
 ]
 version = "0.0.1"
 
